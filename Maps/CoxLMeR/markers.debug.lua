@@ -1,0 +1,145 @@
+{
+	{
+		Groups = false,
+		LootTableIds = {
+			"Container_Explosives_C4",
+		},
+		handle = 22732800,
+		map = "CoxLMeR",
+		name = 'IntelInventoryItemSpawn#800 "CHEST"',
+		path = "IntelInventoryItemSpawn ",
+		type = "IntelInventoryItemSpawn",
+	},
+	{
+		Groups = false,
+		LootTableIds = {
+			"Fortress_MainChest",
+		},
+		handle = 94347264,
+		map = "CoxLMeR",
+		name = 'InventoryItemSpawn#264 "Ammo Box"',
+		path = "InventoryItemSpawn ",
+		type = "InventoryItemSpawn",
+	},
+	{
+		Groups = false,
+		LootTableIds = {
+			"Fortress_Cabinet",
+		},
+		handle = 276398080,
+		map = "CoxLMeR",
+		name = 'InventoryItemSpawn#080 "CONTAINER"',
+		path = "InventoryItemSpawn ",
+		type = "InventoryItemSpawn",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1094373006,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#006 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1121090204,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#204 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1154525491,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#491 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1163096057,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#057 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1275845493,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#493 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1390695688,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#688 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1501987101,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#101 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1545043785,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#785 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1690792017,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#017 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"SeagulLegion",
+		},
+		handle = 1712926547,
+		items = {},
+		map = "CoxLMeR",
+		name = "UnitMarker#547 (SeagulLegion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+}
