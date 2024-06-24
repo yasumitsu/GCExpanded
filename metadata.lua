@@ -2,13 +2,16 @@ return PlaceObj('ModDef', {
 	'title', "Grand Chien Expanded",
 	'description', "[h3]* DISCLAIMER[/h3]\nI am not the original creator of some of the assets this mod requires and will remove them if solicited by the original modder.\n\nThis mod adds new events and encounters where you can recruit some old/new faces. New location and/or modified sectors for the HotDiamonds campaign.\n\n[h2][b]Please remember to enable all required mods or you will miss content! I had to remove the requirements from the mod itself for... reasons.[/b][/h2]\n\n[h1]Grand Chien Expanded[/h1]\n\n[h3]Overview[/h3]\n[list]\n	[*]3 new sectors I1 underground, A1 and B1\n	[*]10 Hireable mercs\n	[*]5 new Battles\n	[*]Immersive & non-intrusive events.\n[/list]\n\n[h3]Features:[/h3]\n[list]\n	[*]A little bit of new lore (non-canon)\n	[*]New Sectors A1 and B1 (Thanks Phill <3)\n	[*]New event to Recruit Stogie, Gaston, Numb and Cougar\n    [*]New event to recruit Razor\n	[*]Reworked event to recruit Flo\n    [*]New event to recruit Deedee\n	[*]New event when you encounter Hamous\n	[*]New event to recruit Bastien\n[/list]\n[hr][/hr]\n\n- Cougar, Numb, Gaston, Stogie join as RPC -> B1\n- Hamous joins as RPC -> J10\n- Haywire joins as RPC -> FlagHill\n- Razor joins as RPC -> FlagHill underground\n- Deedee joins as RPC -> The Rust H3 (danke Toni <3)\n- Flo joins as RPC -> Poacher Camp C5\n- Bastien joins as RPC -> G7 (Thanks Andreas <3)\n\n[hr][/hr]\n[h3]Related Mods[/h3]\n[list]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3239224340] Vanilla Perks Expanded <3[/url]\n		[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3239859485] Vanilla Weapons Expanded[/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3238572469] Vanilla Weapons Expanded - Quest Items [/url]\n		[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3253641552] Vanilla Battles Enhanced [/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3238546616] Random Attack [/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3238563037] Diamond Briefcase Enhanced [/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3238744119] Enhanced Kompositum [/url]\n[/list]\n[hr][/hr]\n[h3] Immersion mods [/h3]\n[list]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3238535853] Learn to Like Me [/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3242501087] Suit Up[/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3253711922] Baby Don't You Lie to Me [/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3260806453] Audaki’s Training Overhaul[/url]\n[/list]",
 	'image', "Mod/GCExpanded/Images/party of 18.jpg",
+	'external_links', {
+		"https://github.com/yasumitsu/GCExpanded",
+	},
 	'last_changes', "- fixed B1 being acessible from east",
 	'dependencies', {},
 	'id', "GCExpanded",
 	'author', "Sir Ni",
 	'version_major', 1,
 	'version_minor', 1,
-	'version', 396,
+	'version', 397,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -24,7 +27,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1719153799,
+	'saved', 1719154004,
 	'code_hash', -6126931146211939255,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
