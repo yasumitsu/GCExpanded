@@ -5,13 +5,13 @@ return PlaceObj('ModDef', {
 	'external_links', {
 		"https://github.com/yasumitsu/GCExpanded",
 	},
-	'last_changes', "- fixed B1 being acessible from east",
+	'last_changes', "- fixed A1 passability",
 	'dependencies', {},
 	'id', "GCExpanded",
 	'author', "Sir Ni",
 	'version_major', 1,
 	'version_minor', 1,
-	'version', 397,
+	'version', 404,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -27,7 +27,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1719154004,
+	'saved', 1719266358,
 	'code_hash', -6126931146211939255,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -117,11 +117,6 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_G7",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_G9",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {

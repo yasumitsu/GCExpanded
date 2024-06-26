@@ -2649,10 +2649,10 @@ PlaceObj('GridMarker', {
 	},
 }, nil, 1074979463)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(81502, 168205),
+	'Pos', point(81188, 179314),
 	'Angle', 5400,
 	'Groups', {
-		"EntranceBunkerS",
+		"West",
 	},
 	'EnabledConditions', {
 		PlaceObj('SectorIsInConflict', {
@@ -2756,7 +2756,7 @@ PlaceObj('HerbMarker', {
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(125453, 199397),
 	'Groups', {
-		"EntranceSea",
+		"East",
 	},
 	'AreaHeight', 4,
 	'EnabledConditions', {
@@ -2766,16 +2766,16 @@ PlaceObj('ExitZoneInteractable', {
 PlaceObj('GridMarker', {
 	'Pos', point(125453, 199600, 10500),
 	'Groups', {
-		"EntranceSea",
+		"East",
 	},
 	'Type', "Entrance",
 	'AreaWidth', 10,
 	'AreaHeight', 4,
 }, nil, 1662227272)
 PlaceObj('DeploymentMarker', {
-	'Pos', point(125453, 199600),
+	'Pos', point(125400, 199800),
 	'Groups', {
-		"Deploy",
+		"East",
 	},
 	'AreaWidth', 10,
 	'AreaHeight', 4,
@@ -4389,6 +4389,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Angle', 2793,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 772,
 }, nil, 1861594864)
 PlaceObj('Scaffolding_Planks_04', {
@@ -4398,6 +4399,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Axis', point(114, 746, 4025),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 772,
 }, nil, 1884842733)
 PlaceObj('Scaffolding_Planks_02', {
@@ -4407,6 +4409,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'ColorModifier', RGBA(82, 70, 57, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 772,
 }, nil, 1500208061)
 PlaceObj('Butterflies', {
@@ -4501,6 +4504,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(82, 70, 57, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1893414263)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(87332, 107454, 18236),
@@ -4835,6 +4839,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'ColorModifier', RGBA(95, 83, 66, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 398,
 }, nil, 1075767548)
 PlaceObj('Scaffolding_Planks_02', {
@@ -4846,6 +4851,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'ColorModifier', RGBA(95, 83, 66, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 398,
 }, nil, 1656868466)
 PlaceObj('TropicalPlant_04_Tree_02', {
@@ -4872,6 +4878,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'ColorModifier', RGBA(82, 70, 57, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1811294936)
 PlaceObj('World_WoodenBox_04', {
 	'ColorizationPalette', "",
@@ -5644,6 +5651,7 @@ PlaceObj('BunkerInterior_PropSet_04', {
 	'ColorModifier', RGBA(160, 158, 158, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1613,
 }, nil, 1502618078)
 PlaceObj('FloorSlab', {
@@ -6414,6 +6422,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'ColorModifier', RGBA(95, 83, 66, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2519,
 }, nil, 1664409141)
 PlaceObj('Scaffolding_Planks_03', {
@@ -6425,6 +6434,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(95, 83, 66, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2519,
 }, nil, 1126042381)
 PlaceObj('Scaffolding_Planks_03', {
@@ -6435,6 +6445,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(95, 83, 66, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2519,
 }, nil, 1755044227)
 PlaceObj('TropicalPlant_01_Tree_01', {
@@ -6532,6 +6543,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'ColorModifier', RGBA(62, 52, 35, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2599,
 }, nil, 1588484759)
 PlaceObj('Scaffolding_Planks_01', {
@@ -6544,6 +6556,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'ColorModifier', RGBA(62, 52, 35, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2599,
 }, nil, 1895813369)
 PlaceObj('WW2_SandBag_07', {
@@ -6685,6 +6698,7 @@ PlaceObj('BunkerInterior_MetalRack_03', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1171948109)
 PlaceObj('FloorSlab', {
 	'Pos', point(90600, 126600, 16800),
@@ -6758,6 +6772,7 @@ PlaceObj('BunkerInterior_MetalRack_04', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1514809842)
 PlaceObj('FloorSlab', {
 	'Pos', point(91800, 126600, 16800),
@@ -6898,12 +6913,14 @@ PlaceObj('Prison_MetalCloset_02', {
 	'Angle', 5357,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1536463480)
 PlaceObj('Prison_Shelves_03', {
 	'Pos', point(92950, 126592, 18184),
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2246,
 }, nil, 1070893383)
 PlaceObj('FloorSlab', {
@@ -6950,6 +6967,7 @@ PlaceObj('Prison_PaperPileLarge_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2246,
 }, nil, 1693738180)
 PlaceObj('WallSlab', {
@@ -7010,12 +7028,14 @@ PlaceObj('Prison_MetalCloset_03', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1129250272)
 PlaceObj('Prison_Shelves_01', {
 	'Pos', point(94107, 126592, 18184),
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2246,
 }, nil, 1187794157)
 PlaceObj('FloorSlab', {
@@ -7974,6 +7994,7 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'Angle', 4920,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1754802560)
 PlaceObj('City_SatelliteDish_01', {
 	'Pos', point(91347, 130903, 24906),
@@ -8057,6 +8078,7 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'Angle', 2306,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1360811021)
 PlaceObj('WallSlab', {
 	'Pos', point(91800, 130800, 22400),
@@ -8303,6 +8325,7 @@ PlaceObj('MilitaryCamp_ComCenter_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1113356331)
 PlaceObj('FloorSlab', {
 	'Pos', point(93000, 127800, 19600),
@@ -8674,6 +8697,7 @@ PlaceObj('BunkerInterior_MetalRack_04', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1025936521)
 PlaceObj('FloorSlab', {
 	'Pos', point(94200, 127800, 19600),
@@ -8902,12 +8926,14 @@ PlaceObj('Prison_PaperPileLarge_01', {
 	'Scale', 94,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1409685315)
 PlaceObj('Prison_PaperPileSmall_03', {
 	'Pos', point(92982, 130180, 17487),
 	'Scale', 79,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1463103601)
 PlaceObj('FloorSlab', {
 	'Pos', point(93000, 130200, 16800),
@@ -9064,6 +9090,7 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'Angle', 9711,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1347273833)
 PlaceObj('FloorSlab', {
 	'Pos', point(94200, 130200, 16800),
@@ -9560,6 +9587,7 @@ PlaceObj('City_ElectricityPole_Small_04', {
 	'Angle', 5363,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 263,
 }, nil, 1640637432)
 PlaceObj('WallSlab', {
@@ -10281,6 +10309,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Angle', 20123,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1823661178)
 PlaceObj('Scaffolding_Planks_04', {
 	'ColorizationPalette', "",
@@ -10288,6 +10317,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Angle', 7523,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1805568823)
 PlaceObj('World_WoodenBox_05', {
 	'ColorizationPalette', "",
@@ -10568,6 +10598,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Axis', point(358, -2726, 3035),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1573979371)
 PlaceObj('MilitaryCamp_Toilet', {
 	'ColorizationPalette', "",
@@ -10584,6 +10615,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(43, 43, 43, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1004399688)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(119743, 92583),
@@ -10643,6 +10675,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Axis', point(349, -2652, 3101),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1060337877)
 PlaceObj('Shanty_CardboardBox_03', {
 	'ColorizationPalette', "",
@@ -11828,6 +11861,7 @@ PlaceObj('Ladder_Metal_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'LadderParts', 3,
 }, nil, 1594684574)
 PlaceObj('WallSlab', {
@@ -12233,6 +12267,7 @@ PlaceObj('City_ElectricityPole_Small_04', {
 	'Angle', 15382,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2108,
 }, nil, 1188452687)
 PlaceObj('City_SatelliteDish_02', {
@@ -12517,6 +12552,7 @@ PlaceObj('City_ElectricityPole_Small_01', {
 	'Angle', 20772,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2108,
 }, nil, 1754852080)
 PlaceObj('MetalScaff_Pillar_01', {
@@ -12965,6 +13001,7 @@ PlaceObj('City_ElectricityPole_Small_04', {
 	'Axis', point(-193, -209, 4086),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3795,
 }, nil, 1649293112)
 PlaceObj('City_SatelliteDish_01', {
@@ -13907,6 +13944,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'ColorModifier', RGBA(68, 65, 60, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 689,
 }, nil, 1662009469)
 PlaceObj('Scaffolding_Planks_04', {
@@ -13918,6 +13956,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'ColorModifier', RGBA(68, 65, 60, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 689,
 }, nil, 1873465792)
 PlaceObj('World_WoodenBox_04', {
@@ -13959,6 +13998,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'ColorModifier', RGBA(68, 65, 60, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 689,
 }, nil, 1285330163)
 PlaceObj('WaterPlaneWaves', {
@@ -14802,6 +14842,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Scale', 142,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1578412544)
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
@@ -17424,6 +17465,7 @@ PlaceObj('Prison_MetalCloset_02', {
 	'Angle', 16074,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1578320171)
 PlaceObj('WallSlab', {
 	'Pos', point(88200, 132000, 16800),
@@ -17492,6 +17534,7 @@ PlaceObj('Prison_MetalCloset_03', {
 	'Angle', 16203,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1033243515)
 PlaceObj('FloorSlab', {
 	'Pos', point(89400, 131400, 16800),
@@ -17750,6 +17793,7 @@ PlaceObj('City_TV_Small', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
+	'SunShadow', false,
 }, nil, 1547625135)
 PlaceObj('FloorSlab', {
 	'Pos', point(90600, 131400, 16800),
@@ -17783,6 +17827,7 @@ PlaceObj('BunkerInterior_Desk_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1691507342)
 PlaceObj('FloorSlab', {
 	'Pos', point(90600, 131400, 22400),
@@ -17799,6 +17844,7 @@ PlaceObj('City_TV_Small', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
+	'SunShadow', false,
 }, nil, 1062329402)
 PlaceObj('MilitaryCamp_FlagPole_02', {
 	'ColorizationPalette', "",
@@ -17810,6 +17856,7 @@ PlaceObj('MilitaryCamp_FlagPole_02', {
 	'StateText', "idle_Wind",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1644,
 }, nil, 1221434450)
 PlaceObj('WallSlab', {
@@ -17917,6 +17964,7 @@ PlaceObj('Laptop', {
 	'StateText', "open",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1155,
 	'DestructionOverrideMask', 1,
 }, nil, 1300239454)
@@ -17970,6 +18018,7 @@ PlaceObj('City_VHSTape_04', {
 	'Angle', 1512,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1233082934)
 PlaceObj('City_TV_Small', {
 	'Pos', point(92064, 131485, 20282),
@@ -17977,6 +18026,7 @@ PlaceObj('City_TV_Small', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
+	'SunShadow', false,
 }, nil, 1653827318)
 PlaceObj('City_TV_Small', {
 	'Pos', point(91696, 131628, 20441),
@@ -17984,12 +18034,14 @@ PlaceObj('City_TV_Small', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
+	'SunShadow', false,
 }, nil, 1235570725)
 PlaceObj('City_VHSPlayer_01', {
 	'Pos', point(91659, 131656, 20295),
 	'Angle', 14675,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1829450427)
 PlaceObj('WallSlab', {
 	'Pos', point(91800, 132000, 16800),
@@ -18135,6 +18187,7 @@ PlaceObj('BunkerInterior_Desk_01', {
 	'Pos', point(93000, 131400, 16800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1833243167)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(93000, 131400, 19410),
@@ -18160,6 +18213,7 @@ PlaceObj('BunkerInterior_MetalRack_05', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1749230643)
 PlaceObj('FloorSlab', {
 	'Pos', point(93000, 131400, 22400),
@@ -18177,6 +18231,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Angle', 17453,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1319187905)
 PlaceObj('WallSlab', {
 	'Pos', point(93000, 132000, 16800),
@@ -19703,6 +19758,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 5640,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1319,
 }, nil, 1795771382)
 PlaceObj('JungleCamp_Radio_01', {
@@ -19718,6 +19774,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Axis', point(263, 124, 4085),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1319,
 }, nil, 1422530473)
 PlaceObj('Scaffolding_Planks_02', {
@@ -19726,6 +19783,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Angle', 16871,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1306004259)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(104436, 140152, 20102),
@@ -19993,6 +20051,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBA(58, 52, 47, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1246409957)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(104418, 148202, 19635),
@@ -20000,6 +20059,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(58, 52, 47, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1766125178)
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
@@ -20911,6 +20971,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(99, 96, 88, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1688555727)
 PlaceObj('MilitaryCamp_Pallete_02', {
 	'Pos', point(127065, 148867, 12246),
@@ -22804,6 +22865,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1464083820)
 PlaceObj('SoundSource', {
 	'Pos', point(116135, 204010, 9144),
@@ -22827,6 +22889,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1105095139)
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(117888, 203521, 5542),
@@ -22851,6 +22914,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1734949964)
 PlaceObj('Shanty_BottleCrate_01', {
 	'ColorizationPalette', "",
@@ -22879,6 +22943,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1795365109)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(120729, 202340, 5522),
@@ -22887,6 +22952,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1469995902)
 PlaceObj('JungleCamp_Boots_01', {
 	'Pos', point(118800, 203883, 5538),
@@ -22911,6 +22977,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1513549343)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(121816, 202159, 7338),
@@ -22919,6 +22986,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1073335049)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(121461, 202311, 7407),
@@ -22927,6 +22995,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1837505293)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(117101, 206707, 380),
@@ -22952,6 +23021,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1751984932)
 PlaceObj('WW2_FlagHill', {
 	'Pos', point(118531, 206401),
@@ -23027,6 +23097,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2831,
 }, nil, 1530154803)
 PlaceObj('Shanty_PlasticTable_01', {
@@ -24135,6 +24206,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(99, 96, 88, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1193092131)
 PlaceObj('SoundSource', {
 	'Pos', point(134235, 129370, 14000),
@@ -25718,6 +25790,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(99, 96, 88, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1548703824)
 PlaceObj('MilitaryCamp_Pallete_01', {
 	'Pos', point(132556, 131556),
@@ -25963,6 +26036,7 @@ PlaceObj('Explosive_Barrel', {
 	'EditableColor2', RGBA(32, 24, 22, 255),
 	'EditableColor3', RGBA(62, 46, 30, 255),
 	'Pos', point(136200, 142200),
+	'ColorModifier', RGBA(255, 255, 255, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 }, nil, 1821578728)
@@ -26255,6 +26329,7 @@ PlaceObj('BunkerInterior_WaterPipesAssembly_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 4074,
 }, nil, 1454092857)
 PlaceObj('FloorSlab', {
@@ -26284,6 +26359,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(138600, 145000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1006578280)
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
@@ -26511,6 +26587,7 @@ PlaceObj('WW2_SandBag_06', {
 	'Scale', 78,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1497273144)
 PlaceObj('FloorSlab', {
 	'Pos', point(138600, 145800, 14000),
@@ -26551,6 +26628,7 @@ PlaceObj('WW2_SandBag_03', {
 	'Axis', point(830, -307, 3999),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1578834725)
 PlaceObj('WW2_SandBag_02', {
 	'ColorizationPalette', "",
@@ -26574,6 +26652,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 594,
 	'DestructionOverrideMask', 1,
@@ -26953,6 +27032,7 @@ PlaceObj('WW2_SandBag_04', {
 	'Axis', point(-338, -376, 4064),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1774175377)
 PlaceObj('WW2_SandBag_06', {
 	'ColorizationPalette', "",
@@ -26992,6 +27072,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1512147341)
 PlaceObj('BunkerInterior_Light_01', {
 	'Pos', point(141000, 143400, 14000),
@@ -27117,6 +27198,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
+	'SunShadow', false,
 	'CollectionIndex', 893,
 }, nil, 1133417610)
 PlaceObj('FloorSlab', {
@@ -27379,6 +27461,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 594,
 	'DestructionOverrideMask', 1,
@@ -27479,6 +27562,7 @@ PlaceObj('BunkerInterior_WaterPipesCross_01', {
 	'Axis', point(-2365, 2365, 2365),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3425,
 }, nil, 1223936074)
 PlaceObj('RoomCorner', {
@@ -27546,6 +27630,7 @@ PlaceObj('BunkerInterior_WaterPipesCross_01', {
 	'Axis', point(-2365, 2365, 2365),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1458,
 }, nil, 1252543672)
 PlaceObj('FloorSlab', {
@@ -27576,6 +27661,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1729134522)
 PlaceObj('WallSlab', {
 	'Pos', point(144000, 144600, 14000),
@@ -27639,6 +27725,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3425,
 }, nil, 1812887972)
 PlaceObj('City_ShopSign_04', {
@@ -27666,6 +27753,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Pos', point(144100, 145216, 16800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1458,
 }, nil, 1336492449)
 PlaceObj('WallSlab', {
@@ -27847,6 +27935,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1745870222)
 PlaceObj('FloorSlab', {
 	'Pos', point(143400, 145800, 14000),
@@ -27928,6 +28017,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3425,
 }, nil, 1671796633)
 PlaceObj('BunkerInterior_WaterPipesHor_01', {
@@ -27941,6 +28031,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Pos', point(144100, 146421, 16800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1458,
 }, nil, 1502176469)
 PlaceObj('FloorSlab', {
@@ -28068,6 +28159,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3425,
 }, nil, 1622692225)
 PlaceObj('Hospital_Sink_01', {
@@ -28113,6 +28205,7 @@ PlaceObj('Shanty_BucketMetal_01', {
 	'ColorModifier', RGBA(72, 72, 72, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 586,
 }, nil, 1517077798)
 PlaceObj('MilitaryCamp_Pallete_03', {
@@ -28330,6 +28423,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1268003641)
 PlaceObj('WallSlab', {
 	'Pos', point(147000, 144000, 14000),
@@ -28729,6 +28823,7 @@ PlaceObj('Shanty_BucketMetal_01', {
 	'ColorModifier', RGBA(72, 72, 72, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 586,
 }, nil, 1409651371)
 PlaceObj('Shanty_BucketMetal_01', {
@@ -30156,6 +30251,7 @@ PlaceObj('MetalScaff_Pillar_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1638246930)
 PlaceObj('RoomCorner', {
 	'Pos', point(138000, 148800, 14000),
@@ -30182,6 +30278,7 @@ PlaceObj('MetalScaff_Pillar_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1638727045)
 PlaceObj('MetalScaff_Pillar_01', {
 	'ColorizationPalette', "",
@@ -30190,6 +30287,7 @@ PlaceObj('MetalScaff_Pillar_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1359674180)
 PlaceObj('RoomCorner', {
 	'Pos', point(138000, 148800, 15400),
@@ -30207,6 +30305,7 @@ PlaceObj('MetalScaff_Pillar_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1083688719)
 PlaceObj('RoomCorner', {
 	'Pos', point(138000, 148800, 16100),
@@ -30241,6 +30340,7 @@ PlaceObj('MetalScaff_Pillar_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1664810956)
 PlaceObj('RoofCorner', {
 	'Pos', point(138000, 148800, 17310),
@@ -30259,6 +30359,7 @@ PlaceObj('MetalScaff_Pillar_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1467280547)
 PlaceObj('WallSlab', {
 	'Pos', point(138000, 149400, 14000),
@@ -30533,6 +30634,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1061603387)
 PlaceObj('FloorSlab', {
@@ -30551,6 +30653,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1402222801)
 PlaceObj('FloorSlab', {
@@ -30589,6 +30692,7 @@ PlaceObj('Shanty_Debris_05', {
 	'Pos', point(138600, 148200, 18200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1285800156)
 PlaceObj('RoofPlaneSlab', {
@@ -30702,6 +30806,7 @@ PlaceObj('MetalScaff_Side_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1345593551)
 PlaceObj('WallSlab', {
 	'Pos', point(138000, 150600, 14000),
@@ -30920,6 +31025,7 @@ PlaceObj('Shanty_Barrel_02', {
 	'Axis', point(-2736, 242, 3039),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1766695431)
 PlaceObj('FloorSlab', {
 	'Pos', point(138600, 150600, 14000),
@@ -31013,6 +31119,7 @@ PlaceObj('Shanty_Barrel_02', {
 	'Axis', point(-1288, 1530, 3574),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1639113752)
 PlaceObj('FloorSlab', {
 	'Pos', point(136200, 151800, 14000),
@@ -31084,6 +31191,7 @@ PlaceObj('Shanty_Barrel_02', {
 	'Axis', point(-2074, 2857, 2075),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 162,
 }, nil, 1731947108)
 PlaceObj('FloorSlab', {
@@ -31705,6 +31813,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(138600, 153000, 18200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1517797196)
 PlaceObj('BunkerInterior_Desk_01', {
@@ -31712,6 +31821,7 @@ PlaceObj('BunkerInterior_Desk_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3377,
 }, nil, 1771599547)
 PlaceObj('RoofPlaneSlab', {
@@ -31729,6 +31839,7 @@ PlaceObj('Corp_Laptop_01', {
 	'Angle', 480,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3828,
 	'DestructionOverrideMask', 1,
 }, nil, 1863989091)
@@ -31737,6 +31848,7 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'Angle', 8700,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1770447705)
 PlaceObj('Shanty_CardboardBox_02', {
 	'ColorizationPalette', "",
@@ -31747,6 +31859,7 @@ PlaceObj('Shanty_CardboardBox_02', {
 	'Axis', point(3244, -2235, 1119),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1316230869)
 PlaceObj('FloorSlab', {
 	'Pos', point(137400, 154200, 14000),
@@ -31776,6 +31889,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10832,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 3341,
 }, nil, 1375061015)
@@ -31793,6 +31907,7 @@ PlaceObj('WindlessMarker', {
 	'Angle', 1340,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'MaxRange', 5496,
 	'AttenuationRange', 5906,
 }, nil, 1484038364)
@@ -32259,18 +32374,21 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Angle', 19800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1338303021)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(138715, 153990, 18897),
 	'Angle', 6960,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1399360346)
 PlaceObj('Shanty_WhiskeyBottle_01', {
 	'Pos', point(138422, 154434, 18898),
 	'Angle', 11160,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1754570176)
 PlaceObj('FloorSlab', {
 	'Pos', point(138600, 154200, 14000),
@@ -32335,6 +32453,7 @@ PlaceObj('City_BoulPeanuts', {
 	'Angle', 17058,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3377,
 }, nil, 1840949521)
 PlaceObj('Shanty_CardboardBox_01', {
@@ -32346,11 +32465,13 @@ PlaceObj('Shanty_CardboardBox_01', {
 	'Axis', point(1571, 395, 3762),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1784071776)
 PlaceObj('Bar_Bottle_04', {
 	'Pos', point(138900, 154500, 18200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3377,
 }, nil, 1223448664)
 PlaceObj('Shanty_CardboardBox_02', {
@@ -32425,6 +32546,7 @@ PlaceObj('BunkerInterior_Light_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
+	'SunShadow', false,
 	'CollectionIndex', 2810,
 }, nil, 1567946464)
 PlaceObj('RoofPlaneSlab', {
@@ -32446,6 +32568,7 @@ PlaceObj('Shanty_CardboardBox_02', {
 	'Axis', point(3427, -1839, 1283),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1203688085)
 PlaceObj('Room', {
 	'roof_colors', PlaceObj('ColorizationPropSet', {
@@ -32951,6 +33074,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
+	'SunShadow', false,
 	'CollectionIndex', 3812,
 	'AutoAttachMode', "OFF",
 	'AllAttachedLightsToDetailLevel', "Essential",
@@ -33083,6 +33207,7 @@ PlaceObj('BunkerInterior_Locker_02', {
 	'StateText', "open",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2539,
 }, nil, 1134794220)
 PlaceObj('FloorSlab', {
@@ -33508,6 +33633,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10832,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 3341,
 }, nil, 1026706251)
@@ -33566,6 +33692,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(138600, 156700, 18200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1262756461)
 PlaceObj('FloorSlab', {
@@ -34085,6 +34212,7 @@ PlaceObj('BunkerInterior_Desk_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1172708338)
 PlaceObj('FloorSlab', {
 	'Pos', point(138600, 159000, 18200),
@@ -34109,12 +34237,14 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(138674, 158983, 18897),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1042917753)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(138521, 159287, 18900),
 	'Angle', 3300,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1514388487)
 PlaceObj('FloorSlab', {
 	'Pos', point(136200, 160200, 14000),
@@ -34663,6 +34793,7 @@ PlaceObj('BunkerInterior_ComRadio_01', {
 	'Scale', 70,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1422150763)
 PlaceObj('FloorSlab', {
 	'Pos', point(138600, 160200, 14000),
@@ -34715,6 +34846,7 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'Angle', 11700,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1089639183)
 PlaceObj('FloorSlab', {
 	'Pos', point(138600, 161400, 14000),
@@ -34771,6 +34903,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(138600, 161500, 18200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1772411631)
 PlaceObj('TropicalPlant_Liana_05', {
@@ -35270,6 +35403,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Angle', 16232,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 3341,
 }, nil, 1886024491)
@@ -35487,6 +35621,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1524253389)
 PlaceObj('BunkerInterior_FenceWire_01', {
@@ -35497,6 +35632,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1741623390)
 PlaceObj('FloorSlab', {
@@ -35735,6 +35871,7 @@ PlaceObj('MetalScaff_Pillar_01', {
 	'Pos', point(140400, 148800, 16100),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1186,
 }, nil, 1560130543)
 PlaceObj('MetalScaff_Pillar_01', {
@@ -35743,6 +35880,7 @@ PlaceObj('MetalScaff_Pillar_01', {
 	'Pos', point(140400, 148800, 16800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1862105417)
 PlaceObj('MetalScaff_Pillar_01', {
 	'ColorizationPalette', "",
@@ -35750,6 +35888,7 @@ PlaceObj('MetalScaff_Pillar_01', {
 	'Pos', point(140400, 148800, 17500),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1857393909)
 PlaceObj('WallSlab', {
 	'Pos', point(140400, 149400, 17500),
@@ -35768,6 +35907,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1234316066)
 PlaceObj('FloorSlab', {
@@ -35786,6 +35926,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1832457964)
 PlaceObj('RoofPlaneSlab', {
@@ -35827,6 +35968,7 @@ PlaceObj('Shanty_Barrel_02', {
 	'Axis', point(-2319, 64, 3375),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1347998577)
 PlaceObj('FloorSlab', {
 	'Pos', point(139800, 150600, 14000),
@@ -35892,6 +36034,7 @@ PlaceObj('MetalScaff_Side_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1866672736)
 PlaceObj('WallSlab', {
 	'Pos', point(140400, 150600, 17500),
@@ -35910,6 +36053,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1091868950)
 PlaceObj('FloorSlab', {
@@ -35928,6 +36072,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1721736459)
 PlaceObj('RoofPlaneSlab', {
@@ -36219,6 +36364,7 @@ PlaceObj('Shanty_CardboardBox_02', {
 	'Axis', point(-1508, -3806, 103),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1373980267)
 PlaceObj('FloorSlab', {
 	'Pos', point(139800, 153000, 14000),
@@ -36287,6 +36433,7 @@ PlaceObj('Shanty_Barrel_02', {
 	'Axis', point(560, 454, 4032),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1744866340)
 PlaceObj('WallSlab', {
 	'Pos', point(140400, 151800, 17500),
@@ -36305,6 +36452,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1136659518)
 PlaceObj('BunkerInterior_Locker_01', {
@@ -36312,6 +36460,7 @@ PlaceObj('BunkerInterior_Locker_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1167458585)
 PlaceObj('FloorSlab', {
 	'Pos', point(141000, 151800, 14000),
@@ -36329,6 +36478,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1381713406)
 PlaceObj('RoofPlaneSlab', {
@@ -36377,6 +36527,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1346706027)
 PlaceObj('BunkerInterior_FenceWire_01', {
@@ -36387,6 +36538,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1501070105)
 PlaceObj('FloorSlab', {
@@ -36436,6 +36588,7 @@ PlaceObj('Shanty_CardboardBox_01', {
 	'Axis', point(1102, -1036, 3807),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1844652911)
 PlaceObj('FloorSlab', {
 	'Pos', point(139800, 154200, 14000),
@@ -36579,6 +36732,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1001364180)
 PlaceObj('BunkerInterior_FenceWire_01', {
@@ -36589,6 +36743,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1351305612)
 PlaceObj('FloorSlab', {
@@ -36647,6 +36802,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'Scale', 65,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'SwayType', "Next To Wall",
 }, nil, 1668286090)
 PlaceObj('FloorSlab', {
@@ -36846,6 +37002,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'ApplyToGrids', true,
 	'Collision', true,
+	'SunShadow', false,
 }, nil, 1579760673)
 PlaceObj('BunkerInterior_FenceWire_02', {
 	'ColorizationPalette', "",
@@ -36855,6 +37012,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1004821082)
 PlaceObj('FloorSlab', {
@@ -36870,6 +37028,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
+	'SunShadow', false,
 	'AutoAttachMode', "OFF",
 }, nil, 1234437035)
 PlaceObj('BunkerInterior_FenceWire_01', {
@@ -36880,6 +37039,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1647970194)
 PlaceObj('RoofPlaneSlab', {
@@ -37074,6 +37234,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Pos', point(144100, 147609, 16800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1458,
 }, nil, 1179946157)
 PlaceObj('JungleCamp_NewspaperPile_03', {
@@ -37082,6 +37243,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 68,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 586,
 }, nil, 1176831827)
 PlaceObj('WallSlab', {
@@ -37145,6 +37307,7 @@ PlaceObj('BunkerInterior_WaterPipesCorner_02', {
 	'Pos', point(143600, 148600, 16800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1089,
 }, nil, 1408166299)
 PlaceObj('FloorSlab', {
@@ -37258,6 +37421,7 @@ PlaceObj('BunkerInterior_WaterPipesCross_01', {
 	'Axis', point(-2365, -2365, 2365),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1458,
 }, nil, 1578245827)
 PlaceObj('WallSlab', {
@@ -37329,6 +37493,7 @@ PlaceObj('Shanty_Debris_05', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1625846000)
 PlaceObj('FloorSlab', {
 	'Pos', point(144600, 148200, 14000),
@@ -37383,6 +37548,7 @@ PlaceObj('Shanty_Debris_05', {
 	'Pos', point(144600, 148200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1163988550)
 PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'ColorizationPalette', "",
@@ -37397,6 +37563,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Scale', 98,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 976,
 }, nil, 1432762843)
 PlaceObj('Shanty_BeerBottle_01', {
@@ -37543,6 +37710,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 976,
 }, nil, 1722594405)
 PlaceObj('WallSlab', {
@@ -37632,6 +37800,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1811258212)
 PlaceObj('RoofPlaneSlab', {
@@ -37656,6 +37825,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 976,
 }, nil, 1218685001)
 PlaceObj('WallSlab', {
@@ -37753,6 +37923,7 @@ PlaceObj('JungleCamp_Radio_01', {
 	'Angle', 13448,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 4077,
 }, nil, 1296272145)
 PlaceObj('FloorSlab', {
@@ -37791,6 +37962,7 @@ PlaceObj('Prison_MetalCloset_03', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 4077,
 }, nil, 1774875975)
 PlaceObj('RoofPlaneSlab', {
@@ -37812,6 +37984,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1597664370)
 PlaceObj('WallSlab', {
@@ -37967,6 +38140,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
+	'SunShadow', false,
 	'CollectionIndex', 2240,
 	'AutoAttachMode', "OFF",
 }, nil, 1453689574)
@@ -37987,6 +38161,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(59, 59, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 586,
 }, nil, 1767769407)
 PlaceObj('JungleCamp_NewspaperPile_03', {
@@ -37996,6 +38171,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(59, 59, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 586,
 }, nil, 1821698007)
 PlaceObj('BunkerInterior_WaterPipesHor_01', {
@@ -38010,6 +38186,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 976,
 }, nil, 1772329896)
 PlaceObj('JungleCamp_NewspaperPile_03', {
@@ -38018,6 +38195,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 68,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 586,
 }, nil, 1672364283)
 PlaceObj('JungleCamp_NewspaperPile_03', {
@@ -38027,6 +38205,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(59, 59, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 586,
 }, nil, 1047626584)
 PlaceObj('FloorSlab', {
@@ -38061,6 +38240,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(59, 59, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 586,
 }, nil, 1229715108)
 PlaceObj('BunkerInterior_WaterPipesHor_01', {
@@ -38075,6 +38255,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 976,
 }, nil, 1585752051)
 PlaceObj('WallSlab', {
@@ -38139,6 +38320,7 @@ PlaceObj('BunkerInterior_WaterPipesVert_02', {
 	'Angle', 15836,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3917,
 }, nil, 1851352792)
 PlaceObj('BunkerInterior_WaterPipesVert_01', {
@@ -38153,6 +38335,7 @@ PlaceObj('BunkerInterior_WaterPipesVert_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3917,
 }, nil, 1408790810)
 PlaceObj('BunkerInterior_WaterPipesVert_01', {
@@ -38167,6 +38350,7 @@ PlaceObj('BunkerInterior_WaterPipesVert_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3917,
 }, nil, 1347067962)
 PlaceObj('BunkerInterior_WaterPipesVert_01', {
@@ -38181,6 +38365,7 @@ PlaceObj('BunkerInterior_WaterPipesVert_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3917,
 }, nil, 1676557268)
 PlaceObj('BunkerInterior_WaterPipesCross_02', {
@@ -38195,6 +38380,7 @@ PlaceObj('BunkerInterior_WaterPipesCross_02', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3917,
 }, nil, 1581228926)
 PlaceObj('FloorSlab', {
@@ -38224,6 +38410,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(145800, 150200, 18200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 594,
 	'DestructionOverrideMask', 1,
@@ -38256,6 +38443,7 @@ PlaceObj('Shanty_Barrel_02', {
 	'Axis', point(-2846, 764, 2845),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2158,
 }, nil, 1724663883)
 PlaceObj('FloorSlab', {
@@ -38297,6 +38485,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1345711554)
 PlaceObj('Shanty_Barrel_02', {
 	'ColorizationPalette', "",
@@ -38309,6 +38498,7 @@ PlaceObj('Shanty_Barrel_02', {
 	'Angle', 939,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1056652087)
 PlaceObj('Shanty_Barrel_02', {
 	'ColorizationPalette', "",
@@ -38403,6 +38593,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(44, 44, 44, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1446,
 }, nil, 1270184166)
 PlaceObj('JungleCamp_NewspaperPile_02', {
@@ -38412,6 +38603,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBA(44, 44, 44, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1446,
 }, nil, 1814843627)
 PlaceObj('Shanty_BeerBottle_01', {
@@ -38421,6 +38613,7 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', false,
+	'SunShadow', false,
 	'CollectionIndex', 4077,
 }, nil, 1450368622)
 PlaceObj('FloorSlab', {
@@ -38459,6 +38652,7 @@ PlaceObj('Prison_MetalCloset_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 4077,
 }, nil, 1699560499)
 PlaceObj('RoofPlaneSlab', {
@@ -38477,6 +38671,7 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', false,
+	'SunShadow', false,
 	'CollectionIndex', 4077,
 }, nil, 1312380990)
 PlaceObj('Shanty_BeerBottle_01', {
@@ -38485,6 +38680,7 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', false,
+	'SunShadow', false,
 	'CollectionIndex', 4077,
 }, nil, 1611401243)
 PlaceObj('Shanty_BeerBottle_01', {
@@ -38493,6 +38689,7 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', false,
+	'SunShadow', false,
 	'CollectionIndex', 4077,
 }, nil, 1158316969)
 PlaceObj('WallSlab', {
@@ -38682,6 +38879,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(44, 44, 44, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1446,
 }, nil, 1696034131)
 PlaceObj('FloorSlab', {
@@ -38700,6 +38898,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1244527533)
 PlaceObj('RoofPlaneSlab', {
@@ -38773,6 +38972,7 @@ PlaceObj('MilitaryCamp_WoodSign_02', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1446,
 }, nil, 1701076921)
 PlaceObj('WallSlab', {
@@ -38844,6 +39044,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1528918998)
 PlaceObj('BunkerInterior_FenceWire_02', {
@@ -38854,6 +39055,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1752667861)
 PlaceObj('RoofPlaneSlab', {
@@ -38872,6 +39074,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
+	'SunShadow', false,
 	'CollectionIndex', 626,
 	'AutoAttachMode', "Warm light B",
 	'AllAttachedLightsToDetailLevel', "Essential",
@@ -38894,6 +39097,7 @@ PlaceObj('Prison_MetalCloset_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 4077,
 }, nil, 1595209425)
 PlaceObj('RoofPlaneSlab', {
@@ -38916,6 +39120,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1696142113)
 PlaceObj('WallSlab', {
@@ -39059,6 +39264,7 @@ PlaceObj('Shanty_Barrel_02', {
 	'Angle', 11266,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1340902819)
 PlaceObj('Shanty_Barrel_02', {
 	'ColorizationPalette', "",
@@ -39116,6 +39322,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'ApplyToGrids', true,
 	'Collision', true,
+	'SunShadow', false,
 }, nil, 1287677216)
 PlaceObj('BunkerInterior_FenceWire_02', {
 	'ColorizationPalette', "",
@@ -39125,6 +39332,7 @@ PlaceObj('BunkerInterior_FenceWire_02', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1199527633)
 PlaceObj('FloorSlab', {
@@ -39143,6 +39351,7 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 }, nil, 1336825209)
 PlaceObj('RoofPlaneSlab', {
@@ -39185,6 +39394,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 594,
 	'DestructionOverrideMask', 1,
@@ -39197,6 +39407,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'ApplyToGrids', true,
 	'Collision', true,
+	'SunShadow', false,
 }, nil, 1729578829)
 PlaceObj('FloorSlab', {
 	'Pos', point(147000, 154200, 14000),
@@ -39226,6 +39437,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1735348879)
 PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'ColorizationPalette', "",
@@ -39237,6 +39449,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'Scale', 65,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'SwayType', "Next To Wall",
 }, nil, 1355683058)
 PlaceObj('Shanty_BucketMetal_01', {
@@ -39569,6 +39782,7 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', false,
+	'SunShadow', false,
 	'CollectionIndex', 3708,
 }, nil, 1037928974)
 PlaceObj('JungleCamp_Backpack_01', {
@@ -39577,6 +39791,7 @@ PlaceObj('JungleCamp_Backpack_01', {
 	'Axis', point(661, 1486, 3759),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1594289490)
 PlaceObj('FloorSlab', {
 	'Pos', point(142200, 156600, 14000),
@@ -39601,6 +39816,7 @@ PlaceObj('BunkerInterior_Desk_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3708,
 }, nil, 1596714841)
 PlaceObj('FloorSlab', {
@@ -39628,6 +39844,7 @@ PlaceObj('Colonial_Bookshelf_Books_02', {
 	'Axis', point(-2552, -2232, 2297),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3708,
 }, nil, 1010990751)
 PlaceObj('JungleCamp_Backpack_03', {
@@ -39636,12 +39853,14 @@ PlaceObj('JungleCamp_Backpack_03', {
 	'Axis', point(919, 737, 3922),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1125382545)
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(142459, 156095, 18200),
 	'Angle', 4337,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3708,
 }, nil, 1378560189)
 PlaceObj('Prison_Typewriter', {
@@ -39653,6 +39872,7 @@ PlaceObj('Prison_Typewriter', {
 	'Angle', 16304,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3708,
 }, nil, 1143746146)
 PlaceObj('SoundSource', {
@@ -40092,6 +40312,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 3685,
 }, nil, 1605152498)
@@ -40127,6 +40348,7 @@ PlaceObj('BunkerInterior_MetalRack_03', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1312873678)
 PlaceObj('FloorSlab', {
 	'Pos', point(141000, 162600, 18200),
@@ -40353,6 +40575,7 @@ PlaceObj('BunkerInterior_MetalRack_02', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1836921701)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(142200, 162600, 21510),
@@ -40374,6 +40597,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 2269,
 }, nil, 1274545844)
@@ -40464,6 +40688,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 2269,
 }, nil, 1727255684)
@@ -40483,6 +40708,7 @@ PlaceObj('BunkerInterior_FenceWire_Door', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3569,
 	'lockpickStateMap', "open",
 	'HitPoints', 100,
@@ -40529,6 +40755,7 @@ PlaceObj('Prison_PaperPileSmall_02', {
 	'Angle', 21580,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3708,
 }, nil, 1565195329)
 PlaceObj('City_CinemaProjector', {
@@ -40536,6 +40763,7 @@ PlaceObj('City_CinemaProjector', {
 	'Angle', 9135,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1221214267)
 PlaceObj('FloorSlab', {
 	'Pos', point(144600, 156600, 14000),
@@ -40860,17 +41088,20 @@ PlaceObj('City_CinemaProjector_Tapes_01', {
 	'Angle', 9290,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1217440351)
 PlaceObj('City_CinemaProjector_Tapes_01', {
 	'Pos', point(144600, 157200, 18900),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1117286294)
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(145069, 157551, 18200),
 	'Angle', 10597,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1738553432)
 PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'ColorizationPalette', "",
@@ -40881,6 +41112,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'Scale', 65,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2052,
 	'SwayType', "Next To Wall",
 }, nil, 1457251042)
@@ -40968,6 +41200,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3603,
 }, nil, 1286255375)
 PlaceObj('FloorSlab', {
@@ -41001,6 +41234,7 @@ PlaceObj('BunkerInterior_Desk_01', {
 	'Pos', point(144600, 157800, 18200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1473489841)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(144600, 157800, 21510),
@@ -41017,6 +41251,7 @@ PlaceObj('City_CinemaProjector_Tapes_02', {
 	'Angle', 11891,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1776044222)
 PlaceObj('WallSlab', {
 	'Pos', point(145200, 157800, 18200),
@@ -41230,6 +41465,7 @@ PlaceObj('WindlessMarker', {
 	'Angle', 1340,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'MaxRange', 1802,
 	'AttenuationRange', 4475,
 }, nil, 1524182974)
@@ -41513,6 +41749,7 @@ PlaceObj('JungleCamp_FoodCanPile_05', {
 	'Scale', 70,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1893092084)
 PlaceObj('FloorSlab', {
 	'Pos', point(145800, 156600, 14000),
@@ -41558,6 +41795,7 @@ PlaceObj('BunkerInterior_PropSet_04', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1539631540)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(145800, 156600, 24500),
@@ -41575,6 +41813,7 @@ PlaceObj('JungleCamp_Flashlight_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
+	'SunShadow', false,
 	'AutoAttachMode', "Broken",
 }, nil, 1020828926)
 PlaceObj('BunkerInterior_AmmoBox_02', {
@@ -41586,6 +41825,7 @@ PlaceObj('BunkerInterior_AmmoBox_02', {
 	'Scale', 65,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1401881916)
 PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Pos', point(146649, 156511, 14616),
@@ -41595,6 +41835,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'ApplyToGrids', true,
 	'Collision', true,
+	'SunShadow', false,
 }, nil, 1482704030)
 PlaceObj('BunkerInterior_AmmoBox_01', {
 	'ColorizationPalette', "",
@@ -41605,6 +41846,7 @@ PlaceObj('BunkerInterior_AmmoBox_01', {
 	'Scale', 65,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1481151039)
 PlaceObj('Shanty_Debris_01', {
 	'ColorizationPalette', "",
@@ -41616,6 +41858,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1005965902)
 PlaceObj('WallSlab', {
@@ -41744,6 +41987,7 @@ PlaceObj('BunkerInterior_PropSet_04', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1714059308)
 PlaceObj('FloorSlab', {
 	'Pos', point(147000, 156600, 18200),
@@ -41793,6 +42037,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2473,
 }, nil, 1543898923)
 PlaceObj('Shanty_BucketMetal_01', {
@@ -41800,12 +42045,14 @@ PlaceObj('Shanty_BucketMetal_01', {
 	'Angle', 16151,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1029286944)
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(147373, 156996, 21700),
 	'Angle', 7691,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1592360068)
 PlaceObj('FloorSlab', {
 	'Pos', point(145800, 157800, 14000),
@@ -41894,6 +42141,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
+	'SunShadow', false,
 	'CollectionIndex', 2052,
 }, nil, 1338093285)
 PlaceObj('RoofPlaneSlab', {
@@ -42515,6 +42763,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1617976340)
 PlaceObj('BunkerInterior_PropSet_04', {
@@ -42525,6 +42774,7 @@ PlaceObj('BunkerInterior_PropSet_04', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1883598933)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(143400, 162600, 21510),
@@ -42794,6 +43044,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(433, -4049, 433),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1704,
 }, nil, 1604923703)
 PlaceObj('WallSlab', {
@@ -42936,6 +43187,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 500,
 }, nil, 1583288584)
@@ -43058,6 +43310,7 @@ PlaceObj('Bunker_MetalBed_01', {
 	'Pos', point(145899, 161254, 21700),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1627282504)
 PlaceObj('Shanty_Debris_01', {
 	'ColorizationPalette', "",
@@ -43068,6 +43321,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1839030765)
 PlaceObj('BunkerInterior_AmmoBox_01', {
@@ -43078,6 +43332,7 @@ PlaceObj('BunkerInterior_AmmoBox_01', {
 	'Angle', 12060,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 397,
 	'DestructionOverrideMask', 1,
 }, nil, 1555211202)
@@ -43116,6 +43371,7 @@ PlaceObj('BunkerInterior_PropSet_02', {
 	'Pos', point(145800, 161400, 18200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 397,
 	'DestructionOverrideMask', 1,
 }, nil, 1680616694)
@@ -43148,6 +43404,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2473,
 }, nil, 1036982630)
 PlaceObj('FloorSlab', {
@@ -43201,6 +43458,7 @@ PlaceObj('WeaponProp_Box_01', {
 	'Angle', 1291,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1264311473)
 PlaceObj('BunkerInterior_AmmoBox_02', {
 	'ColorizationPalette', "",
@@ -43211,6 +43469,7 @@ PlaceObj('BunkerInterior_AmmoBox_02', {
 	'StateText', "open",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 397,
 	'DestructionOverrideMask', 1,
 }, nil, 1194263965)
@@ -43220,12 +43479,14 @@ PlaceObj('Colonial_Bookshelf_Books_01', {
 	'Axis', point(1010, 2807, 2807),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1092531387)
 PlaceObj('JungleCamp_Boots_01', {
 	'Pos', point(147292, 160839, 21700),
 	'Angle', 16303,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1556763466)
 PlaceObj('FloorSlab', {
 	'Pos', point(147000, 161400, 14000),
@@ -43381,6 +43642,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
+	'SunShadow', false,
 	'CollectionIndex', 479,
 }, nil, 1314399635)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -43390,6 +43652,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 479,
 }, nil, 1293170886)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -43399,6 +43662,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 479,
 }, nil, 1562096882)
 PlaceObj('FloorSlab', {
@@ -43435,6 +43699,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 13200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 479,
 }, nil, 1110972412)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -43444,6 +43709,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(494, 4035, 494),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 479,
 }, nil, 1093019238)
 PlaceObj('FloorSlab', {
@@ -43476,6 +43742,7 @@ PlaceObj('City_Computer_04', {
 	'Angle', 5558,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3658,
 }, nil, 1888294700)
 PlaceObj('WallSlab', {
@@ -43617,6 +43884,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'OnRoof', true,
 	'CollectionIndex', 3374,
 }, nil, 1405018187)
@@ -43645,6 +43913,7 @@ PlaceObj('Shanty_Fan_01', {
 	'Angle', 19357,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 479,
 }, nil, 1175077484)
 PlaceObj('JungleCamp_FoodCanPile_02', {
@@ -43663,6 +43932,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1582770865)
 PlaceObj('Shanty_Debris_01', {
 	'ColorizationPalette', "",
@@ -43674,6 +43944,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2007,
 }, nil, 1686197559)
 PlaceObj('FloorSlab', {
@@ -44918,6 +45189,7 @@ PlaceObj('BunkerInterior_WaterPipesCross_01', {
 	'Axis', point(-2896, 0, 2896),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 976,
 }, nil, 1008882584)
 PlaceObj('WallSlab', {
@@ -45851,6 +46123,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 335,
 }, nil, 1013852795)
 PlaceObj('WallSlab', {
@@ -46228,6 +46501,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2007,
 }, nil, 1072743264)
 PlaceObj('FloorSlab', {
@@ -46248,6 +46522,7 @@ PlaceObj('BunkerInterior_PropSet_03', {
 	'ColorModifier', RGBA(143, 142, 142, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1006363534)
 PlaceObj('FloorSlab', {
 	'Pos', point(149400, 156600, 18200),
@@ -46383,6 +46658,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 335,
 }, nil, 1174275206)
 PlaceObj('WallSlab', {
@@ -46577,6 +46853,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 335,
 }, nil, 1870732685)
 PlaceObj('WallSlab', {
@@ -46763,6 +47040,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1201405453)
 PlaceObj('Room', {
@@ -46826,6 +47104,7 @@ PlaceObj('BunkerInterior_Locker_02', {
 	'Scale', 90,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1831362473)
 PlaceObj('BunkerInterior_PropSet_03', {
 	'ColorizationPalette', "",
@@ -46835,6 +47114,7 @@ PlaceObj('BunkerInterior_PropSet_03', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1068795233)
 PlaceObj('FloorSlab', {
 	'Pos', point(149400, 159000, 21700),
@@ -46865,6 +47145,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2473,
 }, nil, 1265635118)
 PlaceObj('Shanty_Debris_01', {
@@ -46876,6 +47157,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1446695174)
 PlaceObj('RoomCorner', {
@@ -47189,6 +47471,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(150600, 156500),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1304526599)
 PlaceObj('FloorSlab', {
 	'Pos', point(150600, 156600, 21700),
@@ -47518,6 +47801,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(150600, 157700),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1111350523)
 PlaceObj('FloorSlab', {
 	'Pos', point(150600, 157800, 21700),
@@ -47648,6 +47932,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 335,
 }, nil, 1085246974)
 PlaceObj('WallSlab', {
@@ -47831,6 +48116,7 @@ PlaceObj('BunkerInterior_WaterPipesHor_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 335,
 }, nil, 1169934069)
 PlaceObj('WallSlab', {
@@ -47892,6 +48178,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2473,
 }, nil, 1058411294)
 PlaceObj('Shanty_Debris_01', {
@@ -47904,6 +48191,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1133824590)
 PlaceObj('FloorSlab', {
 	'Pos', point(148200, 161400, 14000),
@@ -47950,18 +48238,21 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2941,
 }, nil, 1787447160)
 PlaceObj('BunkerInterior_Table_04', {
 	'Pos', point(149262, 160198, 21700),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1876434323)
 PlaceObj('WeaponProp_Pile_03', {
 	'Pos', point(149286, 160233, 22399),
 	'Angle', 19644,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1266984727)
 PlaceObj('FloorSlab', {
 	'Pos', point(149400, 160200, 14000),
@@ -48005,6 +48296,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
+	'SunShadow', false,
 	'CollectionIndex', 3996,
 	'AutoAttachMode', "Warm light B",
 	'AllAttachedLightsToDetailLevel', "Essential",
@@ -48027,6 +48319,7 @@ PlaceObj('BunkerInterior_PropSet_05', {
 	'ColorModifier', RGBA(143, 142, 142, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1154817187)
 PlaceObj('FloorSlab', {
 	'Pos', point(149400, 161400, 18200),
@@ -48056,6 +48349,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2473,
 }, nil, 1179490138)
 PlaceObj('RoofPlaneSlab', {
@@ -50397,6 +50691,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2007,
 }, nil, 1439926480)
 PlaceObj('TropicalFillerPlants_05', {
@@ -50614,6 +50909,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2007,
 }, nil, 1392617562)
 PlaceObj('WallSlab', {
@@ -50740,6 +51036,7 @@ PlaceObj('BunkerInterior_PropSet_03', {
 	'ColorModifier', RGBA(160, 158, 158, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1871333295)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 166200, 18010),
@@ -50841,6 +51138,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(433, -4049, 433),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2107,
 }, nil, 1808784527)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -50850,6 +51148,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(501, 4034, 501),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2107,
 }, nil, 1732868600)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -50859,6 +51158,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2107,
 }, nil, 1161781141)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -50868,6 +51168,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(741, -3959, 741),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2107,
 }, nil, 1675781295)
 PlaceObj('FloorSlab', {
@@ -51398,6 +51699,7 @@ PlaceObj('Shanty_Debris_05', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2007,
 }, nil, 1125374567)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -51407,6 +51709,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(131, 4091, 131),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1334,
 }, nil, 1119277267)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -51416,6 +51719,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(433, -4049, 433),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1334,
 }, nil, 1290863947)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -51425,6 +51729,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1334,
 }, nil, 1169003603)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -51434,6 +51739,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(501, 4034, 501),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 1334,
 }, nil, 1299065349)
 PlaceObj('FloorSlab', {
@@ -51461,6 +51767,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(2268, 2545, 2269),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2371,
 }, nil, 1399218287)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -51470,6 +51777,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(2239, 2598, 2239),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2371,
 }, nil, 1087921171)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -51479,6 +51787,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(2349, 2395, 2349),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2371,
 }, nil, 1406390753)
 PlaceObj('FloorSlab', {
@@ -51495,6 +51804,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
+	'SunShadow', false,
 	'CollectionIndex', 3806,
 	'AutoAttachMode', "Warm light B",
 	'AllAttachedLightsToDetailLevel', "Essential",
@@ -51518,6 +51828,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2007,
 }, nil, 1676913136)
 PlaceObj('WallSlab', {
@@ -51649,6 +51960,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(2305, -2481, 2305),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2371,
 }, nil, 1549174064)
 PlaceObj('MilitaryCamp_Grenade_01', {
@@ -51658,6 +51970,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(2400, -2292, 2400),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2371,
 }, nil, 1297714011)
 PlaceObj('FloorSlab', {
@@ -51699,6 +52012,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 2007,
 }, nil, 1273493962)
 PlaceObj('WallSlab', {
@@ -52740,6 +53054,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Axis', point(-354, -717, 4017),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3240,
 }, nil, 1014224726)
 PlaceObj('CoastalPlant_01_Tree_01', {
@@ -52839,6 +53154,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1252041949)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(138506, 204941, -3834),
@@ -52847,6 +53163,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBA(75, 73, 73, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1385994221)
 PlaceObj('Scaffolding_Planks_04', {
 	'ColorizationPalette', "",
@@ -52856,6 +53173,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Axis', point(-388, -390, 4058),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 	'CollectionIndex', 3240,
 }, nil, 1864176802)
 PlaceObj('Vehicle_Boat', {
@@ -84554,10 +84872,10 @@ p("TropicalPlant_04_Sapling_01",14425,77310,21360,137,2097156)
 p("TropicalPlant_Grass_03",15407,77105,4622,94,32,2097220)
 p("TropicalPlant_Grass_03",15572,77923,9186,97,32,2097220)
 p("TropicalPlant_Grass_03",10915,90297,10080,120,32,2097220)
-p("DecBunker_ConcretePile_02",19900,95140,8350,13071,4282326551,"terrainchunk",10,0,0,40,100,10,40,60,2228233)
+p("DecBunker_ConcretePile_02",19900,95140,8350,13071,4282326551,64,"terrainchunk",10,0,0,40,100,10,40,60,2228361)
 p("DecJungleForest_02",39962,66836,8526,625,129,37,3,69207045)
 p("DecBloodTrail_03",47000,66677,8522,8247,80,80,2098181)
-p("DecBunker_ConcretePile_03",46040,68075,18048,4283577901,-14,17,4096,"terrainchunk",10,0,0,17,37,10,40,60,2228248)
+p("DecBunker_ConcretePile_03",46040,68075,18048,4283577901,-14,17,4096,64,"terrainchunk",10,0,0,17,37,10,40,60,2228376)
 p("DecBloodTrail_03",47712,66084,8522,18147,80,80,2098181)
 p("DecBloodTrail_02",48349,65852,8522,20159,80,80,2098181)
 p("TropicalRockAssembly_01",47854,79761,8262,18672,128,99,563,4055,"terrainchunk",10,0,0,74,100,10,40,60,2228245)
@@ -84631,7 +84949,7 @@ p("TropicalPlant_01_Shrub",80433,121752,17807,13920,158,96,2097221)
 p("TropicalPlant_01_Shrub",80402,122406,17869,18360,147,96,2097221)
 p("TropicalPlant_01_Sapling",81627,121131,18003,15360,157,96,2097221)
 p("TropicalPlant_01_Shrub",81631,122122,18151,17100,165,96,2097221)
-p("DecBunker_ConcretePile_05",81160,128957,16794,9420,111,"terrainchunk",10,0,0,69,100,10,40,60,2228229)
+p("DecBunker_ConcretePile_05",81160,128957,16794,9420,111,64,"terrainchunk",10,0,0,69,100,10,40,60,2228357)
 p("TropicalRockSharp_01",81222,129910,8002,6248,184,-206,-1921,3611,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
 p("TropicalPlant_04_Shrub_01",85516,100721,23090,15556,198,3264,2097221)
 p("TropicalPlant_Grass_03",82868,105008,18074,15171,92,32,2097221)
@@ -84676,7 +84994,7 @@ p("ParSystem",95591,101413,21213,2665,90,"Falling_Leafs",270532613)
 p("TropicalPlant_Grass_03",97128,98542,18720,107,32,2097220)
 p("TropicalPlant_04_Sapling_03",97723,98749,1860,123,2097156)
 p("TropicalPlant_Grass_03",97774,99089,12178,116,32,2097220)
-p("DecJungleForest_03",96997,101070,9320,108,32,8,2097348)
+p("DecJungleForest_03",96997,101070,9320,108,32,2097220)
 p("TropicalPlant_Grass_03",96617,102384,18689,73,32,2097220)
 p("Bunker_Entrance_01",95400,106200,11900,16200,98,2097157)
 p("Bunker_Entrance_02",95400,106200,11900,16200,98,1744,2097413)
@@ -84707,7 +85025,7 @@ p("TropicalPlant_01_Shrub",96362,114089,13320,160,96,2097220)
 p("TropicalPlant_01_Shrub",97339,112853,18120,112,96,2097220)
 p("TropicalRockAssembly_04",97738,113571,12694,6660,124,4287203721,"terrainchunk",0,0,0,59,100,16,40,60,2228237)
 p("TropicalPlant_01_Shrub",97618,113857,12420,141,96,2097220)
-p("DecBunker_ConcretePile_02",83055,115018,16709,111,"terrainchunk",10,0,0,39,100,10,40,60,2228228)
+p("DecBunker_ConcretePile_02",83055,115018,16709,111,64,"terrainchunk",10,0,0,39,100,10,40,60,2228356)
 p("TropicalPlant_Grass_03",82769,117744,17459,20579,110,32,2097221)
 p("TropicalPlant_01_Shrub",84593,115903,17263,21060,122,96,2097221)
 p("TropicalPlant_Grass_03",85057,114730,17095,13020,97,32,2097221)
@@ -84724,7 +85042,7 @@ p("TropicalPlant_04_Shrub_01",82123,122257,18267,12063,185,2097157)
 p("TropicalPlant_Grass_03",82459,122188,18325,959,108,32,2097221)
 p("TropicalPlant_01_Shrub",82752,122540,18407,13680,120,96,2097221)
 p("ParSystem",84846,119648,29046,"Falling_Leafs",268435457)
-p("DecBunker_ConcretePile_05",84000,120000,5930,129,"terrainchunk",10,0,0,19,100,10,40,60,2228228)
+p("DecBunker_ConcretePile_05",84000,120000,5930,129,64,"terrainchunk",10,0,0,19,100,10,40,60,2228356)
 p("TropicalPlant_Grass_03",85516,119596,18255,18420,107,32,2097221)
 p("WW2_ConcreteCliffWallx4_02",85200,122000,14000,16200,3620,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("TropicalPlant_04_Shrub_01",85616,122334,21246,7225,148,637,509,4014,2097173)
@@ -84770,27 +85088,27 @@ p("TropicalPlant_04_Shrub_01",87222,124969,18385,12758,127,2097157)
 p("TropicalPlant_Grass_03",87538,126390,20016,5173,125,2097157)
 p("TropicalPlant_04_Sapling_03",87624,126932,19808,1860,123,2097157)
 p("TropicalPlant_04_Sapling_03",88699,125885,20146,15240,123,2097157)
-p("Bunker_Cable_Hor_02",88200,126600,16800,3565,257)
-p("Bunker_Cable_Hor_02",88200,126600,16800,5400,3565,2097409)
+p("Bunker_Cable_Hor_02",88200,126600,16800,64,3565,385)
+p("Bunker_Cable_Hor_02",88200,126600,16800,5400,64,3565,2097537)
 p("TropicalPlant_Grass_03",89833,125000,22394,20406,120,2097157)
-p("Bunker_Cable_Hor_02",89400,126600,16800,5400,3565,2097409)
+p("Bunker_Cable_Hor_02",89400,126600,16800,5400,64,3565,2097537)
 p("Bunker_Cable_Hor_Turn_01",89400,126600,19600,16200,2525,2097409)
-p("BrokenOff_Concrete_03",89417,126904,19600,20133,74,4281282855,32,842,2097485)
+p("BrokenOff_Concrete_03",89417,126904,19600,20133,74,4281282855,32,64,842,2097613)
 p("TropicalRockSharp_02",86487,127744,16110,14648,250,-358,2767,2998,3200,2,"terrainchunk",10,0,0,89,100,10,40,60,2228437)
 p("Bunker_Cable_Hor_01",87000,127800,16800,10800,1926,2097409)
 p("Bunker_Cable_Hor_02",87000,129000,16800,10800,1926,2097409)
 p("TropicalPlant_Grass_03",87675,127272,19770,12178,116,32,2097221)
-p("DecBunker_ConcretePile_05",86725,129341,16794,9420,111,"terrainchunk",10,0,0,69,100,10,40,60,2228229)
+p("DecBunker_ConcretePile_05",86725,129341,16794,9420,111,64,"terrainchunk",10,0,0,69,100,10,40,60,2228357)
 p("Bunker_Cable_Hor_02",87000,130200,16800,10800,1926,2097409)
 p("DecWallDirt_03",87521,129031,17604,10801,141,4282200849,-2896,0,2896,32,1360,60,7,69207389)
-p("DecWallLeak_02",87483,129535,18683,16197,132,0,-4096,0,32,8,1360,2097621)
+p("DecWallLeak_02",87483,129535,18683,16197,132,0,-4096,0,32,1360,2097493)
 p("DecWallDirt_03",87722,129031,17604,10801,141,4282200849,-2896,0,2896,32,1360,60,7,69207389)
 p("DecConcreteShuttering_01",87723,129338,17406,10801,101,4283451697,-2896,0,2896,1360,2097437)
 p("DecWallLeak_02",87684,129535,18683,16197,132,0,-4096,0,32,1360,2097493)
 p("DecWallDirt_06",87745,130288,19677,10799,161,4284634157,0,-4095,0,32,2101,51,7,69207389)
-p("DecBunker_ConcretePile_04",88374,127199,19610,46,92,4285884752,842,2097421)
-p("Bunker_Cable_Hor_02",88200,127800,16800,3565,257)
-p("Bunker_Cable_Hor_01",88200,129000,16800,3565,257)
+p("DecBunker_ConcretePile_04",88374,127199,19610,46,92,4285884752,64,842,2097549)
+p("Bunker_Cable_Hor_02",88200,127800,16800,64,3565,385)
+p("Bunker_Cable_Hor_01",88200,129000,16800,64,3565,385)
 p("Bunker_Cable_Hor_02",89400,127800,19600,10800,891,2097409)
 p("TropicalRockSharp_02",89761,127494,16110,14648,250,-358,2767,2998,3200,2,"terrainchunk",10,0,0,89,100,10,40,60,2228437)
 p("DecBunkerFloor_03",89755,127995,16800,13800,133,4284503608,32,56,2098253)
@@ -84798,14 +85116,14 @@ p("TropicalPlant_Grass_03",89248,128045,20076,14700,107,32,2097221)
 p("Bunker_Cable_Hor_02",89400,129000,19600,10800,891,2097409)
 p("DecConcreteShuttering_01",89900,128742,21760,10801,94,4283451697,-2896,0,2897,1360,2097437)
 p("DecConcreteShuttering_01",90103,128742,21760,10801,94,4283451697,-2896,0,2897,1360,2097437)
-p("TropicalPlant_Grass_03",90035,128954,20116,20341,107,32,2097221)
+p("TropicalPlant_Grass_03",90035,128954,20116,20341,107,32,64,2097349)
 p("TropicalPlant_Grass_03",88350,129444,19660,20341,107,32,2097221)
-p("Bunker_Cable_Hor_02",88200,130200,16800,3565,257)
-p("DecBunker_ConcretePile_04",88833,130229,16800,19790,111,"terrainchunk",10,0,0,69,100,10,40,60,2228229)
-p("Prison_DecPaperPile_02",89073,130370,16800,16329,77,32,2097221)
+p("Bunker_Cable_Hor_02",88200,130200,16800,64,3565,385)
+p("DecBunker_ConcretePile_04",88833,130229,16800,19790,111,64,"terrainchunk",10,0,0,69,100,10,40,60,2228357)
+p("Prison_DecPaperPile_02",89073,130370,16800,16329,77,32,64,2097349)
 p("DecWallDirt_06",89867,129447,25386,10799,101,4284634157,169,-4092,0,32,2680,51,7,69207389)
-p("BrokenOff_Concrete_04",90012,129423,19598,10774,95,4281217062,32,842,2097485)
-p("DecWallDirt_03",89924,129997,20367,10801,141,4282200849,-2896,0,2896,32,8,3746,60,7,69207517)
+p("BrokenOff_Concrete_04",90012,129423,19598,10774,95,4281217062,32,64,842,2097613)
+p("DecWallDirt_03",89924,129997,20367,10801,141,4282200849,-2896,0,2896,32,3746,60,7,69207389)
 p("Bunker_Cable_Hor_02",89400,130200,19600,10800,891,2097409)
 p("DecPaperPile_02",89812,130316,16838,17901,90,2097157)
 p("DecWallLeak_02",89886,130501,22160,16197,132,0,-4096,0,32,3746,2097493)
@@ -84854,82 +85172,82 @@ p("TropicalPlant_Grass_03",90292,123039,18689,73,32,2097220)
 p("WW2_ConcreteCliffWallx4_02",90400,125200,16100,5400,3620,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx4_02",90400,125200,16800,5400,3620,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("TropicalCliffSharp_01",90600,125400,16800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
-p("Bunker_Cable_Hor_01",90600,126600,16800,5400,3565,2097409)
+p("Bunker_Cable_Hor_01",90600,126600,16800,5400,64,3565,2097537)
 p("Bunker_Cable_Hor_02",90600,126600,19600,16200,2525,2097409)
 p("Bunker_Cable_Ver_Dec_02",90600,126600,19600,16200,2525,2097409)
 p("Bunker_Cable_Hor_Turn_01",90600,126600,22400,16200,1164,2097409)
-p("DecWallDirt_03",91450,126062,17814,14401,167,4282200849,-2365,-2365,2365,32,8,1360,53,7,69207517)
-p("DecWallDirt_06",91768,126113,19677,10800,161,4284634157,2982,-2807,0,32,8,2101,51,7,69207517)
+p("DecWallDirt_03",91450,126062,17814,14401,167,4282200849,-2365,-2365,2365,32,1360,53,7,69207389)
+p("DecWallDirt_06",91768,126113,19677,10800,161,4284634157,2982,-2807,0,32,2101,51,7,69207389)
 p("DecWallLeak_02",91801,126072,18610,7201,156,-2365,2365,2363,32,1360,2097493)
-p("Bunker_Cable_Hor_02",91800,126600,16800,5400,3565,2097409)
+p("Bunker_Cable_Hor_02",91800,126600,16800,5400,64,3565,2097537)
 p("Bunker_Cable_Hor_02",91800,126600,19600,16200,2525,2097409)
 p("Bunker_Cable_Hor_02",91800,126600,22400,16200,3617,2097409)
 p("WW2_ConcreteCliffTop",94200,123000,14700,"terrainchunk",10,0,0,84,100,10,40,60,131073)
 p("DecWallDirt_02",92914,126179,16800,10799,250,4284634157,-2787,-3001,0,32,144,51,7,69207389)
-p("Bunker_Cable_Hor_02",93000,126600,16800,5400,3565,2097409)
+p("Bunker_Cable_Hor_02",93000,126600,16800,5400,64,3565,2097537)
 p("Bunker_Cable_Hor_02",93000,126600,19600,16200,2525,2097409)
 p("Bunker_Cable_Hor_01",93000,126600,22400,16200,3617,2097409)
-p("Bunker_Cable_Hor_01",94200,126600,16800,5400,3565,2097409)
-p("Bunker_Cable_Hor_02",94200,126600,16800,10800,3565,2097409)
+p("Bunker_Cable_Hor_01",94200,126600,16800,5400,64,3565,2097537)
+p("Bunker_Cable_Hor_02",94200,126600,16800,10800,64,3565,2097537)
 p("Bunker_Cable_Hor_02",94200,126600,19600,16200,2525,2097409)
 p("Bunker_Cable_Hor_02",94200,126600,22400,16200,3617,2097409)
-p("Bunker_Cable_Hor_02",90600,127800,19600,891,257)
-p("Bunker_Cable_Hor_02",90600,127800,19600,5400,2525,2097409)
-p("Bunker_Cable_Ver_Dec_01",90600,127800,19600,891,257)
+p("Bunker_Cable_Hor_02",90600,127800,19600,64,891,385)
+p("Bunker_Cable_Hor_02",90600,127800,19600,5400,64,2525,2097537)
+p("Bunker_Cable_Ver_Dec_01",90600,127800,19600,64,891,385)
 p("Bunker_Cable_Hor_02",90600,127800,22400,10800,1164,2097409)
-p("DecWallDirt_01",90412,128214,19677,10799,250,4284634157,-2945,2846,0,32,8,2101,51,7,69207517)
-p("Bunker_Cable_Hor_02",90600,129000,19600,891,257)
+p("DecWallDirt_01",90412,128214,19677,10799,250,4284634157,-2945,2846,0,32,2101,51,7,69207389)
+p("Bunker_Cable_Hor_02",90600,129000,19600,64,891,385)
 p("Bunker_Cable_Hor_02",90600,129000,22400,10800,1164,2097409)
 p("DecConcreteShuttering_01",91471,127052,22598,7200,109,4283451697,-2364,2364,2365,1360,2097437)
-p("DecWallDirt_01",91424,127565,25386,10800,200,4284634157,2063,-3538,0,32,8,2680,38,7,69207517)
+p("DecWallDirt_01",91424,127565,25386,10800,200,4284634157,2063,-3538,0,32,2680,38,7,69207389)
 p("DecWallLeak_04",91953,127125,23855,14398,98,-2365,-2365,2363,32,1817,2097493)
-p("BrokenOff_Concrete_04",92058,127091,19598,5504,95,4281217062,32,842,2097485)
+p("BrokenOff_Concrete_04",92058,127091,19598,5504,95,4281217062,32,64,842,2097613)
 p("DecWallDirt_03",92074,127062,20367,7200,141,4282200849,-2364,2364,2365,32,3746,60,7,69207389)
-p("Bunker_Cable_Hor_02",91800,127800,19600,5400,2525,2097409)
+p("Bunker_Cable_Hor_02",91800,127800,19600,5400,64,2525,2097537)
 p("Bunker_Cable_Hor_02",91800,127800,22400,1164,257)
 p("Bunker_Cable_Hor_02",91800,127800,22400,5400,3617,2097409)
 p("DecConcreteShuttering_01",91136,128742,22822,10801,94,4283451697,-2896,0,2897,1360,2097437)
 p("Bunker_Cable_Hor_02",91800,129000,22400,1164,257)
-p("BrokenOff_Concrete_04",90200,129300,22400,10774,73,4281217062,32,757,2097485)
+p("BrokenOff_Concrete_04",90200,129300,22400,10774,73,4281217062,32,64,757,2097613)
 p("DecWallDirt_06",90182,129395,22400,10799,89,4284634157,0,-4095,0,32,1323,51,7,69207389)
 p("DecBunkerFloor_03",90664,129587,19598,13773,102,4284503608,32,2101,56,2098509)
-p("Bunker_Cable_Hor_02",90600,130200,19600,891,257)
+p("Bunker_Cable_Hor_02",90600,130200,19600,64,891,385)
 p("Bunker_Cable_Hor_02",90600,130200,22400,10800,1164,2097409)
 p("DecConcreteShuttering_01",90151,130892,23070,7200,101,4283451697,-2364,2364,2365,1360,2097437)
 p("DecWallDirt_03",91102,130435,23259,10801,141,4282200849,-2896,0,2897,32,1817,60,7,69207389)
-p("BrokenOff_Concrete_04",91225,129070,22427,10774,73,4281217062,32,757,2097485)
+p("BrokenOff_Concrete_04",91225,129070,22427,10774,73,4281217062,32,64,757,2097613)
 p("DecWallDirt_03",91333,130435,23259,10801,141,4282200849,-2896,0,2897,32,1817,60,7,69207389)
 p("DecWallDirt_01",91527,130409,22244,10800,250,4284634157,735,-4029,0,32,1323,51,7,69207389)
 p("TropicalRockSharp_02",91566,131046,14478,14648,250,-358,2767,2998,3200,2,"terrainchunk",10,0,0,89,100,10,40,60,2228437)
 p("Bunker_Cable_Hor_02",91800,130200,22400,1164,257)
 p("Bunker_Cable_Hor_02",91800,130200,22400,16200,2351,2097409)
 p("DecConcreteShuttering_01",92159,130677,23254,7200,93,4283451697,-2364,2364,2365,1360,2097437)
-p("DecWallDirt_03",92074,130895,23259,7200,141,4282200849,-2364,2364,2365,32,8,1817,60,7,69207517)
-p("DecBunker_ConcretePile_05",92375,127412,16800,7710,111,"terrainchunk",10,0,0,69,100,10,40,60,2228229)
+p("DecWallDirt_03",92074,130895,23259,7200,141,4282200849,-2364,2364,2365,32,1817,60,7,69207389)
+p("DecBunker_ConcretePile_05",92375,127412,16800,7710,111,64,"terrainchunk",10,0,0,69,100,10,40,60,2228357)
 p("DecConcreteShuttering_01",92665,127270,22322,7200,105,4283451697,-2364,2364,2365,1360,2097437)
-p("DecWallDirt_01",92748,127244,19677,10799,250,4284634157,-3144,2624,0,32,8,2101,51,7,69207517)
-p("Bunker_Cable_Hor_02",93000,127800,19600,5400,2525,2097409)
+p("DecWallDirt_01",92748,127244,19677,10799,250,4284634157,-3144,2624,0,32,2101,51,7,69207389)
+p("Bunker_Cable_Hor_02",93000,127800,19600,5400,64,2525,2097537)
 p("Bunker_Cable_Hor_02",93000,127800,22400,5400,3617,2097409)
-p("Prison_DecPaperPile_02",93317,127206,16800,2147,32,2097217)
-p("DecWallLeak_04",93402,127125,23413,14398,129,-2365,-2365,2363,32,8,1817,2097621)
+p("Prison_DecPaperPile_02",93317,127206,16800,2147,32,64,2097345)
+p("DecWallLeak_04",93402,127125,23413,14398,129,-2365,-2365,2363,32,1817,2097493)
 p("DecWallDirt_01",93578,127388,25386,10800,250,4284634157,-3367,2333,0,32,2680,51,7,69207389)
 p("DecWallDirt_02",93726,127690,22244,10799,185,4284634157,-3313,2408,0,32,51,7,69207133)
-p("Bunker_Cable_Hor_02",94200,127800,16800,10800,3565,2097409)
-p("Bunker_Cable_Hor_02",94200,127800,19600,5400,2525,2097409)
-p("Bunker_Cable_Hor_02",94200,127800,19600,10800,3,2097409)
+p("Bunker_Cable_Hor_02",94200,127800,16800,10800,64,3565,2097537)
+p("Bunker_Cable_Hor_02",94200,127800,19600,5400,64,2525,2097537)
+p("Bunker_Cable_Hor_02",94200,127800,19600,10800,64,3,2097537)
 p("Bunker_Cable_Hor_01",94200,127800,22400,5400,3617,2097409)
 p("Bunker_Cable_Hor_02",94200,127800,22400,10800,2081,2097409)
 p("DecBunkerFloor_01",93672,128836,25396,223,109,4284503608,32,2680,56,2098509)
-p("Bunker_Cable_Hor_02",94200,129000,16800,10800,3565,2097409)
-p("Bunker_Cable_Hor_02",94200,129000,19600,10800,3,2097409)
+p("Bunker_Cable_Hor_02",94200,129000,16800,10800,64,3565,2097537)
+p("Bunker_Cable_Hor_02",94200,129000,19600,10800,64,3,2097537)
 p("Bunker_Cable_Hor_02",94200,129000,22400,10800,2081,2097409)
-p("DecBunker_ConcretePile_05",92444,130854,16800,18668,111,"terrainchunk",10,0,0,69,100,10,40,60,2228229)
+p("DecBunker_ConcretePile_05",92444,130854,16800,18668,111,64,"terrainchunk",10,0,0,69,100,10,40,60,2228357)
 p("DecWallDirt_06",92506,130839,25386,10801,101,4284634157,2909,2884,0,32,2680,51,7,69207389)
 p("DecWallLeak_02",92578,130888,24700,14398,98,-2365,-2365,2363,32,1817,2097493)
 p("Bunker_Cable_Hor_01",93000,130200,22400,16200,2351,2097409)
-p("BrokenOff_Concrete_04",92841,130912,22400,5254,73,4281217062,32,757,2097485)
-p("Bunker_Cable_Hor_02",94200,130200,16800,10800,3565,2097409)
-p("Bunker_Cable_Hor_02",94200,130200,19600,10800,3,2097409)
+p("BrokenOff_Concrete_04",92841,130912,22400,5254,73,4281217062,32,64,757,2097613)
+p("Bunker_Cable_Hor_02",94200,130200,16800,10800,64,3565,2097537)
+p("Bunker_Cable_Hor_02",94200,130200,19600,10800,64,3,2097537)
 p("Bunker_Cable_Hor_02",94200,130200,22400,10800,2081,2097409)
 p("Bunker_Cable_Hor_02",94200,130200,22400,16200,2351,2097409)
 p("DecWallDirt_02",93965,130463,22332,10799,185,4284634157,-2732,3051,0,32,1323,51,7,69207389)
@@ -84942,14 +85260,14 @@ p("Bunker_Cable_Hor_Turn_01",95400,126600,19600,2525,257)
 p("Bunker_Cable_Hor_Turn_01",95400,126600,22400,2081,257)
 p("WW2_ConcreteCliffWallx4_02",95600,126800,16000,10800,"terrainchunk",10,0,0,84,100,10,40,60,2228225)
 p("TropicalPlant_01_Shrub",98174,123004,9278,112,-62,-54,4095,96,2097236)
-p("BrokenOff_Concrete_02",96596,126938,21049,9163,107,4282269246,32,"terrainchunk",10,0,0,85,100,10,40,60,2228301)
+p("BrokenOff_Concrete_02",96596,126938,21049,9163,107,4282269246,32,64,"terrainchunk",10,0,0,85,100,10,40,60,2228429)
 p("TropicalPlant_04_Sapling_03",97950,125303,16500,153,2097156)
 p("DecWallLeak_04",94316,127125,23413,14398,129,-2365,-2365,2363,32,1817,2097493)
 p("DecConcreteShuttering_01",94716,127565,18191,10801,94,4283451697,-2896,0,2897,1360,2097437)
 p("DecConcreteShuttering_01",94716,127565,22822,10801,94,4283451697,-2896,0,2897,1360,2097437)
 p("DecConcreteShuttering_01",94931,127381,22887,10801,94,4283451697,-2896,0,2897,1360,2097437)
 p("MetalScaff_Base_01",95100,127200,21000,10800,1647,2150911028,"",1075839745)
-p("DecWallLeak_01",94901,128183,23850,16197,98,0,-4095,0,32,8,1817,2097621)
+p("DecWallLeak_01",94901,128183,23850,16197,98,0,-4095,0,32,1817,2097493)
 p("MetalScaff_Base_01",95100,129000,21000,10800,1647,2150911028,"",1075839745)
 p("Bunker_Cable_Hor_02",95400,127800,19600,3,257)
 p("Bunker_Cable_Hor_02",95400,127800,22400,2081,257)
@@ -84967,7 +85285,7 @@ p("DecWallDirt_03",94708,129031,17604,10801,141,4282200849,-2896,0,2896,32,1360,
 p("DecWallLeak_02",94670,129535,18683,16197,132,0,-4096,0,32,1360,2097493)
 p("DecWallDirt_06",94639,129642,19677,10799,161,4284634157,0,-4095,0,32,2101,51,7,69207389)
 p("DecWallDirt_01",94708,130021,16800,10800,250,4284634157,-4077,-387,0,32,144,51,7,69207389)
-p("DecWallLeak_04",94901,130201,24049,16197,98,0,-4095,0,32,8,1817,2097621)
+p("DecWallLeak_04",94901,130201,24049,16197,98,0,-4095,0,32,1817,2097493)
 p("MetalScaff_Base_01",95100,130800,21000,10800,1647,2150911028,"",1075839745)
 p("Bunker_Cable_Hor_02",95400,130200,19600,3,257)
 p("Bunker_Cable_Hor_02",95400,130200,22400,2081,257)
@@ -84981,7 +85299,7 @@ p("TropicalPlant_Grass_03",99304,89245,2288,110,379,-130,4076,2097172)
 p("TropicalRockAssembly_04",100290,89927,11509,16494,70,-142,-130,4091,"terrainchunk",10,0,0,92,99,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_01",100573,87503,11384,13489,118,2863,2097413)
 p("TropicalPlant_Grass_03",102012,89436,11576,17475,125,-191,-130,4089,2097173)
-p("DecJungleForest_03",102338,89118,11494,6375,107,32,8,2097349)
+p("DecJungleForest_03",102338,89118,11494,6375,107,32,2097221)
 p("TropicalPlant_04_Shrub_01",104296,86725,15186,198,1541,-977,3667,3264,2097236)
 p("TropicalPlant_Grass_03",98982,91010,11677,15736,110,-114,-130,4092,2097173)
 p("TropicalPlant_04_Shrub_01",98349,91177,16477,80,-142,-130,4091,2097172)
@@ -84992,7 +85310,7 @@ p("TropicalPlant_04_Shrub_01",99272,94125,4068,86,2097156)
 p("TropicalPlant_Dead_02",101369,90259,20274,4281150251,-671,-129,4038,2097176)
 p("TropicalPlant_04_Shrub_01",101119,92220,11582,13489,119,2863,2097413)
 p("TropicalPlant_04_Shrub_01",101318,92317,8146,86,53,-131,4093,2097172)
-p("DecJungleForest_01",100374,93874,11588,11469,107,32,8,2097349)
+p("DecJungleForest_01",100374,93874,11588,11469,107,32,2097221)
 p("TropicalRockSharp_04",100274,94615,11850,12800,155,-2756,-1235,2766,"terrainchunk",10,0,0,77,100,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_03",98798,97702,15240,123,2097156)
 p("TropicalPlant_08_Sapling_02",98346,97859,0)
@@ -85031,7 +85349,7 @@ p("TropicalPlant_04_Shrub_01",116904,97102,11179,6300,133,3306,2097413)
 p("DecShantyRubbish_02",117576,98066,11850,10774,2097153)
 p("TropicalPlant_04_Shrub_01",117850,97025,19800,133,3306,2097412)
 p("TropicalRockSharp_04",119215,90450,12463,15840,119,225,655,4037,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("DecJungleForest_03",119068,92813,9320,108,32,8,2097348)
+p("DecJungleForest_03",119068,92813,9320,108,32,2097220)
 p("TropicalPlant_04_Sapling_03",120207,92842,16500,153,2097156)
 p("TropicalPlant_01_Shrub",122081,91120,18120,112,96,2097220)
 p("TropicalPlant_01_Shrub",122360,92124,12420,141,96,2097220)
@@ -85053,7 +85371,7 @@ p("TropicalPlant_01_Shrub",122870,98084,16970,10860,106,3200,2097221)
 p("TropicalPlant_04_Shrub_02",123439,91436,11193,4320,139,2097157)
 p("TropicalPlant_04_Shrub_02",123753,91500,11193,9389,129,2097157)
 p("ParSystem",123098,92582,21215,2665,90,"Falling_Leafs",270532613)
-p("DecJungleForest_03",124504,92239,9320,108,32,8,2097348)
+p("DecJungleForest_03",124504,92239,9320,108,32,2097220)
 p("TropicalPlant_Grass_03",124124,93553,18689,73,32,2097220)
 p("TropicalPlant_01_Shrub",125532,93270,18120,112,96,2097220)
 p("TropicalRockAssembly_04",125931,93988,11684,6660,124,4287203721,"terrainchunk",0,0,0,59,100,16,40,60,2228237)
@@ -85070,7 +85388,7 @@ p("TropicalPlant_04_Shrub_01",126556,95988,3300,154,3306,2097412)
 p("TropicalPlant_04_Shrub_01",126018,97860,13300,11640,154,3306,2097413)
 p("TropicalPlant_04_Shrub_02",127204,93650,11243,9389,129,2097157)
 p("TropicalRockSharp_01",127330,94276,5526,16010,237,-1852,-2346,2801,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
-p("DecJungleForest_03",127955,94389,9320,108,32,8,2097348)
+p("DecJungleForest_03",127955,94389,9320,108,32,2097220)
 p("TropicalPlant_Grass_03",127575,95703,18689,73,32,2097220)
 p("TropicalPlant_04_Shrub_01",129004,96069,13140,154,3306,2097412)
 p("TropicalRockSharp_01",129022,97416,1700,14831,237,1070,-2560,3013,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
@@ -85114,7 +85432,7 @@ p("TropicalPlant_04_Shrub_01",102400,113189,4068,86,2097156)
 p("TropicalPlant_04_Shrub_01",105940,113065,11001,6414,136,1346,2097413)
 p("TropicalPlant_Grass_03",109259,103463,9080,3933,73,32,2097221)
 p("ParSystem",110564,102922,20813,9509,90,"Falling_Leafs",270532613)
-p("DecJungleForest_03",110303,104346,13042,16164,108,32,8,2097349)
+p("DecJungleForest_03",110303,104346,13042,16164,108,32,2097221)
 p("TropicalPlant_04_Sapling_03",111504,100177,8106,1744,153,2097157)
 p("TropicalPlant_01_Shrub",111582,101194,10378,20164,160,96,2097221)
 p("TropicalPlant_01_Shrub",111282,102436,11330,19264,141,96,2097221)
@@ -85226,7 +85544,7 @@ p("TropicalRockAssembly_04",100223,124299,20784,6660,124,4287203721,"terrainchun
 p("Floor_MetalScaff_ParapetEnd_01",100062,124518,27903,16200,124,-4096,0,0,2937,2149327928,"",1075839765)
 p("TropicalPlant_01_Shrub",100103,124585,12420,141,96,2097220)
 p("Floor_MetalScaff_ParapetEnd_01",100311,124450,29168,16200,101,-4096,0,0,3726,2149327928,"",1075839765)
-p("BrokenOff_Concrete_02",98567,125715,21030,9163,107,4282269246,32,"terrainchunk",10,0,0,85,100,10,40,60,2228301)
+p("BrokenOff_Concrete_02",98567,125715,21030,9163,107,4282269246,32,64,"terrainchunk",10,0,0,85,100,10,40,60,2228429)
 p("Floor_MetalScaff_ParapetEnd_01",99394,125393,24217,16201,101,-4095,0,0,2654,2149327928,"",1075839765)
 p("Floor_MetalScaff_ParapetEnd_01",99456,125269,22730,2297,67,4026,363,660,2782,2149327928,"",1075839765)
 p("Floor_MetalScaff_ParapetEnd_01",99690,125132,24709,2297,60,4026,363,660,3584,2149327928,"",1075839765)
@@ -85350,7 +85668,7 @@ p("Floor_MetalScaff_ParapetEnd_01",102355,125849,24630,16321,62,-1477,1208,3624,
 p("Floor_MetalScaff_ParapetEnd_01",101681,126149,24190,14400,101,-2364,2364,2365,2440,2149327928,"",1075839765)
 p("TropicalPlant_Grass_03",101867,126014,18689,73,32,2097220)
 p("Floor_MetalScaff_ParapetEnd_01",102124,126002,23209,16358,68,-1434,1275,3618,997,2149327928,"",1075839765)
-p("BrokenOff_Concrete_02",98499,127103,20997,2145,107,4282269246,32,"terrainchunk",10,0,0,85,100,10,40,60,2228301)
+p("BrokenOff_Concrete_02",98499,127103,20997,2145,107,4282269246,32,64,"terrainchunk",10,0,0,85,100,10,40,60,2228429)
 p("DecPuddle_08",99775,129140,0)
 p("MetalScaff_WallDec_01",102480,122971,26600,19050,682,2149327928,"",1075839745)
 p("Floor_MetalScaff_ParapetCorner_02",102600,123000,27300,16200,682,2149327928,"",1075839745)
@@ -85400,7 +85718,7 @@ p("TropicalRockAssembly_03",105549,126481,14269,10706,156,1325,-92,3874,"terrain
 p("Floor_MetalScaff_Parapet_01",106200,126600,21000,220,2150911028,"",1073742593)
 p("TropicalRockAssembly_01",104111,128012,15257,9700,120,633,111,4045,6,"terrainchunk",10,0,0,59,100,10,40,60,2228373)
 p("TropicalRockSharp_01",104332,128560,11600,21300,250,"terrainchunk",10,0,0,55,93,10,40,60,2228229)
-p("BrokenOff_Concrete_01",104155,130595,20997,4500,107,4282269246,32,"terrainchunk",10,0,0,85,100,10,40,60,2228301)
+p("BrokenOff_Concrete_01",104155,130595,20997,4500,107,4282269246,32,64,"terrainchunk",10,0,0,85,100,10,40,60,2228429)
 p("TropicalRockAssembly_03",104977,128471,14777,7070,156,4283581495,1323,545,3837,"terrainchunk",10,0,0,80,100,10,40,60,2228253)
 p("WW2_ConcreteCliffWallx4_02",105900,127600,18200,"terrainchunk",10,0,0,84,100,10,40,60,131073)
 p("WW2_ConcreteCliffTop",106200,127800,20300,"terrainchunk",10,0,0,0,100,10,40,60,131073)
@@ -85529,7 +85847,7 @@ p("TropicalPlant_04_Shrub_02",128664,104688,11401,4320,139,2097157)
 p("TropicalPlant_04_Shrub_02",128978,104752,11401,9389,129,2097157)
 p("ParSystem",128323,105834,21423,2665,90,"Falling_Leafs",270532613)
 p("DecJungleForest_03",129729,105491,13652,9320,108,32,2097221)
-p("DecWallDirt_06",131053,105215,11900,3953,250,4282131976,32,8,70,2098381)
+p("DecWallDirt_06",131053,105215,11900,3953,250,4282131976,32,70,2098253)
 p("TropicalPlant_04_Shrub_01",124667,108215,11743,5520,101,3306,2097413)
 p("TropicalPlant_04_Shrub_02",125638,107059,11743,13020,97,3306,2097413)
 p("TropicalPlant_04_Shrub_01",126525,106589,11179,21120,133,3306,2097413)
@@ -85558,7 +85876,7 @@ p("WW2_ConcreteCliffWallSolid",121680,119710,7544,1)
 p("WW2_ConcreteCliffWallSolid",121405,119810,9766,1)
 p("TropicalPlant_04_Shrub_01",116576,123966,10476,8034,105,1346,2097413)
 p("DecJungleForest_03",116605,128511,7533,107,32,2097220)
-p("DecWallDirt_06",119389,125351,11850,3953,250,4282131976,32,8,70,2098381)
+p("DecWallDirt_06",119389,125351,11850,3953,250,4282131976,32,70,2098253)
 p("TropicalPlant_Grass_03",124125,117787,800,128,32,2097220)
 p("TropicalPlant_Grass_03",126185,118234,785,128,2097156)
 p("WW2_ConcreteCliffWallx4_01",124200,121800,5600,16200,3959,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
@@ -85569,7 +85887,7 @@ p("TropicalPlant_04_Shrub_02",125149,120449,7559,19440,113,2097157)
 p("TropicalPlant_Grass_01",125280,121834,11900,57,114,2097157)
 p("TropicalRockSharp_01",125385,121802,3955,6480,150,32,243,4088,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_02",126365,121060,8454,19440,113,2097157)
-p("DecWallLeak_02",126537,121249,9805,14340,200,4294967295,-2365,-2365,2365,32,8,2097373)
+p("DecWallLeak_02",126537,121249,9805,14340,200,4294967295,-2365,-2365,2365,32,2097245)
 p("TropicalPlant_04_Shrub_01",126535,121642,11808,4560,60,2097157)
 p("TropicalPlant_Grass_01",126840,121834,11900,21516,114,32,2097221)
 p("TropicalPlant_04_Shrub_02",128413,116307,8461,19440,113,2097157)
@@ -85601,14 +85919,14 @@ p("MetalScaff_Base_01",125900,126600,11900,10800,1885,2150911028,"",1075839745)
 p("Floor_MetalScaff_Parapet_02",126600,125400,16100,1885,2150911028,"",1073742593)
 p("Floor_MetalScaff_Parapet_01",126600,126600,16100,1885,2150911028,"",1073742593)
 p("Floor_MetalScaff_Parapet_01",124200,127800,16100,5400,1885,2150911028,"",1075839745)
-p("BrokenOff_Concrete_01",124800,127800,1799,32,32,"terrainchunk",10,0,0,89,100,10,40,60,2228416)
+p("BrokenOff_Concrete_01",124800,127800,1799,32,96,"terrainchunk",10,0,0,89,100,10,40,60,2228416)
 p("DecBunkerFloor_03",123772,130087,11850,9240,96,70,2098241)
-p("DecBunker_ConcretePile_04",125182,127044,11848,19927,2097153)
+p("DecBunker_ConcretePile_04",125182,127044,11848,19927,64,2097281)
 p("Floor_MetalScaff_Parapet_01",125400,127800,16100,5400,1885,2150911028,"",1075839745)
 p("Floor_MetalScaff_ParapetCorner_01",126600,127800,16100,1885,2150911028,"",1073742593)
 p("MetalScaff_WallDec_01",126000,128297,15400,3407,2150911028,"",1073742593)
 p("MetalScaff_Base_01",126000,128400,11900,1885,2150911028,"",1073742593)
-p("BrokenOff_Concrete_03",125400,130200,11828,14400,32,32,"terrainchunk",10,0,0,40,60,10,40,60,2228417)
+p("BrokenOff_Concrete_03",125400,130200,11828,14400,32,96,"terrainchunk",10,0,0,40,60,10,40,60,2228417)
 p("TropicalPlant_Dead_02",127631,123514,16216,4281150251,10,-9,4096,2097176)
 p("TropicalPlant_Grass_03",127435,126010,11784,11663,110,2097157)
 p("TropicalPlant_04_Shrub_01",127358,126662,12404,80,2097156)
@@ -85625,7 +85943,7 @@ p("TropicalPlant_Grass_03",127898,128422,11770,5173,125,2097157)
 p("TropicalPlant_04_Sapling_03",127984,128964,1860,123,2097156)
 p("Floor_MetalScaff_Parapet_01",129000,129000,14000,2643,2150911028,"",1073742593)
 p("TropicalPlant_Grass_03",128035,129304,12178,116,32,2097220)
-p("BrokenOff_Concrete_04",128200,129400,21599,32,"terrainchunk",10,0,0,40,60,10,40,60,2228288)
+p("BrokenOff_Concrete_04",128200,129400,21599,32,64,"terrainchunk",10,0,0,40,60,10,40,60,2228416)
 p("Floor_MetalScaff_Parapet_02",129000,130200,14000,2643,2150911028,"",1073742593)
 p("TropicalPlant_04_Sapling_03",129059,127917,15240,123,2097156)
 p("TropicalPlant_04_Shrub_02",129136,127906,11848,4560,74,2097157)
@@ -85763,11 +86081,11 @@ p("Bunker_Cable_Hor_02",87000,131400,16800,10800,1926,2097409)
 p("Bunker_Cable_Hor_Dec_01",87000,131400,16800,10800,1926,2097409)
 p("Bunker_Cable_Hor_Turn_01",87000,132600,16800,10800,1926,2097409)
 p("DecConcreteShuttering_01",87521,131423,17406,10801,101,4283451697,-2896,0,2896,1360,2097437)
-p("Bunker_Cable_Hor_02",88200,131400,16800,3565,257)
-p("Bunker_Cable_Hor_02",88200,131400,16800,16200,3565,2097409)
+p("Bunker_Cable_Hor_02",88200,131400,16800,64,3565,385)
+p("Bunker_Cable_Hor_02",88200,131400,16800,16200,64,3565,2097537)
 p("Bunker_Cable_Hor_02",88200,132600,16800,5400,3565,2097409)
-p("BrokenOff_Concrete_02",89409,131160,19602,20645,74,4281282855,32,842,2097485)
-p("Bunker_Cable_Hor_01",89400,131400,16800,16200,3565,2097409)
+p("BrokenOff_Concrete_02",89409,131160,19602,20645,74,4281282855,32,64,842,2097613)
+p("Bunker_Cable_Hor_01",89400,131400,16800,16200,64,3565,2097537)
 p("Bunker_Cable_Hor_02",89400,131400,19600,10800,891,2097409)
 p("Bunker_Cable_Hor_02",89400,132600,16800,5400,3565,2097409)
 p("Bunker_Cable_Hor_Turn_01",89400,132600,19600,10800,891,2097409)
@@ -85793,49 +86111,49 @@ p("TropicalPlant_04_Shrub_01",87453,147173,-796,10415,112,3200,2097221)
 p("ParSystem",89085,144192,30579,"Falling_Leafs",268435457)
 p("TropicalPlant_Grass_03",89755,144140,19788,18420,107,32,2097221)
 p("TropicalRockSharp_03",88743,145416,13794,13708,200,841,560,3969,3200,2097237)
-p("Bunker_Cable_Hor_02",90600,131400,16800,16200,3565,2097409)
-p("Bunker_Cable_Ver_Dec_02",90600,131400,16800,16200,3565,2097409)
-p("Bunker_Cable_Hor_02",90600,131400,19600,891,257)
-p("Bunker_Cable_Hor_02",90600,131400,19600,16200,618,2097409)
+p("Bunker_Cable_Hor_02",90600,131400,16800,16200,64,3565,2097537)
+p("Bunker_Cable_Ver_Dec_02",90600,131400,16800,16200,64,3565,2097537)
+p("Bunker_Cable_Hor_02",90600,131400,19600,64,891,385)
+p("Bunker_Cable_Hor_02",90600,131400,19600,16200,64,618,2097537)
 p("Bunker_Cable_Hor_Turn_01",90600,131400,22400,10800,1164,2097409)
 p("DecWallDirt_02",90148,131733,16800,10799,250,4284634157,-2787,-3001,0,32,144,51,7,69207389)
 p("DecWallDirt_01",90150,131839,19677,10800,250,4284634157,735,-4029,0,32,2101,51,7,69207389)
 p("DecConcreteShuttering_01",90284,132070,21795,7200,101,4283451697,-2364,2364,2365,1360,2097437)
-p("BrokenOff_Concrete_02",90797,131161,22405,20645,74,4281282855,32,757,2097485)
+p("BrokenOff_Concrete_02",90797,131161,22405,20645,74,4281282855,32,64,757,2097613)
 p("DecWallLeak_02",90812,131865,18610,7201,156,-2365,2365,2363,32,1360,2097493)
-p("DecWallLeak_02",90812,132068,18610,7201,156,-2365,2365,2363,32,8,1360,2097621)
+p("DecWallLeak_02",90812,132068,18610,7201,156,-2365,2365,2363,32,1360,2097493)
 p("Bunker_Cable_Hor_02",90600,132600,16800,5400,3565,2097409)
 p("Bunker_Cable_Hor_02",90600,132600,19600,5400,618,2097409)
 p("DecWallRust_02",90298,132749,19387,16253,155,94,2098181)
-p("JungleCamp_CigareteSet_02",91591,131127,20305,14860,32,2097217)
+p("JungleCamp_CigareteSet_02",91591,131127,20305,14860,32,64,2097345)
 p("DecWallDirt_03",91450,131943,17814,14401,167,4282200849,-2365,-2365,2365,32,1360,53,7,69207389)
 p("DecConcreteShuttering_01",91507,131856,21795,7200,101,4283451697,-2364,2364,2365,1360,2097437)
-p("Bunker_Cable_Hor_02",91800,131400,16800,16200,3565,2097409)
-p("Bunker_Cable_Hor_01",91800,131400,19600,16200,618,2097409)
+p("Bunker_Cable_Hor_02",91800,131400,16800,16200,64,3565,2097537)
+p("Bunker_Cable_Hor_01",91800,131400,19600,16200,64,618,2097537)
 p("Bunker_Cable_Hor_02",91800,131400,22400,5400,2351,2097409)
 p("DecConcreteShuttering_01",92039,131897,17406,7200,101,4283451697,-2364,2364,2365,1360,2097437)
 p("DecWallDirt_03",92074,132091,20367,7200,141,4282200849,-2364,2364,2365,32,3746,60,7,69207389)
 p("DecWallDirt_03",91450,132146,17814,14401,167,4282200849,-2365,-2365,2365,32,1360,53,7,69207389)
 p("Bunker_Cable_Hor_02",91800,132600,16800,5400,3565,2097409)
 p("Bunker_Cable_Hor_02",91800,132600,19600,5400,618,2097409)
-p("BrokenOff_Concrete_04",92412,131757,22381,5382,90,4281217062,32,757,2097485)
-p("DecWallDirt_06",92634,132061,22400,10800,89,4284634157,2947,2844,0,32,8,1323,51,7,69207517)
-p("Bunker_Cable_Hor_02",93000,131400,16800,16200,3565,2097409)
-p("Bunker_Cable_Hor_02",93000,131400,19600,16200,618,2097409)
+p("BrokenOff_Concrete_04",92412,131757,22381,5382,90,4281217062,32,64,757,2097613)
+p("DecWallDirt_06",92634,132061,22400,10800,89,4284634157,2947,2844,0,32,1323,51,7,69207389)
+p("Bunker_Cable_Hor_02",93000,131400,16800,16200,64,3565,2097537)
+p("Bunker_Cable_Hor_02",93000,131400,19600,16200,64,618,2097537)
 p("Bunker_Cable_Hor_02",93000,131400,22400,5400,2351,2097409)
 p("DecConcreteShuttering_01",93026,132070,17406,7200,101,4283451697,-2364,2364,2365,1360,2097437)
 p("DecWallLeak_02",92578,132129,22160,14398,132,-2365,-2365,2363,32,3746,2097493)
-p("DecWallDirt_01",92729,132211,19677,10799,250,4284634157,-3144,2624,0,32,8,2101,51,7,69207517)
+p("DecWallDirt_01",92729,132211,19677,10799,250,4284634157,-3144,2624,0,32,2101,51,7,69207389)
 p("Bunker_Cable_Hor_01",93000,132600,16800,5400,3565,2097409)
 p("Bunker_Cable_Hor_Dec_02",93000,132600,16800,5400,3565,2097409)
 p("Bunker_Cable_Hor_02",93000,132600,19600,5400,618,2097409)
 p("Bunker_Cable_Ver_Dec_02",93000,132600,19600,5400,618,2097409)
 p("DecWallDirt_01",93253,131109,19677,10799,250,4284634157,-2945,2846,0,32,2101,51,7,69207389)
 p("DecWallDirt_01",93828,131582,16800,10799,250,4284634157,-3144,2624,0,32,144,51,7,69207389)
-p("Bunker_Cable_Hor_02",94200,131400,16800,10800,3565,2097409)
-p("Bunker_Cable_Hor_02",94200,131400,16800,16200,3565,2097409)
-p("Bunker_Cable_Hor_02",94200,131400,19600,10800,3,2097409)
-p("Bunker_Cable_Hor_02",94200,131400,19600,16200,618,2097409)
+p("Bunker_Cable_Hor_02",94200,131400,16800,10800,64,3565,2097537)
+p("Bunker_Cable_Hor_02",94200,131400,16800,16200,64,3565,2097537)
+p("Bunker_Cable_Hor_02",94200,131400,19600,10800,64,3,2097537)
+p("Bunker_Cable_Hor_02",94200,131400,19600,16200,64,618,2097537)
 p("Bunker_Cable_Hor_02",94200,131400,22400,5400,2351,2097409)
 p("Bunker_Cable_Hor_02",94200,132600,16800,5400,3565,2097409)
 p("Bunker_Cable_Hor_02",94200,132600,19600,5400,618,2097409)
@@ -85893,7 +86211,7 @@ p("TropicalPlant_Grass_03",95819,140174,16803,18689,73,32,2097221)
 p("ParSystem",95716,140691,28833,21565,90,"Falling_Leafs",270532613)
 p("TropicalPlant_04_Shrub_02",95131,143015,18811,4320,139,2097157)
 p("TropicalPlant_04_Shrub_02",95445,143079,18811,9389,129,2097157)
-p("DecJungleForest_03",96468,139455,6620,108,32,8,2097348)
+p("DecJungleForest_03",96468,139455,6620,108,32,2097220)
 p("TropicalPlant_Grass_03",97128,140653,15989,73,32,2097220)
 p("TropicalPlant_Grass_02",94948,143769,3668,130,2097156)
 p("ParSystem",94790,144161,28833,2665,90,"Falling_Leafs",270532613)
@@ -86071,7 +86389,7 @@ p("TropicalPlant_04_Shrub_01",78977,181854,8517,13005,119,2036,2097413)
 p("TropicalPlant_04_Shrub_01",77850,182819,8518,7005,133,2036,2097413)
 p("TropicalPlant_04_Shrub_01",79255,184307,7953,7005,157,2036,2097413)
 p("TropicalPlant_04_Shrub_02",79374,183311,8517,20505,115,2036,2097413)
-p("DecJungleForest_03",81322,180543,8359,4226,107,32,8,2097349)
+p("DecJungleForest_03",81322,180543,8359,4226,107,32,2097221)
 p("TropicalPlant_04_Shrub_02",78662,184520,7700,9389,145,2097157)
 p("TropicalPlant_04_Shrub_01",77881,185494,7840,14025,122,2036,2097413)
 p("TropicalPlant_Grass_03",78189,187811,18908,116,32,2097220)
@@ -86135,7 +86453,7 @@ p("TropicalPlant_04_Shrub_01",87440,166528,-796,12058,130,3200,2097221)
 p("TropicalPlant_04_Shrub_02",88256,163922,8231,4320,139,2097157)
 p("TropicalPlant_04_Shrub_02",88570,163986,8231,9389,129,2097157)
 p("TropicalPlant_Grass_03",88410,164974,8640,9623,125,2097157)
-p("DecJungleForest_03",89596,164598,10482,9320,108,32,8,2097349)
+p("DecJungleForest_03",89596,164598,10482,9320,108,32,2097221)
 p("TropicalPlant_Dead_02",89444,164891,12435,4281150251,2097160)
 p("TropicalPlant_04_Shrub_02",88540,166512,-796,17117,136,3200,2097221)
 p("TropicalPlant_Grass_03",88941,166039,6520,18689,73,32,2097221)
@@ -86491,10 +86809,10 @@ p("TropicalPlant_04_Shrub_01",98438,133318,19600,16010,59,2097157)
 p("TropicalPlant_04_Shrub_01",99187,133620,19600,16010,59,2097157)
 p("TropicalPlant_04_Sapling_01",100167,133147,17822,12502,2097153)
 p("WW2_ConcreteCliffWallx4_01",100900,132600,18200,5400,"terrainchunk",10,0,0,84,100,10,40,60,2228225)
-p("DecBunker_ConcretePile_03",102127,131170,10335,111,"terrainchunk",10,0,0,63,100,10,40,60,2228228)
+p("DecBunker_ConcretePile_03",102127,131170,10335,111,64,"terrainchunk",10,0,0,63,100,10,40,60,2228356)
 p("TropicalPlant_04_Shrub_01",101607,134096,19600,12442,59,2097157)
 p("TropicalPlant_04_Shrub_01",102256,133551,12442,86,2097156)
-p("BrokenOff_Concrete_01",101070,135695,19597,18859,107,4282269246,32,"terrainchunk",10,0,0,85,100,10,40,60,2228301)
+p("BrokenOff_Concrete_01",101070,135695,19597,18859,107,4282269246,32,64,"terrainchunk",10,0,0,85,100,10,40,60,2228429)
 p("WW2_ConcreteCliffWallx4_02",102500,132600,16000,5400,"terrainchunk",10,0,0,84,100,10,40,60,2228225)
 p("WW2_ConcreteCliffWallx4_01",102500,132600,18200,5400,"terrainchunk",10,0,0,84,100,10,40,60,2228225)
 p("TropicalPlant_04_Shrub_01",104359,134836,19600,16010,59,2097157)
@@ -86514,7 +86832,7 @@ p("Floor_MetalScaff_Parapet_01",105000,133800,19600,4060,2150911050,"",107374259
 p("Floor_MetalScaff_Parapet_01",105000,135000,19600,4060,2150911050,"",1073742593)
 p("TropicalPlant_04_Shrub_01",105530,133370,18221,9132,111,1308,1551,3558,2097173)
 p("DecForestMoss_02",102919,135257,19182,41,175,32,2097221)
-p("BrokenOff_Concrete_01",103948,138281,19597,3422,107,4282269246,32,"terrainchunk",10,0,0,85,100,10,40,60,2228301)
+p("BrokenOff_Concrete_01",103948,138281,19597,3422,107,4282269246,32,64,"terrainchunk",10,0,0,85,100,10,40,60,2228429)
 p("WW2_ConcreteCliffWallx4_02",104900,135400,14983,"terrainchunk",10,0,0,84,100,10,40,60,131073)
 p("WW2_ConcreteCliffWallx4_02",104900,135400,16600,"terrainchunk",10,0,0,84,100,10,40,60,131073)
 p("TropicalPlant_04_Shrub_01",105333,135643,17037,103,966,236,3973,2097172)
@@ -86544,7 +86862,7 @@ p("TropicalPlant_04_Shrub_01",106233,141624,17227,12789,115,74,-583,4053,2097173
 p("TropicalPlant_04_Shrub_01",106378,143073,17266,13187,118,2097157)
 p("TropicalPlant_04_Shrub_01",103734,143773,19600,13187,90,2097157)
 p("TropicalPlant_04_Shrub_01",103499,144872,19212,13187,90,2097157)
-p("DecBunker_ConcretePile_03",102978,146642,3094,111,"terrainchunk",10,0,0,63,100,10,40,60,2228228)
+p("DecBunker_ConcretePile_03",102978,146642,3094,111,64,"terrainchunk",10,0,0,63,100,10,40,60,2228356)
 p("TropicalPlant_Grass_03",104778,144029,22630,20406,120,2097157)
 p("Floor_MetalScaff_Parapet_01",105000,143400,19600,4060,2150911050,"",1073742593)
 p("TropicalPlant_04_Shrub_02",105170,143635,19600,20161,104,2097157)
@@ -86577,7 +86895,7 @@ p("TropicalPlant_Grass_03",110217,135632,14707,98,32,2097220)
 p("TropicalRockAssembly_04",109902,136504,11430,4087,175,4287203721,"terrainchunk",10,0,0,59,100,16,40,60,2228237)
 p("TropicalPlant_Grass_03",110255,137931,11910,1180,110,2097157)
 p("TropicalPlant_01_Shrub",110685,135144,19747,99,96,2097220)
-p("DecJungleForest_01",113180,132351,12627,107,32,8,2097348)
+p("DecJungleForest_01",113180,132351,12627,107,32,2097220)
 p("TropicalPlant_01_Shrub",112955,133869,13894,123,96,2097220)
 p("TropicalPlant_01_Sapling",112863,134506,18067,143,96,2097220)
 p("TropicalPlant_Grass_03",112807,135000,17678,98,2097156)
@@ -86620,10 +86938,10 @@ p("TropicalRockAssembly_03",111955,146959,13039,20007,101,-784,-1412,3764,"terra
 p("TropicalPlant_08_Sapling_01",112536,147009,0)
 p("Bunker_ConcretePile_01",113153,145264,12308,10894,"terrainchunk",10,0,0,85,100,10,40,60,2228225)
 p("DecPuddle_03",100978,150267,0)
-p("BrokenOff_Concrete_02",100184,152418,19597,12682,107,4282269246,32,"terrainchunk",10,0,0,85,100,10,40,60,2228301)
+p("BrokenOff_Concrete_02",100184,152418,19597,12682,107,4282269246,32,64,"terrainchunk",10,0,0,85,100,10,40,60,2228429)
 p("TropicalPlant_04_Shrub_01",99553,153061,8563,8460,157,1036,2097413)
 p("TropicalPlant_04_Shrub_01",100753,154532,8310,8460,135,1036,2097413)
-p("BrokenOff_Concrete_01",103276,148237,19597,13356,107,4282269246,32,"terrainchunk",10,0,0,85,100,10,40,60,2228301)
+p("BrokenOff_Concrete_01",103276,148237,19597,13356,107,4282269246,32,64,"terrainchunk",10,0,0,85,100,10,40,60,2228429)
 p("Floor_MetalScaff_Parapet_01",105000,148200,19600,4060,2150911050,"",1073742593)
 p("Floor_MetalScaff_Parapet_01",105000,149400,19600,4060,2150911050,"",1073742593)
 p("TropicalPlant_Grass_03",106208,148834,14988,119,32,2097220)
@@ -86797,12 +87115,12 @@ p("TropicalPlant_01_Shrub",114929,136515,12125,7020,141,96,2097221)
 p("TropicalPlant_01_Shrub",115161,137771,11173,7920,160,96,2097221)
 p("TropicalPlant_04_Sapling_03",115647,138668,8901,11100,153,2097157)
 p("DecWallDirt_06",119058,137890,11850,3953,250,4282131976,32,70,2098253)
-p("DecWallDirt_06",120142,144640,11850,3953,250,4282131976,32,8,70,2098381)
+p("DecWallDirt_06",120142,144640,11850,3953,250,4282131976,32,70,2098253)
 p("TropicalPlant_Grass_01",123624,131234,11850,10800,125,2097157)
 p("TropicalPlant_Grass_03",123823,131761,11850,11243,125,32,2097221)
 p("WW2_ConcreteCliffWallx4_01",124631,132701,10253,16171,-371,371,4062,921,"terrainchunk",10,0,0,84,100,10,40,60,2228497)
-p("DecWallDirt_04",123600,133200,11875,20820,206,4280161293,32,8,50,2098381)
-p("BrokenOff_Concrete_04",124000,133400,16172,-366,366,4063,32,"terrainchunk",10,0,0,40,60,10,40,60,2228304)
+p("DecWallDirt_04",123600,133200,11875,20820,206,4280161293,32,50,2098253)
+p("BrokenOff_Concrete_04",124000,133400,16172,-366,366,4063,32,64,"terrainchunk",10,0,0,40,60,10,40,60,2228432)
 p("TropicalPlant_Grass_01",125865,131234,11850,10800,125,32,2097221)
 p("WW2_ConcreteCliffWallx4_01",125813,132663,10521,5428,-371,-371,4062,678,"terrainchunk",10,0,0,84,100,10,40,60,2228497)
 p("DecWallDirt_04",126600,132600,13977,16200,206,4280161293,32,50,2098253)
@@ -86813,9 +87131,9 @@ p("TropicalPlant_Grass_03",128710,131476,20341,107,32,2097220)
 p("Bunker_ConcretePile_02",128922,131083,11850,3190,108,"terrainchunk",10,0,0,69,96,10,40,60,2228229)
 p("Floor_MetalScaff_Parapet_02",129000,131400,14000,2643,2150911028,"",1073742593)
 p("Floor_MetalScaff_Parapet_01",129000,132600,14000,2643,2150911028,"",1073742593)
-p("DecBunker_ConcretePile",127693,133336,17876,63,-346,605,4036,2097172)
+p("DecBunker_ConcretePile",127693,133336,17876,63,-346,605,4036,64,2097300)
 p("TropicalPlant_Grass_02",127956,133843,13472,632,127,-54,-4052,595,32,2097237)
-p("DecBunker_ConcretePile",128901,133605,11018,90,-550,29,4059,2097172)
+p("DecBunker_ConcretePile",128901,133605,11018,90,-550,29,4059,64,2097300)
 p("TropicalPlant_04_Shrub_02",129136,131286,11891,4930,93,2097157)
 p("WW2_ConcreteCliffWallx4_01",129341,132701,11171,16171,-371,371,4062,678,"terrainchunk",10,0,0,84,100,10,40,60,2228497)
 p("TropicalPlant_04_Shrub_01",129622,132426,13614,19846,107,2097157)
@@ -86832,7 +87150,7 @@ p("TropicalPlant_04_Shrub_01",125022,141864,11699,9020,81,2097157)
 p("TropicalPlant_08_Sapling_01",125892,142089,0)
 p("Bunker_ConcretePile_02",125771,143051,11850,21512,108,"terrainchunk",10,0,0,69,96,10,40,60,2228229)
 p("TropicalPlant_04_Shrub_01",126684,142661,11661,4946,123,2097157)
-p("DecBunker_ConcretePile_03",124500,144666,11850,10690,2097153)
+p("DecBunker_ConcretePile_03",124500,144666,11850,10690,64,2097281)
 p("TropicalPlant_Grass_03",125230,146480,14703,20406,120,2097157)
 p("Bunker_ConcretePile_02",126586,146410,11555,8763,108,"terrainchunk",10,0,0,69,96,10,40,60,2228229)
 p("TropicalPlant_Grass_01",127106,139617,10801,146,2097156)
@@ -86841,16 +87159,16 @@ p("TropicalPlant_Grass_03",127734,143094,11900,13616,153,2097157)
 p("Floor_MetalScaff_Parapet_01",129000,142200,14000,3841,2150911028,"",1073742593)
 p("Bunker_ConcretePile_02",128917,142480,11850,4504,108,"terrainchunk",10,0,0,69,96,10,40,60,2228229)
 p("WW2_ConcreteCliffWallx4_01",129341,140993,11171,16171,-371,371,4062,225,"terrainchunk",10,0,0,84,100,10,40,60,2228497)
-p("BrokenOff_Concrete_02",129600,140400,17927,-371,630,4030,32,32,"terrainchunk",10,0,0,40,60,10,40,60,2228432)
+p("BrokenOff_Concrete_02",129600,140400,17927,-371,630,4030,32,96,"terrainchunk",10,0,0,40,60,10,40,60,2228432)
 p("Floor_MetalScaff_ParapetEnd_01",130200,139800,14000,5400,6,2106,2150911028,"",1075839873)
 p("WW2_ConcreteCliffTop",130200,141000,13300,10800,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx4_02",130210,141015,10500,10800,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
-p("BrokenOff_Concrete_01",127000,145000,5402,73,32,32,"terrainchunk",10,0,0,89,100,10,40,60,2228420)
+p("BrokenOff_Concrete_01",127000,145000,5402,73,32,96,"terrainchunk",10,0,0,89,100,10,40,60,2228420)
 p("Floor_MetalScaff_Parapet_02",129000,143400,14000,3841,2150911028,"",1073742593)
 p("TropicalPlant_Grass_03",128821,144247,11900,3354,153,2097157)
 p("Floor_MetalScaff_Parapet_01",129000,144600,14000,3841,2150911028,"",1073742593)
 p("TropicalPlant_Grass_01",128809,145101,11900,5400,146,2097157)
-p("DecBunker_ConcretePile",128340,145652,11900,12071,90,2097157)
+p("DecBunker_ConcretePile",128340,145652,11900,12071,90,64,2097285)
 p("Bunker_ConcretePile_01",128959,145665,11900,"terrainchunk",10,0,0,85,100,10,40,60,131073)
 p("Floor_MetalScaff_Parapet_01",129000,145800,14000,3841,2150911028,"",1073742593)
 p("Bunker_ConcretePile_02",128020,146712,11850,8763,108,"terrainchunk",10,0,0,69,96,10,40,60,2228229)
@@ -86897,17 +87215,17 @@ p("DecPuddle_09",123723,150835,0)
 p("TropicalPlant_Grass_03",125709,149194,11645,12006,110,2097157)
 p("TropicalPlant_Grass_01",126320,148836,11850,5400,61,2097157)
 p("TropicalPlant_Grass_01",126320,150112,11850,5400,61,2097157)
-p("DecBunker_ConcretePile",128717,148333,11900,12071,90,2097157)
+p("DecBunker_ConcretePile",128717,148333,11900,12071,90,64,2097285)
 p("Floor_MetalScaff_Parapet_01",129000,148200,14000,3841,2150911028,"",1073742593)
 p("Bunker_ConcretePile_02",128563,148857,11850,3190,108,"terrainchunk",10,0,0,69,96,10,40,60,2228229)
 p("Floor_MetalScaff_Parapet_01",129000,149400,14000,3841,2150911028,"",1073742593)
-p("DecBunker_ConcretePile",128072,150854,11900,12071,90,2097157)
+p("DecBunker_ConcretePile",128072,150854,11900,12071,90,64,2097285)
 p("TropicalPlant_Grass_01",128421,151194,5400,146,2097156)
 p("Floor_MetalScaff_Parapet_01",129000,150600,14000,3841,2150911028,"",1073742593)
 p("TropicalPlant_04_Shrub_01",129570,150645,11661,4946,123,2097157)
 p("WW2_ConcreteCliffTop",130200,150600,13300,10800,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx4_02",130219,150604,10500,10800,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
-p("BrokenOff_Concrete_04",127000,153000,11826,10799,32,"terrainchunk",10,0,0,40,60,10,40,60,2228289)
+p("BrokenOff_Concrete_04",127000,153000,11826,10799,32,64,"terrainchunk",10,0,0,40,60,10,40,60,2228417)
 p("WW2_BombSmall",127463,152709,11850,15910,1523,2486584374,2147760740,2822128694,11042984,"",1075854081)
 p("WW2_BombSingle",127028,153361,11850,18151,4286282105,1523,3090564150,2147760740,2822128694,11043032,"",1075854089)
 p("TropicalPlant_Grass_03",127259,153461,9310,17663,110,2097157)
@@ -86917,7 +87235,7 @@ p("Floor_MetalScaff_Parapet_01",129000,151800,14000,3841,2150911028,"",107374259
 p("TropicalPlant_Grass_01",128879,151855,5400,146,2097156)
 p("Floor_MetalScaff_Parapet_01",129000,153000,14000,3841,2150911028,"",1073742593)
 p("Floor_MetalScaff_Parapet_02",129000,154200,14000,3841,2150911028,"",1073742593)
-p("DecBunker_ConcretePile",128188,155192,11849,10310,110,2097157)
+p("DecBunker_ConcretePile",128188,155192,11849,10310,110,64,2097285)
 p("TropicalPlant_04_Shrub_02",128798,155081,4440,62,2097156)
 p("Floor_MetalScaff_Parapet_01",129000,155400,14000,3841,2150911028,"",1073742593)
 p("WW2_ConcreteCliffTop",130200,155400,13300,10800,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
@@ -86925,7 +87243,7 @@ p("WW2_ConcreteCliffWallx4_01",130219,155404,10500,10800,2357,"terrainchunk",10,
 p("TropicalPlant_Grass_02",126082,156690,10800,87,2097156)
 p("DecPuddle_10",125034,162921,0)
 p("TropicalPlant_Grass_01",126992,156690,11850,10800,84,2097157)
-p("DecBunker_ConcretePile",127333,156868,11849,11410,110,2097157)
+p("DecBunker_ConcretePile",127333,156868,11849,11410,110,64,2097285)
 p("TropicalPlant_04_Sapling_03",128346,156329,11850,9580,104,2097157)
 p("TropicalPlant_Grass_03",128466,156327,11849,16680,118,4288977819,2097165)
 p("Bunker_ConcretePile_01",128920,155805,10990,77,2097156)
@@ -86944,7 +87262,7 @@ p("JungleCamp_CigareteSet_02",127855,161121,12578,20580,4286413691,32,3219,20974
 p("Bunker_ConcretePile_02",128289,159818,11900,5666,101,2097157)
 p("TropicalPlant_04_Shrub_01",128576,160788,9120,89,2097156)
 p("Floor_MetalScaff_Parapet_02",129000,161400,14000,3841,2150911028,"",1073742593)
-p("DecBunker_ConcretePile_03",127124,162111,11850,7302,2097153)
+p("DecBunker_ConcretePile_03",127124,162111,11850,7302,64,2097281)
 p("Floor_MetalScaff_Parapet_01",129000,162600,14000,3841,2150911028,"",1073742593)
 p("TropicalPlant_04_Sapling_04",129001,163136,5400,2097152)
 p("Floor_MetalScaff_Parapet_01",129000,163800,14000,3841,2150911028,"",1073742593)
@@ -86955,7 +87273,7 @@ p("WW2_ConcreteCliffWallx4_02",130219,160204,10500,10800,2357,"terrainchunk",10,
 p("TropicalPlant_04_Sapling_03",129186,162391,3960,2097152)
 p("TropicalPlant_04_Shrub_02",129599,162111,12125,11220,89,2097157)
 p("TropicalPlant_04_Shrub_02",129678,163418,11850,9120,89,2097157)
-p("BrokenOff_Concrete_01",131000,162400,11700,66,32,32,2097348)
+p("BrokenOff_Concrete_01",131000,162400,11700,66,32,96,2097348)
 p("TropicalPlant_04_Shrub_01",101332,165752,8038,18720,121,1036,2097413)
 p("TropicalPlant_04_Shrub_02",99404,168521,404,12657,173,682,1431,3776,3200,2097237)
 p("TropicalPlant_04_Shrub_01",102249,168052,8038,10080,121,1036,2097413)
@@ -87166,7 +87484,7 @@ p("ParSystem",108025,187745,18443,2665,90,"Falling_Leafs",270532613)
 p("TropicalRockAssembly_04",108246,188353,4370,99,170,"terrainchunk",10,0,0,90,99,10,40,60,2228229)
 p("TropicalPlant_04_Shrub_02",108680,186663,8421,9389,129,2097157)
 p("TropicalRockSharp_01",109199,187362,2898,8496,144,1088,-440,3924,2097173)
-p("DecJungleForest_03",109431,187402,10672,9320,108,32,8,2097349)
+p("DecJungleForest_03",109431,187402,10672,9320,108,32,2097221)
 p("TropicalPlant_04_Shrub_01",109168,188268,4307,19836,141,2076,1952,2941,2097173)
 p("TropicalRockSharp_01",111866,181656,9802,18165,74,-1136,512,3901,2097173)
 p("TropicalRockSharp_01",110971,183060,7130,17109,144,-568,-369,4039,"terrainchunk",10,0,0,92,100,10,40,60,2228245)
@@ -87242,7 +87560,7 @@ p("TropicalPlant_04_Shrub_01",122420,178948,7594,16603,200,2097157)
 p("TropicalPlant_04_Shrub_01",122832,179782,7202,19858,157,-309,-256,4076,816,2097429)
 p("TropicalRockAssembly_04",123350,166082,10743,17633,121,-100,-683,4037,"terrainchunk",10,0,0,90,99,10,40,60,2228245)
 p("TropicalRockAssembly_03",123492,166457,10743,20007,139,-784,-1412,3764,"terrainchunk",10,0,0,90,99,10,40,60,2228245)
-p("DecBunker_ConcretePile_02",123942,167215,11900,6807,2097153)
+p("DecBunker_ConcretePile_02",123942,167215,11900,6807,64,2097281)
 p("TropicalPlant_01_Shrub",124458,167672,21000,94,2097156)
 p("DecWallDirt_06",124936,165816,11850,3953,250,4282131976,32,70,2098253)
 p("TropicalPlant_Grass_03",125554,167862,11868,11352,110,2097157)
@@ -87258,7 +87576,7 @@ p("TropicalPlant_Grass_03",125977,168431,11868,11097,110,2097157)
 p("TropicalPlant_04_Shrub_01",126884,169384,10054,9600,102,-102,821,4012,2097173)
 p("TropicalPlant_04_Sapling_04",125014,170065,13210,109,-24,-39,4096,2097172)
 p("TropicalPlant_Grass_03",127259,165461,8610,17663,110,2097157)
-p("BrokenOff_Concrete_02",128800,165000,11878,19800,84,32,32,"terrainchunk",10,0,0,40,60,10,40,60,2228421)
+p("BrokenOff_Concrete_02",128800,165000,11878,19800,84,32,96,"terrainchunk",10,0,0,40,60,10,40,60,2228421)
 p("Floor_MetalScaff_Parapet_01",129000,165000,14000,3841,2150911028,"",1073742593)
 p("Floor_MetalScaff_Parapet_01",129000,166200,14000,3841,2150911028,"",1073742593)
 p("TropicalPlant_Grass_01",128843,166478,11849,5400,150,32,2097221)
@@ -87841,7 +88159,7 @@ p("TropicalRockSharp_01",127688,217016,1232,9500,134,175,-2514,3228,2097173)
 p("TropicalPlant_04_Shrub_01",129112,213835,3862,2568,188,855,-1574,3683,2097173)
 p("TropicalRockSharp_01",129775,216068,1283,6849,159,219,569,4050,2097173)
 p("TropicalPlant_04_Shrub_01",129620,219109,3581,4306,200,-934,1551,3674,2097173)
-p("DecShantyRubbish_02",130726,218022,1655,6667,181,4282992198,732,525,3995,32,8,80,2098397)
+p("DecShantyRubbish_02",130726,218022,1655,6667,181,4282992198,732,525,3995,32,80,2098269)
 p("TropicalRockSharp_01",124969,231654,10564,11270,250,-2168,-3445,460,"terrainchunk",10,0,0,84,98,10,40,60,2228245)
 p("TropicalRockSharp_01",133376,97881,1700,18160,237,155,-2135,3491,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
 p("WW2_ConcreteCliffWallx4_01",132600,102600,5600,4082,"terrainchunk",10,0,0,84,100,10,40,60,131329)
@@ -87863,7 +88181,7 @@ p("TropicalPlant_04_Shrub_01",133326,117051,8540,9360,86,2097157)
 p("TropicalPlant_Grass_03",133765,118123,2190,128,2097156)
 p("TropicalPlant_04_Shrub_01",134281,117199,8540,9360,86,2097157)
 p("TropicalRockSharp_01",132014,120595,2751,12720,136,-706,-732,3967,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("DecWallLeak_03",131930,122576,7743,5400,250,4294967295,0,4096,0,32,8,2097373)
+p("DecWallLeak_03",131930,122576,7743,5400,250,4294967295,0,4096,0,32,2097245)
 p("WW2_ConcreteCliffCornerx4_01",132000,122400,6300,3959,"terrainchunk",10,0,0,84,100,10,40,60,131329)
 p("TropicalPlant_04_Shrub_01",134130,118944,19260,113,-306,-1392,3840,2097172)
 p("TropicalPlant_04_Shrub_02",133632,122857,5714,19440,113,2097157)
@@ -87911,9 +88229,9 @@ p("Floor_MetalScaff_Parapet_01",138600,126600,14000,16200,385,2150911028,"",1075
 p("WW2_ConcreteCliffTop",136200,129000,13300,16200,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx4_01",136219,129004,10500,16200,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("DecWallLeak_02",137032,128451,12125,14340,174,4294967295,-2365,-2365,2365,32,2097245)
-p("BrokenOff_Concrete_01",135800,130800,14001,9898,78,-5,85,4095,32,32,"terrainchunk",10,0,0,89,100,10,40,60,2228437)
+p("BrokenOff_Concrete_01",135800,130800,14001,9898,78,-5,85,4095,32,96,"terrainchunk",10,0,0,89,100,10,40,60,2228437)
 p("Floor_MetalScaff_Parapet_01",137400,127800,14000,10800,385,2150911028,"",1075839745)
-p("DecBunker_ConcretePile_02",143354,117759,2100,14516,"terrainchunk",10,0,0,40,100,10,40,60,2228225)
+p("DecBunker_ConcretePile_02",143354,117759,2100,14516,64,"terrainchunk",10,0,0,40,100,10,40,60,2228353)
 p("TropicalPlant_Grass_03",140369,122815,2068,20101,128,2097157)
 p("TropicalRockAssembly_01",141734,120706,1929,3420,121,4287466893,-3,1,4096,"terrainchunk",0,0,0,91,100,7,40,60,2228253)
 p("TropicalRockAssembly_04",141866,120502,1906,16680,78,4287466893,"terrainchunk",0,0,0,86,100,6,40,60,47,27,10616845)
@@ -87926,11 +88244,11 @@ p("TropicalPlant_Grass_01",139509,124140,10466,280,93,2097157)
 p("WW2_ConcreteCliffWallx4_02",139800,124200,4200,16200,829,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx4_02",139800,124200,7000,16200,829,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffTop",139800,124200,9800,16200,829,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
-p("DecWallDirt_06",140029,124650,10375,3953,250,4282131976,32,8,70,2098381)
+p("DecWallDirt_06",140029,124650,10375,3953,250,4282131976,32,70,2098253)
 p("WW2_ConcreteCliffWallx4_02",141000,123600,1400,16200,829,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx4_01",140908,124003,3761,16200,829,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
-p("DecWallLeak_04",142700,123800,6800,14340,218,4294967295,-2365,-2365,2365,32,8,2097373)
-p("DecBunker_ConcretePile",142292,126950,10449,15442,110,82,102,4094,2097173)
+p("DecWallLeak_04",142700,123800,6800,14340,218,4294967295,-2365,-2365,2365,32,2097245)
+p("DecBunker_ConcretePile",142292,126950,10449,15442,110,82,102,4094,64,2097301)
 p("TropicalPlant_Grass_03",142954,126608,10447,121,5)
 p("TropicalPlant_Grass_03",139913,127163,10447,104,5)
 p("Bunker_ConcretePile_01",139732,128012,10500,16200,21,20,4096,2097169)
@@ -87957,7 +88275,7 @@ p("DecGraffiti_20",147300,123700,4800,14399,4282459136,-2364,-2364,2365,84,20982
 p("DecWallDirt_06",147285,124732,10375,3953,250,4282131976,32,70,2098253)
 p("Floor_MetalScaff_ParapetEnd_01",144600,129000,14000,16200,1,6,2106,2150911028,"",1075839937)
 p("Floor_MetalScaff_Parapet_01",144600,129000,14000,16200,2106,2150911028,"",1075839745)
-p("DecWallDirt_06",144272,129358,13803,3953,250,4282131976,32,8,70,2098381)
+p("DecWallDirt_06",144272,129358,13803,3953,250,4282131976,32,70,2098253)
 p("WW2_ConcreteCliffTop",145800,129000,13300,16200,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("Floor_MetalScaff_Parapet_01",145800,129000,14000,16200,2106,2150911028,"",1075839745)
 p("WW2_ConcreteCliffWallx4_01",145819,129004,10500,16200,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
@@ -88026,15 +88344,15 @@ p("TropicalPlant_Dead_02",160230,124994,2437,11460,167,629,256,4039,3200,6,20973
 p("TropicalRockAssembly_01",160676,130060,2156,15000,121,4287466893,519,-514,4030,3200,"terrainchunk",0,0,0,91,100,7,40,60,2228317)
 p("TropicalPlant_Grass_03",131332,131348,11998,12006,110,2097157)
 p("WW2_ConcreteCliffTopCorner",131400,131400,13300,16200,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
-p("BrokenOff_Concrete_04",134600,131400,13942,21598,32,"terrainchunk",10,0,0,40,60,10,40,60,2228289)
+p("BrokenOff_Concrete_04",134600,131400,13942,21598,32,64,"terrainchunk",10,0,0,40,60,10,40,60,2228417)
 p("DecPuddle_10",134145,135683,18639,2097152)
 p("DecPuddle_09",139063,133180,0)
-p("DecBunker_ConcretePile_04",138410,134859,13950,832,2097153)
-p("DecBunker_ConcretePile_03",132695,141314,17072,2097152)
+p("DecBunker_ConcretePile_04",138410,134859,13950,832,64,2097281)
+p("DecBunker_ConcretePile_03",132695,141314,17072,64,2097280)
 p("ParSystem",134488,143206,18075,"Rain_Pouring",268435457)
-p("BrokenOff_Concrete_02",132200,144600,19794,66,86,-320,4083,32,32,"terrainchunk",10,0,0,40,60,10,40,60,2228436)
+p("BrokenOff_Concrete_02",132200,144600,19794,66,86,-320,4083,32,96,"terrainchunk",10,0,0,40,60,10,40,60,2228436)
 p("TropicalPlant_04_Shrub_01",133803,144497,4745,2097152)
-p("DecBunker_ConcretePile_02",133251,147088,13950,1)
+p("DecBunker_ConcretePile_02",133251,147088,13950,64,129)
 p("TropicalPlant_Grass_02",133915,147212,13950,5400,32,2097217)
 p("Shanty_WaterTower_Small",135000,145800,14000,10800,4287071878,226,2153917952,2149354716,2149596762,"",1076894217)
 p("TropicalPlant_Grass_01",136697,139658,13950,74,32,69)
@@ -88045,7 +88363,7 @@ p("TropicalPlant_Grass_03",135600,144600,14000,9064,130,32,2097221)
 p("TropicalPlant_04_Shrub_01",137096,146183,14230,20320,111,306,-1352,3854,2097173)
 p("Bunker_Cable_Hor_Turn_01",137400,143400,14000,16200,4074,2097409)
 p("TropicalPlant_Grass_01",138003,143640,10800,84,32,2097220)
-p("DecWallLeak_02",137918,143979,17422,10800,131,-2896,0,2896,32,8,2097365)
+p("DecWallLeak_02",137918,143979,17422,10800,131,-2896,0,2896,32,2097237)
 p("TropicalPlant_Grass_01",137261,144425,5494,98,32,2097220)
 p("Bunker_Cable_Hor_01",137400,144600,14000,10800,1902,2097409)
 p("TropicalPlant_04_Shrub_02",137668,145134,14000,5400,99,2097157)
@@ -88053,35 +88371,35 @@ p("DecSoclePaint_01",138081,145180,14365,10800,4278978051,-2896,0,2897,3566,2097
 p("Bunker_Cable_Hor_02",138600,143400,14000,16200,893,2097409)
 p("Bunker_Cable_Hor_Dec_01",138600,143400,14000,16200,32,893,2097473)
 p("DecSoclePaint_02",138454,144092,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
-p("DecJungleForest_01",138464,144072,14583,9174,33,-986,2810,2811,32,8,80,2098389)
+p("DecJungleForest_01",138464,144072,14583,9174,33,-986,2810,2811,32,80,2098261)
 p("BunkerInterior_ThinPipesCorner_02",138600,144000,16800,5400,4074,1779393439,2502441568,136061992,"",1075845889)
-p("Bunker_Cable_Hor_02",138600,144600,14000,326,257)
-p("Bunker_Cable_Hor_02",138600,144600,14000,5400,893,2097409)
-p("BunkerInterior_AirPipes_01",138600,144600,14700,5400,4074,2097409)
+p("Bunker_Cable_Hor_02",138600,144600,14000,64,326,385)
+p("Bunker_Cable_Hor_02",138600,144600,14000,5400,64,893,2097537)
+p("BunkerInterior_AirPipes_01",138600,144600,14700,5400,64,4074,2097537)
 p("Floor_MetalScaff_ParapetCorner_01",138600,144600,18200,10800,514,1692,2150911028,"",1075839809)
 p("TropicalPlant_04_Shrub_01",138515,145259,18200,5400,2,2378,2097473)
 p("TropicalPlant_Grass_01",137245,145481,14000,5494,98,32,2097221)
 p("Bunker_Cable_Hor_02",137400,145800,14000,10800,326,2097409)
 p("DecConcreteShuttering_01",137900,145800,17700,7199,2365,2365,2365,96,2097233)
 p("BunkerInterior_ThinPipes_01",138000,145800,16800,3572,1779393439,2502441568,136061992,"",1073748737)
-p("DecJungleForest_01",138092,146036,15013,7201,34,-2365,-2365,2364,32,8,80,2098389)
+p("DecJungleForest_01",138092,146036,15013,7201,34,-2365,-2365,2364,32,80,2098261)
 p("Bunker_Cable_Hor_01",137400,147000,14000,10800,1902,2097409)
 p("DecWallLeak_02",138103,146660,16801,10800,-2896,0,2896,32,2095,2097489)
 p("BunkerInterior_ThinPipes_01",138000,147000,16800,3572,1779393439,2502441568,136061992,"",1073748737)
-p("DecWallLeak_03",138117,147091,16483,10800,172,-2896,0,2896,32,8,2097365)
-p("Bunker_Cable_Hor_02",138600,145800,14000,326,257)
-p("BunkerInterior_AirPipes_04",138600,145800,14700,2562,257)
+p("DecWallLeak_03",138117,147091,16483,10800,172,-2896,0,2896,32,2097237)
+p("Bunker_Cable_Hor_02",138600,145800,14000,64,326,385)
+p("BunkerInterior_AirPipes_04",138600,145800,14700,64,2562,385)
 p("Floor_MetalScaff_Parapet_01",138600,145800,18200,10800,514,1692,2150911028,"",1075839809)
-p("Bunker_Cable_Hor_02",138600,147000,14000,326,257)
-p("BunkerInterior_AirPipes_04",138600,147000,14700,2,2562,321)
+p("Bunker_Cable_Hor_02",138600,147000,14000,64,326,385)
+p("BunkerInterior_AirPipes_04",138600,147000,14700,2,64,2562,449)
 p("Floor_MetalScaff_Parapet_01",138600,147000,18200,10800,514,1692,2150911028,"",1075839809)
 p("TropicalPlant_Vines_05",139240,147452,19398,16181,2526,2097409)
 p("DecTyreTracks_05",139600,133966,21359,81,4288716960,72,2098188)
-p("DecBunker_ConcretePile_02",140405,134290,13950,7176,2097153)
+p("DecBunker_ConcretePile_02",140405,134290,13950,7176,64,2097281)
 p("TropicalPlant_Grass_03",140470,136695,13950,10980,106,32,2097221)
 p("DecJungleForest_01",140949,136736,13950,4500,53,32,2097221)
-p("DecWallDirt_06",139289,138436,13803,3953,250,4282131976,32,8,70,2098381)
-p("DecJungleForest_01",142322,136158,13950,17700,53,32,8,2097349)
+p("DecWallDirt_06",139289,138436,13803,3953,250,4282131976,32,70,2098253)
+p("DecJungleForest_01",142322,136158,13950,17700,53,32,2097221)
 p("TropicalPlant_Grass_03",142060,136243,13949,7200,2097153)
 p("TropicalPlant_Grass_03",145017,132288,13950,16501,91,1052,2097413)
 p("TropicalPlant_Grass_01",144459,134510,14000,5400,118,1052,2097413)
@@ -88094,7 +88412,7 @@ p("DecJungleForest_01",146090,135028,14700,2175,46,32,2097221)
 p("TropicalPlant_Grass_03",146605,133336,14699,6344,80,1052,2097413)
 p("DecJungleForest_01",146660,133456,14700,16691,49,32,2097221)
 p("TropicalPlant_04_Sapling_03",146683,134633,14683,12004,55,2097157)
-p("DecJungleForest_02",146830,134363,14700,16691,49,32,8,2097349)
+p("DecJungleForest_02",146830,134363,14700,16691,49,32,2097221)
 p("TropicalPlant_Grass_03",146589,134766,14699,6344,80,1052,2097413)
 p("TropicalPlant_04_Shrub_02",147123,134890,14688,9360,60,1052,2097413)
 p("DecJungleForest_02",147402,134977,14790,16691,49,32,2097221)
@@ -88112,58 +88430,58 @@ p("TropicalPlant_Grass_01",146360,138878,10800,66,2097156)
 p("TropicalPlant_Grass_01",146859,137510,13948,118,1052,261)
 p("TropicalPlant_Grass_03",147137,139121,17221,66,2097156)
 p("TropicalPlant_Grass_01",147204,138836,10800,66,2097156)
-p("DecBunker_ConcretePile_02",141182,141905,0)
+p("DecBunker_ConcretePile_02",141182,141905,64,128)
 p("WW2_BombBig",142347,139709,14000,10800,4286282105,2955557930,2147760740,8421560,"",1075849737)
 p("TropicalPlant_Grass_02",139569,143407,13950,10800,117,32,2097221)
 p("DecWallLeak_03",139457,143895,16096,7199,150,-2365,2365,2365,32,2097237)
-p("DecJungleForest_01",139456,144042,14431,9174,33,-986,2810,2811,32,8,80,2098389)
+p("DecJungleForest_01",139456,144042,14431,9174,33,-986,2810,2811,32,80,2098261)
 p("DecSoclePaint_02",139626,144092,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
 p("Bunker_Cable_Hor_02",139800,143400,14000,16200,893,2097409)
 p("BunkerInterior_ThinPipes_01",139800,144000,16800,5400,3875,1779393439,2502441568,136061992,"",1075845889)
-p("Bunker_Cable_Hor_02",139800,144600,14000,5400,893,2097409)
-p("BunkerInterior_AirPipes_04",139800,144600,14700,5400,2413,2097409)
+p("Bunker_Cable_Hor_02",139800,144600,14000,5400,64,893,2097537)
+p("BunkerInterior_AirPipes_04",139800,144600,14700,5400,64,2413,2097537)
 p("Floor_MetalScaff_Parapet_01",139800,144600,18200,16200,514,1692,2150911028,"",1075839809)
 p("Bunker_Cable_Hor_02",141000,143400,14000,16200,893,2097409)
 p("BunkerInterior_ThinPipes_01",141000,144000,16800,5400,3875,1779393439,2502441568,136061992,"",1075845889)
-p("Bunker_Cable_Hor_02",141000,144600,14000,5400,893,2097409)
-p("BunkerInterior_AirPipes_04",141000,144600,14700,5400,2413,2097409)
+p("Bunker_Cable_Hor_02",141000,144600,14000,5400,64,893,2097537)
+p("BunkerInterior_AirPipes_04",141000,144600,14700,5400,64,2413,2097537)
 p("Floor_MetalScaff_Parapet_01",141000,144600,18200,16200,514,1692,2150911028,"",1075839809)
-p("BrokenOff_Concrete_02",139515,145510,18199,10936,73,4281150505,32,32,2378,2097613)
+p("BrokenOff_Concrete_02",139515,145510,18199,10936,73,4281150505,32,96,2378,2097613)
 p("DecPuddle_02",139559,145682,5239,69,4286214243,6,69206028)
 p("DecJungleForest_03",140012,145736,18100,11740,56,32,80,2098245)
-p("DecBunker_ConcretePile",139810,146766,18200,13567,81,4283453520,2,4043,2097485)
-p("DecJungleForest_01",140259,147073,15090,6195,34,-1769,-3244,1767,34,8,80,2098389)
+p("DecBunker_ConcretePile",139810,146766,18200,13567,81,4283453520,2,64,4043,2097613)
+p("DecJungleForest_01",140259,147073,15090,6195,34,-1769,-3244,1767,34,80,2098261)
 p("TropicalPlant_Vines_04",141156,147452,19398,16181,2526,2097409)
-p("DecWallLeak_03",141689,143866,16447,7199,176,-2365,2365,2365,32,8,2097365)
-p("BrokenOff_Concrete_04",141498,144008,13945,16198,32,"terrainchunk",10,0,0,40,60,10,40,60,2228289)
+p("DecWallLeak_03",141689,143866,16447,7199,176,-2365,2365,2365,32,2097237)
+p("BrokenOff_Concrete_04",141498,144008,13945,16198,32,64,"terrainchunk",10,0,0,40,60,10,40,60,2228417)
 p("Bunker_Cable_Hor_01",142200,143400,14000,16200,893,2097409)
 p("DecBunkerFloor_02",142144,143890,16297,10799,126,4281413937,0,2896,2896,32,2097245)
 p("BunkerInterior_ThinPipes_01",142200,144000,16800,5400,3875,1779393439,2502441568,136061992,"",1075845889)
-p("Bunker_Cable_Hor_02",142200,144600,14000,5400,893,2097409)
-p("BunkerInterior_AirPipes_04",142200,144600,14700,5400,2413,2097409)
+p("Bunker_Cable_Hor_02",142200,144600,14000,5400,64,893,2097537)
+p("BunkerInterior_AirPipes_04",142200,144600,14700,5400,64,2413,2097537)
 p("Floor_MetalScaff_Parapet_01",142200,144600,18200,16200,514,1692,2150911028,"",1075839809)
 p("DecSoclePaint_02",142358,144075,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
 p("DecWallLeak_04",142780,144081,16065,7199,153,-2365,2365,2365,32,2097237)
 p("DecSoclePaint_02",143258,144075,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
 p("DecBulletHoles_01",142155,146299,16347,5400,4284242779,-4096,0,0,396,2097433)
-p("BrokenOff_Concrete_02",141654,147240,18196,7879,73,4281150505,32,32,2378,2097613)
+p("BrokenOff_Concrete_02",141654,147240,18196,7879,73,4281150505,32,96,2378,2097613)
 p("TropicalPlant_Vines_06",142372,147452,19398,16181,2526,2097409)
 p("DecWallLeak_02",143300,146500,16800,7201,-2365,2365,2365,32,1299,2097489)
 p("WW2_BombBig",143559,139679,14000,10800,4286282105,2956346422,2147760740,8421560,"",1075849737)
 p("WW2_BombBig",144730,139770,12646,4286282105,2956346422,2147760740,8421560,"",1075849736)
-p("DecWallDirt_06",144714,140501,13949,16347,208,4282131976,32,8,70,2098381)
+p("DecWallDirt_06",144714,140501,13949,16347,208,4282131976,32,70,2098253)
 p("DecWallDirt_06",143568,142765,13949,6058,160,4282131976,32,70,2098253)
 p("WW2_BombSingle",145843,139600,1403,4286282105,2151040054,2147760740,2822128694,11042984,"",1075853832)
 p("WW2_BombSmall",145831,143255,14000,16355,2486584374,2147760740,2822128694,11042984,"",1075853825)
 p("WW2_BombSingle",145960,143331,14634,16266,4286282105,2151040054,2147760740,2822128694,11042984,"",1075853833)
 p("Bunker_Cable_Hor_02",143400,143400,14000,16200,893,2097409)
 p("BunkerInterior_ThinPipes_01",143400,144000,16800,5400,3875,1779393439,2502441568,136061992,"",1075845889)
-p("DecConcreteShuttering_01",143433,144078,15312,14399,71,2365,2365,2365,96,8,2097365)
-p("DecWallLeak_02",143798,143897,17427,7199,141,-2365,2365,2365,32,8,2097365)
-p("DecWallLeak_02",144026,144106,16737,7199,131,-2365,2365,2365,32,8,2097365)
-p("Bunker_Cable_Hor_02",143400,144600,14000,5400,2,893,2097473)
-p("Bunker_Cable_Hor_02",143400,144600,14000,10800,2933,2097409)
-p("BunkerInterior_AirPipes_04",143400,144600,14700,5400,2413,2097409)
+p("DecConcreteShuttering_01",143433,144078,15312,14399,71,2365,2365,2365,96,2097237)
+p("DecWallLeak_02",143798,143897,17427,7199,141,-2365,2365,2365,32,2097237)
+p("DecWallLeak_02",144026,144106,16737,7199,131,-2365,2365,2365,32,2097237)
+p("Bunker_Cable_Hor_02",143400,144600,14000,5400,2,64,893,2097601)
+p("Bunker_Cable_Hor_02",143400,144600,14000,10800,64,2933,2097537)
+p("BunkerInterior_AirPipes_04",143400,144600,14700,5400,64,2413,2097537)
 p("Floor_MetalScaff_Parapet_01",143400,144600,18200,16200,514,1692,2150911028,"",1075839809)
 p("DecWallLeak_04",144100,144954,15699,10800,131,-2896,0,2896,32,2097237)
 p("DecSoclePaint_01",144098,145095,14400,5398,4278978051,0,4096,0,3566,2097433)
@@ -88174,22 +88492,22 @@ p("DecSoclePaint_02",144700,144092,14400,14401,4278978051,-2364,-2364,2365,3566,
 p("DecBulletHoles_02",144820,143873,15620,5400,4284242779,-4096,0,0,396,5,69206297)
 p("DecConcreteShuttering_01",144811,143921,15953,10799,0,-2896,2897,96,2097233)
 p("DecBunkerFloor_02",145407,143872,16699,10799,126,0,2896,2896,32,2097237)
-p("DecBunkerFloor_02",145407,144084,16349,10799,126,0,2896,2896,96,8,2097365)
-p("Bunker_Cable_Hor_02",144600,144600,14000,5400,893,2097409)
-p("BunkerInterior_AirPipes_04",144600,144600,14700,5400,2413,2097409)
+p("DecBunkerFloor_02",145407,144084,16349,10799,126,0,2896,2896,96,2097237)
+p("Bunker_Cable_Hor_02",144600,144600,14000,5400,64,893,2097537)
+p("BunkerInterior_AirPipes_04",144600,144600,14700,5400,64,2413,2097537)
 p("Floor_MetalScaff_Parapet_02",144600,144600,18200,16200,514,1692,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",144490,145254,18191,15050,2378,2097409)
-p("Bunker_Cable_Hor_02",143400,145800,14000,10800,2933,2097409)
+p("Bunker_Cable_Hor_02",143400,145800,14000,10800,64,2933,2097537)
 p("DecForestMoss_02",144119,145457,18190,16547,2097153)
 p("DecConcreteShuttering_01",144093,145744,15809,10799,71,2896,0,2896,96,2097237)
 p("DecWallLeak_04",144100,146115,15699,10800,131,-2896,0,2896,32,2097237)
 p("TropicalPlant_Vines_09",144104,146143,18191,3899,2378,2097409)
-p("DecWallLeak_01",143913,146242,14904,10800,200,-2896,0,2896,32,8,2097365)
+p("DecWallLeak_01",143913,146242,14904,10800,200,-2896,0,2896,32,2097237)
 p("DecForestMoss_02",143776,146802,18190,1)
-p("Bunker_Cable_Hor_02",143400,147000,14000,10800,2933,2097409)
+p("Bunker_Cable_Hor_02",143400,147000,14000,10800,64,2933,2097537)
 p("DecJungleForest_01",144925,145859,18109,11740,56,32,80,2098245)
 p("TropicalPlant_Vines_11",145203,146390,18191,13090,2378,2097409)
-p("DecBunker_ConcretePile",144830,146875,18200,13802,81,4283585106,2,2378,2097485)
+p("DecBunker_ConcretePile",144830,146875,18200,13802,81,4283585106,2,64,2378,2097613)
 p("Bunker_Cable_Ver_Dec_01",144600,147000,18200,16200,32,1627,2097473)
 p("TropicalPlant_Vines_10",145256,147046,18191,9979,2378,2097409)
 p("Bunker_Cable_Hor_02",145800,143400,14000,16200,893,2097409)
@@ -88197,39 +88515,39 @@ p("Bunker_Cable_Ver_Dec_02",145800,143400,14000,16200,32,893,2097473)
 p("BunkerInterior_ThinPipes_01",145800,144000,16800,5400,3875,1779393439,2502441568,136061992,"",1075845889)
 p("DecGraffiti_24",145819,144165,16151,7199,90,4282459136,-2365,2365,2365,2097181)
 p("DecBulletHoles_04",146081,143841,16908,6268,4284242779,-3173,1831,1831,396,5,69206297)
-p("DecWallLeak_03",146420,143857,16447,7199,176,-2365,2365,2365,32,8,2097365)
+p("DecWallLeak_03",146420,143857,16447,7199,176,-2365,2365,2365,32,2097237)
 p("DecSoclePaint_02",146200,144098,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
-p("Bunker_Cable_Hor_02",145800,144600,14000,5400,893,2097409)
-p("BunkerInterior_AirPipes_04",145800,144600,14700,5400,2413,2097409)
+p("Bunker_Cable_Hor_02",145800,144600,14000,5400,64,893,2097537)
+p("BunkerInterior_AirPipes_04",145800,144600,14700,5400,64,2413,2097537)
 p("Floor_MetalScaff_Parapet_01",145800,144600,18200,16200,514,1692,2150911028,"",1075839809)
 p("DecShantyRubbish_02",145819,145251,18123,10145,159,32,50,2098245)
-p("DecWallLeak_03",146788,144104,16098,7199,153,-2365,2365,2365,32,8,2097365)
+p("DecWallLeak_03",146788,144104,16098,7199,153,-2365,2365,2365,32,2097237)
 p("Bunker_Cable_Hor_01",147000,143400,14000,16200,893,2097409)
-p("ParSystem",147088,144250,15101,"Sparks",268435457)
+p("ParSystem",147088,144250,15101,64,"Sparks",268435585)
 p("DecForestMoss_02",146682,145000,18190,1)
-p("Bunker_Cable_Hor_02",147000,144600,14000,5400,893,2097409)
-p("Bunker_Cable_Hor_02",147000,144600,14000,10800,3936,2097409)
-p("BunkerInterior_AirPipes_01",147000,144600,14700,10800,2186,2097409)
+p("Bunker_Cable_Hor_02",147000,144600,14000,5400,64,893,2097537)
+p("Bunker_Cable_Hor_02",147000,144600,14000,10800,64,3936,2097537)
+p("BunkerInterior_AirPipes_01",147000,144600,14700,10800,64,2186,2097537)
 p("Floor_MetalScaff_ParapetCorner_01",147000,144600,18200,16200,514,1692,2150911028,"",1075839809)
 p("DecBunkerFloor_04",145630,145431,18174,14331,101,32,2097221)
 p("DecPuddle_09",146189,146448,10689,115,4286214243,6,69206028)
 p("DecForestMoss_02",146322,146862,18190,12947,2097153)
-p("DecWallLeak_03",146933,146319,14928,7201,87,-2365,2365,2365,32,8,1299,2097621)
-p("Bunker_Cable_Hor_02",147000,145800,14000,10800,3936,2097409)
-p("BunkerInterior_AirPipes_04",147000,145800,14700,10800,335,2097409)
+p("DecWallLeak_03",146933,146319,14928,7201,87,-2365,2365,2365,32,1299,2097493)
+p("Bunker_Cable_Hor_02",147000,145800,14000,10800,64,3936,2097537)
+p("BunkerInterior_AirPipes_04",147000,145800,14700,10800,64,335,2097537)
 p("Floor_MetalScaff_Parapet_01",147000,145800,18200,514,1692,2150911028,"",1073742657)
 p("City_Toilet_01",147061,145842,10720,586,2150911292,2151313551,2154260337,"",1075845888)
 p("TropicalPlant_Vines_11",146786,147306,18191,235,2378,2097409)
-p("DecWallLeak_03",146961,146500,15102,7201,-2365,2365,2365,32,8,1299,2097617)
-p("Bunker_Cable_Hor_02",147000,147000,14000,10800,3936,2097409)
-p("BunkerInterior_AirPipes_04",147000,147000,14700,10800,335,2097409)
+p("DecWallLeak_03",146961,146500,15102,7201,-2365,2365,2365,32,1299,2097489)
+p("Bunker_Cable_Hor_02",147000,147000,14000,10800,64,3936,2097537)
+p("BunkerInterior_AirPipes_04",147000,147000,14700,10800,64,335,2097537)
 p("Floor_MetalScaff_Parapet_01",147000,147000,18200,514,1692,2150911028,"",1073742657)
 p("City_Toilet_02",147073,147016,10242,586,2150911292,2151313551,2154260337,"",1075845888)
 p("Bunker_ConcretePile_01",133964,148800,14008,10980,68,-688,-228,4031,2097173)
 p("BunkerInterior_ThinPipesCorner_02",135000,148800,16800,5400,2463,1779393439,2502441568,136061992,"",1075845889)
-p("Bunker_Cable_Hor_02",135000,149400,14000,3812,257)
-p("Bunker_Cable_Hor_02",135000,149400,14000,5400,1311,2097409)
-p("BunkerInterior_AirPipes_01",135000,149400,14700,5400,2463,2097409)
+p("Bunker_Cable_Hor_02",135000,149400,14000,64,3812,385)
+p("Bunker_Cable_Hor_02",135000,149400,14000,5400,64,1311,2097537)
+p("BunkerInterior_AirPipes_01",135000,149400,14700,5400,64,2463,2097537)
 p("Floor_MetalScaff_ParapetCorner_01",135000,149400,17500,10800,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_01_Shrub",133905,149588,7438,112,2097156)
 p("TropicalPlant_Grass_03",133681,151368,13950,5449,125,32,2097221)
@@ -88240,42 +88558,42 @@ p("TropicalPlant_Vines_06",134170,150930,15395,10778,90,4043,2097413)
 p("BunkerInterior_ThinPipes_01",134400,150600,16800,3439,1779393439,2502441568,136061992,"",1073748737)
 p("DecJungleForest_01",134901,150964,15225,7200,26,-2365,2364,2365,32,80,2098261)
 p("WW2_ConcreteCliffTop",135000,150600,13300,10800,"terrainchunk",10,0,0,84,100,10,40,60,2228225)
-p("Bunker_Cable_Hor_02",135000,150600,14000,3812,257)
+p("Bunker_Cable_Hor_02",135000,150600,14000,64,3812,385)
 p("Floor_MetalScaff_Parapet_01",135000,150600,17500,10800,514,1185,2150911028,"",1075839809)
-p("DecJungleForest_01",134964,150964,15008,7200,26,-2365,2364,2365,32,8,80,2098389)
+p("DecJungleForest_01",134964,150964,15008,7200,26,-2365,2364,2365,32,80,2098261)
 p("TropicalPlant_Grass_02",132546,151723,13949,5400,125,32,2097221)
 p("TropicalPlant_01_Shrub",132979,151929,2583,90,-105,-238,4088,2097172)
 p("TropicalPlant_04_Shrub_02",133813,152404,5400,61,2097156)
 p("DecConcreteShuttering_01",134290,151778,15609,10799,71,2896,0,2896,96,2097237)
 p("BunkerInterior_ThinPipes_01",134400,151800,16800,3439,1779393439,2502441568,136061992,"",1073748737)
 p("DecWallLeak_03",134331,152077,16086,10800,150,-2896,0,2896,32,2097237)
-p("DecBunkerFloor_02",134322,152220,15990,10800,126,-2896,0,2896,32,8,2097365)
+p("DecBunkerFloor_02",134322,152220,15990,10800,126,-2896,0,2896,32,2097237)
 p("DecSoclePaint_02",134500,152100,14400,10800,4278978051,-2896,0,2896,3566,2097433)
-p("Bunker_Cable_Hor_02",135000,151800,14000,3812,257)
+p("Bunker_Cable_Hor_02",135000,151800,14000,64,3812,385)
 p("Floor_MetalScaff_Parapet_01",135000,151800,17500,10800,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",134665,152073,17501,11993,4043,2097409)
 p("BunkerInterior_ThinPipes_01",134400,153000,16800,3439,1779393439,2502441568,136061992,"",1073748737)
 p("DecWallLeak_02",134346,153546,16479,10800,250,-2896,0,2896,32,2097237)
 p("DecSoclePaint_01",134500,153400,14400,10800,4278978051,-2896,0,2896,3566,2097433)
 p("TropicalPlant_Vines_11",134590,153441,17501,2981,4043,2097409)
-p("Bunker_Cable_Hor_02",135000,153000,14000,3812,257)
-p("BunkerInterior_AirPipes_04",135000,153000,14700,706,257)
+p("Bunker_Cable_Hor_02",135000,153000,14000,64,3812,385)
+p("BunkerInterior_AirPipes_04",135000,153000,14700,64,706,385)
 p("Floor_MetalScaff_Parapet_01",135000,153000,17500,10800,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Grass_03",133339,153961,14000,3025,105,32,2097221)
 p("TropicalPlant_Grass_02",133431,155417,13950,125,32,69)
 p("TropicalPlant_Vines_08",134262,154070,15198,10808,4043,2097409)
 p("BunkerInterior_ThinPipes_01",134400,154200,16800,3439,1779393439,2502441568,136061992,"",1073748737)
 p("TropicalPlant_Vines_10",134730,154251,17501,16438,4043,2097409)
-p("Bunker_Cable_Hor_02",135000,154200,14000,3812,257)
-p("Bunker_Cable_Ver_Dec_02",135000,154200,14000,32,3812,321)
-p("BunkerInterior_AirPipes_04",135000,154200,14700,706,257)
+p("Bunker_Cable_Hor_02",135000,154200,14000,64,3812,385)
+p("Bunker_Cable_Ver_Dec_02",135000,154200,14000,32,64,3812,449)
+p("BunkerInterior_AirPipes_04",135000,154200,14700,64,706,385)
 p("Floor_MetalScaff_Parapet_01",135000,154200,17500,10800,514,1185,2150911028,"",1075839809)
 p("DecConcreteShuttering_01",134260,154904,17998,7199,2365,2365,2365,96,2097233)
 p("DecConcreteShuttering_01",134496,155335,15447,10799,71,2896,0,2896,96,2097237)
 p("BunkerInterior_ThinPipes_01",134400,155400,16800,3439,1779393439,2502441568,136061992,"",1073748737)
 p("TropicalPlant_Vines_11",134898,155106,17501,12862,3341,2097409)
-p("Bunker_Cable_Hor_02",135000,155400,14000,3812,257)
-p("BunkerInterior_AirPipes_04",135000,155400,14700,706,257)
+p("Bunker_Cable_Hor_02",135000,155400,14000,64,3812,385)
+p("BunkerInterior_AirPipes_04",135000,155400,14700,64,706,385)
 p("Floor_MetalScaff_Parapet_01",135000,155400,17500,10800,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Grass_01",136147,148160,10542,113,32,2097220)
 p("DecWallLeak_04",135310,148673,16100,7199,150,-2365,2365,2365,32,2097237)
@@ -88283,16 +88601,16 @@ p("DecSoclePaint_01",135800,148883,14400,14401,4278978051,-2365,-2365,2365,3566,
 p("TropicalPlant_04_Shrub_02",136806,147591,14018,20159,111,2068,506,3499,2097173)
 p("DecBunkerFloor_02",136335,148715,15928,14366,126,-2354,-2385,2354,32,2097237)
 p("BunkerInterior_ThinPipes_01",136200,148800,16800,5400,1684,1779393439,2502441568,136061992,"",1075845889)
-p("DecConcreteShuttering_01",136242,148883,15982,14399,71,2365,2365,2365,96,8,2097365)
-p("BunkerInterior_Ditch_04",136200,149400,14000,5400,2384,2097409)
-p("Bunker_Cable_Hor_02",136200,149400,14000,5400,2,1311,2097473)
-p("BunkerInterior_AirPipes_04",136200,149400,14700,5400,1684,2097409)
+p("DecConcreteShuttering_01",136242,148883,15982,14399,71,2365,2365,2365,96,2097237)
+p("BunkerInterior_Ditch_04",136200,149400,14000,5400,64,2384,2097537)
+p("Bunker_Cable_Hor_02",136200,149400,14000,5400,2,64,1311,2097601)
+p("BunkerInterior_AirPipes_04",136200,149400,14700,5400,64,1684,2097537)
 p("Floor_MetalScaff_Parapet_01",136200,149400,17500,16200,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",136436,149302,17501,9420,4043,2097409)
 p("DecBunkerFloor_01",136711,148704,16012,5401,110,4095,-27,33,32,2097237)
 p("TropicalPlant_Vines_09",135645,150013,17501,3899,4043,2097409)
-p("Bunker_ConcretePile_02",135665,149967,14000,11561,3134,"terrainchunk",10,0,0,78,100,10,40,60,2228481)
-p("Bunker_ConcretePile_01",136472,150175,14000,7983,3134,"terrainchunk",10,0,0,78,100,10,40,60,2228481)
+p("Bunker_ConcretePile_02",135665,149967,14000,11561,64,3134,"terrainchunk",10,0,0,78,100,10,40,60,2228609)
+p("Bunker_ConcretePile_01",136472,150175,14000,7983,64,3134,"terrainchunk",10,0,0,78,100,10,40,60,2228609)
 p("TropicalPlant_Vines_09",136714,151102,17501,18440,4043,2097409)
 p("TropicalPlant_04_Shrub_01",137334,147811,14000,5396,88,2097157)
 p("Bunker_Cable_Hor_02",137400,148200,14000,10800,326,2097409)
@@ -88301,7 +88619,7 @@ p("DecJungleForest_01",137840,147471,14969,6195,34,-1769,-3244,1767,32,80,209826
 p("DecSoclePaint_01",138081,147658,14365,10800,4278978051,-2896,0,2897,3566,2097433)
 p("DecBunkerFloor_02",137922,148433,16735,10800,126,-2896,0,2896,96,2097237)
 p("BunkerInterior_ThinPipes_01",138000,148200,16800,3572,1779393439,2502441568,136061992,"",1073748737)
-p("DecConcreteShuttering_01",138089,148103,15622,10799,71,2896,0,2896,96,8,2097365)
+p("DecConcreteShuttering_01",138089,148103,15622,10799,71,2896,0,2896,96,2097237)
 p("TropicalPlant_Vines_11",138178,147997,21690,14446,2526,2097409)
 p("DecJungleForest_01",138202,148114,14679,6195,34,-1769,-3244,1767,32,80,2098261)
 p("DecSoclePaint_02",138100,148252,18600,10800,4282264597,-2896,0,2897,2272,2097433)
@@ -88311,36 +88629,36 @@ p("DecSoclePaint_02",137280,148883,14400,14401,4278978051,-2365,-2365,2365,3566,
 p("BunkerInterior_ThinPipesCorner_01",137400,148800,16800,5400,3654,1779393439,2502441568,136061992,"",1075845889)
 p("BunkerInterior_ThinPipes_01",137400,148800,16800,5400,1684,1779393439,2502441568,136061992,"",1075845889)
 p("DecJungleMud_03",137312,149169,13950,2611,75,4278190080,2097165)
-p("BunkerInterior_Ditch_02",137400,149400,14000,1)
-p("Bunker_Cable_Hor_02",137400,149400,14000,5400,1311,2097409)
-p("BunkerInterior_AirPipes_04",137400,149400,14700,5400,1684,2097409)
+p("BunkerInterior_Ditch_02",137400,149400,14000,64,129)
+p("Bunker_Cable_Hor_02",137400,149400,14000,5400,64,1311,2097537)
+p("BunkerInterior_AirPipes_04",137400,149400,14700,5400,64,1684,2097537)
 p("Floor_MetalScaff_Parapet_01",137400,149400,17500,16200,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Vines_10",137478,149358,17501,11746,4043,2097409)
-p("DecBunkerFloor_02",137916,148600,19300,16020,141,-838,3920,838,32,8,2097365)
-p("DecWallLeak_04",137933,148773,19117,10800,178,-2896,0,2896,32,8,2097365)
+p("DecBunkerFloor_02",137916,148600,19300,16020,141,-838,3920,838,32,2097237)
+p("DecWallLeak_04",137933,148773,19117,10800,178,-2896,0,2896,32,2097237)
 p("DecBunkerFloor_02",138135,148490,18096,10800,126,-2896,0,2896,96,2097237)
-p("MetalScaff_Base_01",138100,148900,14000,2150911028,"",1073742337)
+p("MetalScaff_Base_01",138100,148900,14000,64,2150911028,"",1073742465)
 p("TropicalPlant_Vines_06",137825,149027,19398,10904,3603,2097409)
 p("DecSoclePaint_01",138200,149091,14400,14401,4278978051,-2365,-2365,2365,3566,2097433)
 p("TropicalPlant_Vines_08",138298,147456,19398,16181,2526,2097409)
-p("DecWallLeak_03",138582,147523,19597,7201,-2365,2365,2365,32,8,28,2097617)
-p("Bunker_Cable_Hor_02",138600,148200,14000,326,257)
-p("BunkerInterior_AirPipes_04",138600,148200,14700,2562,257)
-p("BunkerInterior_AirPipes_01",138600,148200,18200,5400,980,2097409)
-p("Bunker_Cable_Hor_02",138600,148200,18200,2810,257)
-p("Bunker_Cable_Hor_02",138600,148200,18200,5400,1627,2097409)
-p("Floor_MetalScaff_ParapetEnd_01",138600,148200,18200,10800,515,6,1692,2150911028,"",1075839937)
+p("DecWallLeak_03",138582,147523,19597,7201,-2365,2365,2365,32,28,2097489)
+p("Bunker_Cable_Hor_02",138600,148200,14000,64,326,385)
+p("BunkerInterior_AirPipes_04",138600,148200,14700,64,2562,385)
+p("BunkerInterior_AirPipes_01",138600,148200,18200,5400,64,980,2097537)
+p("Bunker_Cable_Hor_02",138600,148200,18200,64,2810,385)
+p("Bunker_Cable_Hor_02",138600,148200,18200,5400,64,1627,2097537)
+p("Floor_MetalScaff_ParapetEnd_01",138600,148200,18200,10800,515,70,1692,2150911028,"",1075839937)
 p("Floor_MetalScaff_ParapetCorner_01",138600,148200,21700,10800,514,2526,2150911028,"",1075839809)
 p("DecWallLeak_04",138850,147674,19600,7201,-2365,2365,2365,32,28,2097489)
 p("DecBunkerFloor_02",138900,147700,18200,20,101,32,2097221)
-p("DecBunker_ConcretePile",139179,147532,18200,5097,81,4283585106,2,2378,2097485)
-p("TropicalPlant_Grass_02",138470,148674,14000,10875,98,32,2097221)
-p("TropicalPlant_Vines_11",138292,149469,17501,4337,4043,2097409)
-p("Bunker_Cable_Hor_02",138600,149400,14000,5400,1311,2097409)
-p("Bunker_Cable_Hor_Turn_01",138600,149400,14000,5400,3654,2097409)
-p("BunkerInterior_AirPipes_03",138600,149400,14700,5400,3654,2097409)
-p("BunkerInterior_AirPipes_04",138600,149400,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,149400,18200,2810,257)
+p("DecBunker_ConcretePile",139179,147532,18200,5097,81,4283585106,2,64,2378,2097613)
+p("TropicalPlant_Grass_02",138470,148674,14000,10875,98,32,64,2097349)
+p("TropicalPlant_Vines_11",138292,149469,17501,4337,64,4043,2097537)
+p("Bunker_Cable_Hor_02",138600,149400,14000,5400,64,1311,2097537)
+p("Bunker_Cable_Hor_Turn_01",138600,149400,14000,5400,64,3654,2097537)
+p("BunkerInterior_AirPipes_03",138600,149400,14700,5400,64,3654,2097537)
+p("BunkerInterior_AirPipes_04",138600,149400,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,149400,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,149400,21700,10800,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_10",137378,149944,17501,11746,4043,2097409)
 p("DecWallLeak_04",137933,150115,19117,10800,178,-2896,0,2896,32,2097237)
@@ -88348,66 +88666,66 @@ p("TropicalPlant_Vines_08",137863,150150,19871,10904,77,2526,2097413)
 p("DecConcreteShuttering_01",137900,150600,17700,7199,2365,2365,2365,96,2097233)
 p("TropicalPlant_Vines_05",137825,151212,19398,10904,3603,2097409)
 p("TropicalPlant_Vines_09",139054,149740,21693,18858,2526,2097409)
-p("BunkerInterior_AirPipes_04",138600,150600,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,150600,18200,2810,257)
+p("BunkerInterior_AirPipes_04",138600,150600,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,150600,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,150600,21700,10800,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_10",135322,151759,17501,15565,4043,2097409)
-p("DecBunker_ConcretePile",135929,151647,14000,21360,110,2097157)
+p("DecBunker_ConcretePile",135929,151647,14000,21360,110,64,2097285)
 p("TropicalPlant_Vines_11",135941,152026,17501,15050,4043,2097409)
 p("TropicalPlant_Vines_11",135717,153520,17501,5490,4043,2097409)
 p("TropicalPlant_Vines_10",137188,152277,17501,15565,4043,2097409)
-p("DecShantyRubbish_02",136197,152747,17282,14820,139,32,8,50,2098373)
+p("DecShantyRubbish_02",136197,152747,17282,14820,139,32,50,2098245)
 p("DecBunkerFloor_02",136217,152806,17504,1725,93,96,70,2098245)
 p("TropicalPlant_Vines_11",136654,153162,17501,13090,4043,2097409)
 p("DecShantyRubbish_01",135535,155106,13690,20939,128,4035,-666,222,2097173)
 p("DecBunkerFloor_02",135723,154689,17481,3407,93,32,2097221)
 p("DecBunkerFloor_04",136323,154218,17495,8783,93,96,75,2098245)
 p("TropicalPlant_Vines_11",136978,153758,17501,4889,4043,2097409)
-p("DecBunkerFloor_02",136200,155400,17474,8783,93,32,8,2097349)
-p("BunkerInterior_Ditch_02",137400,151800,14000,1)
-p("DecShantyRubbish_02",137373,152237,13871,21044,128,3959,-1049,0,32,8,2097365)
+p("DecBunkerFloor_02",136200,155400,17474,8783,93,32,2097221)
+p("BunkerInterior_Ditch_02",137400,151800,14000,64,129)
+p("DecShantyRubbish_02",137373,152237,13871,21044,128,3959,-1049,0,32,2097237)
 p("DecBunkerFloor_02",138135,151719,16768,10800,126,-2896,0,2896,32,2097237)
-p("DecBunkerFloor_02",137845,152258,17476,8783,93,32,8,2097349)
+p("DecBunkerFloor_02",137845,152258,17476,8783,93,32,2097221)
 p("DecWallLeak_04",137933,152353,19117,10800,178,-2896,0,2896,32,2097237)
-p("MetalScaff_Base_01",138098,152310,14000,1186,2150911028,"",1073742593)
-p("BrokenOff_Concrete_04",138185,152428,21690,2,73,4281150505,32,32,3603,2097613)
+p("MetalScaff_Base_01",138098,152310,14000,64,1186,2150911028,"",1073742721)
+p("BrokenOff_Concrete_04",138185,152428,21690,2,73,4281150505,32,96,3603,2097613)
 p("TropicalPlant_Vines_10",137346,153312,17501,9979,4043,2097409)
 p("TropicalPlant_Vines_05",137863,153569,19398,10826,3603,2097409)
 p("DecSoclePaint_02",138100,153138,18600,10800,4282264597,-2896,0,2897,2272,2097433)
-p("BunkerInterior_AirPipes_04",138600,151800,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,151800,18200,2810,257)
+p("BunkerInterior_AirPipes_04",138600,151800,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,151800,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,151800,21700,10800,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_09",139007,151911,21690,6014,3603,2097409)
 p("DecBunkerFloor_04",139005,152342,17495,13080,73,96,2097221)
 p("DecBunkerFloor_02",139251,152077,17487,8783,93,32,2097221)
-p("BrokenOff_Concrete_03",139031,152516,21677,15725,73,4281150505,32,32,3603,2097613)
-p("BunkerInterior_AirPipes_04",138600,153000,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,153000,18200,2810,257)
+p("BrokenOff_Concrete_03",139031,152516,21677,15725,73,4281150505,32,96,3603,2097613)
+p("BunkerInterior_AirPipes_04",138600,153000,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,153000,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,153000,21700,10800,514,2526,2150911028,"",1075839809)
-p("Floor_MetalScaff_Parapet_01",138700,153100,18200,16200,3337,2150911028,"",1075839745)
+p("Floor_MetalScaff_Parapet_01",138700,153100,18200,16200,64,3337,2150911028,"",1075839873)
 p("TropicalPlant_Vines_11",138555,153514,21695,11413,3603,2097409)
 p("DecBunkerFloor_02",138890,152822,17506,1725,93,32,2097221)
 p("TropicalPlant_Vines_10",138935,153103,21690,15703,3603,2097409)
-p("DecJungleForest_01",139170,153353,17239,4818,81,32,8,80,2098373)
-p("BunkerInterior_Ditch_02",137400,154200,14000,1)
+p("DecJungleForest_01",139170,153353,17239,4818,81,32,80,2098245)
+p("BunkerInterior_Ditch_02",137400,154200,14000,64,129)
 p("TropicalPlant_Vines_11",137439,154303,17501,13090,4043,2097409)
 p("DecJungleForest_01",137801,154104,18749,16199,40,4283387727,0,4095,0,32,50,2098269)
-p("DecWallLeak_04",138100,154450,19601,10800,-2896,0,2896,32,8,1982,2097617)
+p("DecWallLeak_04",138100,154450,19601,10800,-2896,0,2896,32,1982,2097489)
 p("DecBunkerFloor_02",137922,154728,19575,16020,141,-838,3920,838,96,2097237)
 p("DecWallLeak_04",137933,154757,20005,10800,178,-2896,0,2896,32,2097237)
 p("DecSoclePaint_01",138100,154700,18600,10800,4282264597,-2896,0,2897,2272,2097433)
 p("DecBunkerFloor_01",137905,155260,20264,6060,110,-1664,-3352,1664,32,2097237)
 p("DecConcreteShuttering_01",137928,155201,17745,7199,2365,2365,2365,96,2097233)
-p("JungleCamp_CigareteSet_02",138368,153654,18894,17700,32,2097217)
+p("JungleCamp_CigareteSet_02",138368,153654,18894,17700,32,64,2097345)
 p("TropicalPlant_Vines_11",138545,153949,21695,20084,3603,2097409)
 p("TropicalPlant_Vines_10",138426,154545,21690,2323,3603,2097409)
-p("BunkerInterior_AirPipes_04",138600,154200,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,154200,18200,2810,257)
+p("BunkerInterior_AirPipes_04",138600,154200,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,154200,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_02",138600,154200,21700,10800,514,2526,2150911028,"",1075839809)
 p("DecShantyRubbish_01",138860,153756,13755,21124,128,3018,-2741,395,2097173)
 p("TropicalPlant_Vines_11",138413,155146,21695,2395,3603,2097409)
-p("BunkerInterior_AirPipes_04",138600,155400,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,155400,18200,2810,257)
+p("BunkerInterior_AirPipes_04",138600,155400,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,155400,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,155400,21700,10800,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",138897,154876,21698,4800,3603,2097409)
 p("DecForestMoss_02",139024,154831,21293,16046,144,2097157)
@@ -88417,25 +88735,25 @@ p("DecSoclePaint_01",134500,155800,14400,10800,4278978051,-2896,0,2896,3566,2097
 p("BunkerInterior_ThinPipes_01",134400,156600,16800,3439,1779393439,2502441568,136061992,"",1073748737)
 p("TropicalPlant_Vines_11",134764,155817,17501,3493,3341,2097409)
 p("TropicalPlant_Vines_11",134711,156597,17501,12414,3341,2097409)
-p("BunkerInterior_AirPipes_04",135000,156600,14700,706,257)
+p("BunkerInterior_AirPipes_04",135000,156600,14700,64,706,385)
 p("Floor_MetalScaff_Parapet_01",135000,156600,17500,10800,514,1185,2150911028,"",1075839809)
 p("DecBunkerFloor_01",134288,156672,15942,10800,126,-2896,0,2896,96,2097237)
 p("TropicalPlant_Vines_11",134560,157492,17501,3128,4043,2097409)
 p("TropicalPlant_Vines_11",134907,156948,17501,8389,4043,2097409)
-p("BrokenOff_Concrete_01",134200,157800,13886,18900,66,32,32,2097349)
+p("BrokenOff_Concrete_01",134200,157800,13886,18900,66,32,96,2097349)
 p("DecWallLeak_02",134338,157792,16475,10800,250,-2896,0,2896,32,2097237)
 p("TropicalPlant_Vines_05",134170,157986,15395,10778,90,4043,2097413)
 p("BunkerInterior_ThinPipes_01",134400,157800,16800,3439,1779393439,2502441568,136061992,"",1073748737)
 p("DecWallLeak_02",134537,158364,15746,10800,250,-2896,0,2896,32,2097237)
-p("DecWallLeak_02",134414,158467,16450,10800,250,-2896,0,2896,32,8,2097365)
-p("BunkerInterior_AirPipes_04",135000,157800,14700,706,257)
+p("DecWallLeak_02",134414,158467,16450,10800,250,-2896,0,2896,32,2097237)
+p("BunkerInterior_AirPipes_04",135000,157800,14700,64,706,385)
 p("Floor_MetalScaff_Parapet_02",135000,157800,17500,10800,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",134704,158475,17501,11863,4043,2097409)
-p("BrokenOff_Concrete_04",134200,159200,21598,32,"terrainchunk",10,0,0,40,60,10,40,60,2228288)
+p("BrokenOff_Concrete_04",134200,159200,21598,32,64,"terrainchunk",10,0,0,40,60,10,40,60,2228416)
 p("DecBunkerFloor_02",134288,159193,15990,10800,126,-2896,0,2896,96,2097237)
 p("TropicalPlant_Vines_11",134417,158803,17501,12862,4043,2097409)
 p("BunkerInterior_ThinPipes_01",134400,159000,16800,3439,1779393439,2502441568,136061992,"",1073748737)
-p("BunkerInterior_AirPipes_04",135000,159000,14700,2,706,321)
+p("BunkerInterior_AirPipes_04",135000,159000,14700,2,64,706,449)
 p("Floor_MetalScaff_Parapet_01",135000,159000,17500,10800,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",134784,159495,17501,3488,4043,2097409)
 p("TropicalPlant_Vines_11",131722,161790,13948,18612,2170,2097409)
@@ -88451,14 +88769,14 @@ p("TropicalPlant_Vines_06",134242,160227,15177,10808,4043,2097409)
 p("BunkerInterior_ThinPipes_02",134400,160200,16800,3439,1779393439,2502441568,136061992,"",1073748737)
 p("DecSoclePaint_02",134500,160410,14400,10800,4278978051,-2896,0,2896,3566,2097433)
 p("TropicalPlant_Vines_10",134799,159866,17501,16438,4043,2097409)
-p("Bunker_Cable_Hor_02",135000,160200,14000,3812,257)
-p("BunkerInterior_AirPipes_04",135000,160200,14700,706,257)
+p("Bunker_Cable_Hor_02",135000,160200,14000,64,3812,385)
+p("BunkerInterior_AirPipes_04",135000,160200,14700,64,706,385)
 p("Floor_MetalScaff_Parapet_01",135000,160200,17500,10800,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Vines_10",135115,160674,17501,5106,4043,2097409)
 p("TropicalPlant_Vines_08",134239,161138,14675,10808,4043,2097409)
 p("BunkerInterior_ThinPipes_01",134400,161400,16800,3439,1779393439,2502441568,136061992,"",1073748737)
-p("Bunker_Cable_Hor_02",135000,161400,14000,3812,257)
-p("BunkerInterior_AirPipes_04",135000,161400,14700,706,257)
+p("Bunker_Cable_Hor_02",135000,161400,14000,64,3812,385)
+p("BunkerInterior_AirPipes_04",135000,161400,14700,64,706,385)
 p("Floor_MetalScaff_Parapet_01",135000,161400,17500,10800,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Grass_02",135032,161486,13948,10800,96,2097157)
 p("TropicalPlant_Vines_09",133344,162767,13944,5204,2170,2097409)
@@ -88468,82 +88786,82 @@ p("TropicalPlant_Vines_04",134239,162542,15177,10808,4043,2097409)
 p("DecBunkerFloor_02",134288,162420,15990,10800,126,-2896,0,2896,96,2097237)
 p("TropicalPlant_Vines_08",134239,162706,14344,10808,4043,2097409)
 p("BunkerInterior_ThinPipes_01",134400,162600,16800,3439,1779393439,2502441568,136061992,"",1073748737)
-p("JungleCamp_GraveyardRifle_01",134765,162004,14319,10072,2910,-126,2879,2097169)
+p("JungleCamp_GraveyardRifle_01",134765,162004,14319,10072,2910,-126,2879,64,2097297)
 p("DecJungleForest_03",134790,162272,17239,18973,81,32,80,2098245)
-p("JungleCamp_GraveyardRifle_01",135128,161939,14319,10934,2871,388,2896,2097169)
+p("JungleCamp_GraveyardRifle_01",135128,161939,14319,10934,2871,388,2896,64,2097297)
 p("TropicalPlant_Vines_10",134730,162438,17501,15018,4043,2097409)
-p("Bunker_Cable_Hor_01",135000,162600,14000,3812,257)
-p("BunkerInterior_AirPipes_04",135000,162600,14700,706,257)
+p("Bunker_Cable_Hor_01",135000,162600,14000,64,3812,385)
+p("BunkerInterior_AirPipes_04",135000,162600,14700,64,706,385)
 p("Floor_MetalScaff_Parapet_01",135000,162600,17500,10800,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",135083,162584,18163,1123,1046,2097409)
 p("TropicalPlant_Vines_08",134239,163069,14344,10808,4043,2097409)
-p("DecConcreteShuttering_01",134282,162834,18002,7199,2365,2365,2365,96,8,2097361)
+p("DecConcreteShuttering_01",134282,162834,18002,7199,2365,2365,2365,96,2097233)
 p("DecBunkerFloor_01",134315,163168,15610,16109,126,-672,3981,687,96,2097237)
 p("DecBunkerFloor_01",134239,163757,15990,10800,126,-2896,0,2896,32,2097237)
 p("BunkerInterior_ThinPipes_01",134400,163800,16800,3439,1779393439,2502441568,136061992,"",1073748737)
 p("DecConcreteShuttering_01",134485,163759,15463,10799,71,2896,0,2896,96,2097237)
 p("TropicalPlant_Grass_02",134996,163678,13948,16200,96,2097157)
-p("Bunker_Cable_Hor_02",135000,163800,14000,3812,257)
-p("Bunker_Cable_Hor_Dec_01",135000,163800,14000,32,3812,321)
-p("BunkerInterior_AirPipes_04",135000,163800,14700,706,257)
+p("Bunker_Cable_Hor_02",135000,163800,14000,64,3812,385)
+p("Bunker_Cable_Hor_Dec_01",135000,163800,14000,32,64,3812,449)
+p("BunkerInterior_AirPipes_04",135000,163800,14700,64,706,385)
 p("Floor_MetalScaff_Parapet_01",135000,163800,17500,10800,514,1185,2150911028,"",1075839809)
-p("DecBunker_ConcretePile",135587,156272,13950,21481,91,2097157)
-p("DecBunkerFloor_02",135887,157173,17508,8783,93,32,8,2097349)
-p("DecBunker_ConcretePile_05",136164,157255,17490,4281413937,3341,265)
+p("DecBunker_ConcretePile",135587,156272,13950,21481,91,64,2097285)
+p("DecBunkerFloor_02",135887,157173,17508,8783,93,32,2097221)
+p("DecBunker_ConcretePile_05",136164,157255,17490,4281413937,64,3341,393)
 p("DecWallDirt_06",135609,158094,13949,16347,208,4282131976,32,70,2098253)
 p("DecBunkerFloor_02",135781,159028,17506,11321,93,96,2097221)
 p("DecBunkerFloor_02",136299,158160,17473,5401,93,32,2097221)
 p("DecBunkerFloor_03",136731,157767,17491,8498,93,96,80,2098245)
 p("TropicalPlant_Vines_11",136841,157826,17501,3052,4043,2097409)
-p("DecBunker_ConcretePile",137000,158200,17500,18198,81,4283453520,2,4043,2097485)
-p("DecShantyRubbish_03",136328,159558,17300,16472,139,32,8,50,2098373)
+p("DecBunker_ConcretePile",137000,158200,17500,18198,81,4283453520,2,64,4043,2097613)
+p("DecShantyRubbish_03",136328,159558,17300,16472,139,32,50,2098245)
 p("TropicalPlant_Vines_11",136641,159356,17501,5490,4043,2097409)
 p("DecBunkerFloor_02",138082,155851,18876,16190,134,0,4095,2,32,2097237)
 p("TropicalPlant_Vines_11",137275,157422,17501,5490,4043,2097409)
 p("DecSoclePaint_02",138100,156740,18600,10800,4282264597,-2896,0,2897,2272,2097433)
 p("TropicalPlant_Vines_06",137825,157402,19398,10904,2526,2097409)
 p("TropicalPlant_Vines_11",138508,156047,21698,13591,3603,2097409)
-p("BunkerInterior_AirPipes_04",138600,156600,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,156600,18200,2810,257)
+p("BunkerInterior_AirPipes_04",138600,156600,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,156600,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,156600,21700,10800,514,2526,2150911028,"",1075839809)
-p("DecBunker_ConcretePile",139063,156906,13950,5392,85,2097157)
+p("DecBunker_ConcretePile",139063,156906,13950,5392,85,64,2097285)
 p("TropicalPlant_Vines_09",138976,157212,21690,19970,2526,2097409)
-p("BunkerInterior_Ditch_02",137400,157800,14000,10800,2097153)
+p("BunkerInterior_Ditch_02",137400,157800,14000,10800,64,2097281)
 p("TropicalPlant_Vines_11",137396,157889,17501,17558,4043,2097409)
 p("TropicalPlant_Vines_10",137235,158496,17501,10820,4043,2097409)
 p("DecBunkerFloor_02",137922,157988,19460,6060,141,-1664,-3352,1664,96,2097237)
 p("DecWallLeak_02",138100,158000,20301,10800,-2896,0,2896,32,1982,2097489)
 p("TropicalPlant_Vines_08",137808,158304,19227,10904,105,2526,2097413)
-p("DecWallLeak_02",137933,158283,21202,10800,178,-2896,0,2896,32,8,2097365)
+p("DecWallLeak_02",137933,158283,21202,10800,178,-2896,0,2896,32,2097237)
 p("DecWallLeak_02",138100,158357,20510,10800,170,-2896,0,2896,32,2097237)
 p("TropicalPlant_Vines_11",138189,158360,21690,2165,2526,2097409)
-p("BunkerInterior_Ditch_02",137400,159000,14000,1)
+p("BunkerInterior_Ditch_02",137400,159000,14000,64,129)
 p("TropicalPlant_Vines_06",137825,158942,19398,10904,3603,2097409)
-p("DecJungleForest_01",137911,158761,17396,16199,60,0,4095,0,32,8,80,2098389)
+p("DecJungleForest_01",137911,158761,17396,16199,60,0,4095,0,32,80,2098261)
 p("DecSoclePaint_01",138100,158752,18600,10800,4282264597,-2896,0,2897,2272,2097433)
 p("DecBunkerFloor_02",138082,158855,19141,16190,134,0,4095,2,32,2097237)
-p("DecConcreteShuttering_01",138087,158954,19744,10799,71,2896,0,2896,96,8,2097365)
-p("BunkerInterior_AirPipes_04",138600,157800,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,157800,18200,2810,257)
+p("DecConcreteShuttering_01",138087,158954,19744,10799,71,2896,0,2896,96,2097237)
+p("BunkerInterior_AirPipes_04",138600,157800,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,157800,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,157800,21700,10800,514,2526,2150911028,"",1075839809)
 p("DecShantyRubbish_03",138813,158399,18113,21467,123,32,47,2098245)
 p("TropicalPlant_Vines_11",138930,158609,21690,13503,2526,2097409)
 p("TropicalPlant_Vines_10",138615,158850,21690,4663,3603,2097409)
-p("BunkerInterior_AirPipes_04",138600,159000,18200,4015,257)
-p("Bunker_Cable_Hor_01",138600,159000,18200,2810,257)
+p("BunkerInterior_AirPipes_04",138600,159000,18200,64,4015,385)
+p("Bunker_Cable_Hor_01",138600,159000,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,159000,21700,10800,514,2526,2150911028,"",1075839809)
 p("DecForestMoss_02",139047,159184,21293,14369,144,2097157)
-p("DecJungleForest_02",135195,160487,17394,6014,64,32,8,80,2098373)
-p("BrokenOff_Concrete_02",136000,160000,17486,18902,73,4280492835,32,32,3341,2097613)
+p("DecJungleForest_02",135195,160487,17394,6014,64,32,80,2098245)
+p("BrokenOff_Concrete_02",136000,160000,17486,18902,73,4280492835,32,96,3341,2097613)
 p("TropicalPlant_Vines_11",135712,160811,17501,12184,4043,2097409)
 p("TropicalPlant_Vines_10",135692,161497,17501,18024,4043,2097409)
 p("DecBunkerFloor_03",136219,160056,17691,12186,93,32,2097221)
 p("DecBunkerFloor_02",136237,160665,17488,11321,93,32,2097221)
 p("TropicalPlant_Vines_11",136876,160097,17501,15909,4043,2097409)
 p("TropicalPlant_Vines_11",135267,162572,17501,11407,4043,2097409)
-p("JungleCamp_GraveyardRifle_01",135587,162723,14295,14271,2160,2508,2414,2097169)
+p("JungleCamp_GraveyardRifle_01",135587,162723,14295,14271,2160,2508,2414,64,2097297)
 p("TropicalPlant_Vines_09",135431,162874,17501,2416,4043,2097409)
-p("DecBunker_ConcretePile",135784,163757,17500,3155,81,4283453520,2,4043,2097485)
+p("DecBunker_ConcretePile",135784,163757,17500,3155,81,4283453520,2,64,4043,2097613)
 p("DecJungleForest_01",136347,162979,17237,11636,81,32,80,2098245)
 p("TropicalPlant_Vines_10",137212,162926,17501,13603,4043,2097409)
 p("TropicalPlant_Vines_10",137337,159820,17501,9979,4043,2097409)
@@ -88553,133 +88871,133 @@ p("TropicalPlant_Vines_11",138119,160493,21690,2950,2526,2097409)
 p("TropicalPlant_Vines_11",137448,160917,17501,13090,4043,2097409)
 p("TropicalPlant_Vines_11",137284,161636,17501,986,4043,2097409)
 p("TropicalPlant_Vines_04",137857,161001,19404,10800,2526,2097409)
-p("DecBunkerFloor_02",138082,161067,19096,16190,134,0,4095,2,32,8,2097365)
+p("DecBunkerFloor_02",138082,161067,19096,16190,134,0,4095,2,32,2097237)
 p("TropicalPlant_Vines_08",137904,161390,17659,10800,90,2940,2097413)
 p("DecBunkerFloor_02",137927,161618,19205,15960,141,-1026,3830,1026,96,2097237)
 p("DecSoclePaint_01",138100,161324,18600,10800,4282264597,-2896,0,2897,2272,2097433)
 p("DecWallLeak_03",138100,161482,19601,10800,-2896,0,2896,32,1982,2097489)
-p("BunkerInterior_AirPipes_04",138600,160200,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,160200,18200,2810,257)
+p("BunkerInterior_AirPipes_04",138600,160200,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,160200,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,160200,21700,10800,514,2526,2150911028,"",1075839809)
 p("DecJungleForest_01",138663,160702,21844,3998,81,32,80,2098245)
 p("TropicalPlant_Vines_09",139208,160105,21690,4663,2526,2097409)
-p("TropicalPlant_Vines_06",139255,160758,20496,10800,81,2526,2097413)
+p("TropicalPlant_Vines_06",139255,160758,20496,10800,81,64,2526,2097541)
 p("TropicalPlant_Vines_11",138372,160990,21690,2950,2526,2097409)
-p("BunkerInterior_AirPipes_04",138600,161400,18200,4015,257)
-p("Bunker_Cable_Hor_02",138600,161400,18200,2810,257)
+p("BunkerInterior_AirPipes_04",138600,161400,18200,64,4015,385)
+p("Bunker_Cable_Hor_02",138600,161400,18200,64,2810,385)
 p("Floor_MetalScaff_Parapet_01",138600,161400,21700,10800,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_10",139076,161265,21690,4663,2526,2097409)
-p("DecBunker_ConcretePile",138869,161607,20023,76,2097156)
+p("DecBunker_ConcretePile",138869,161607,20023,76,64,2097284)
 p("TropicalPlant_Vines_11",137587,162120,17501,1123,805,2097409)
 p("DecJungleForest_02",137569,162155,17394,684,64,32,80,2098245)
-p("BunkerInterior_Ditch_02",137400,162600,14000,10800,2097153)
+p("BunkerInterior_Ditch_02",137400,162600,14000,10800,64,2097281)
 p("TropicalPlant_Vines_06",137825,162000,19398,10904,2526,2097409)
 p("TropicalPlant_Vines_03",137857,161976,18472,10800,2940,2097409)
 p("DecJungleForest_01",137801,162080,18091,16199,40,4283387727,0,4095,0,32,50,2098269)
 p("DecJungleForest_01",137831,162447,21718,16199,38,0,4095,0,32,80,2098261)
-p("DecJungleForest_01",137801,162676,19028,16199,40,4283387727,0,4095,0,32,8,50,2098397)
+p("DecJungleForest_01",137801,162676,19028,16199,40,4283387727,0,4095,0,32,50,2098269)
 p("DecJungleForest_01",137831,162694,20948,16199,38,0,4095,0,32,80,2098261)
 p("TropicalPlant_Vines_08",137844,163229,17403,10753,2526,2097409)
 p("TropicalPlant_Vines_12",137944,163170,17357,19365,4043,2097409)
 p("DecSoclePaint_03",138100,162900,18600,10800,4282264597,-2896,0,2897,2272,2097433)
-p("DecWallLeak_01",138038,163100,19604,14399,-2365,-2365,2365,32,8,2661,2097617)
-p("TropicalPlant_Vines_08",138110,163323,17403,5587,2526,2097409)
+p("DecWallLeak_01",138038,163100,19604,14399,-2365,-2365,2365,32,2661,2097489)
+p("TropicalPlant_Vines_08",138110,163323,17403,5587,64,2526,2097537)
 p("TropicalPlant_Vines_07",137844,163398,19394,10753,2526,2097409)
 p("DecWallLeak_01",138100,163564,19601,10800,-2896,0,2896,32,1982,2097489)
-p("BunkerInterior_AirPipes_01",138600,162600,18200,2997,257)
-p("Bunker_Cable_Hor_02",138600,162600,18200,2810,257)
-p("Bunker_Cable_Hor_02",138600,162600,18200,16200,905,2097409)
+p("BunkerInterior_AirPipes_01",138600,162600,18200,64,2997,385)
+p("Bunker_Cable_Hor_02",138600,162600,18200,64,2810,385)
+p("Bunker_Cable_Hor_02",138600,162600,18200,16200,64,905,2097537)
 p("Floor_MetalScaff_ParapetCorner_01",138600,162600,21700,5400,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_09",138982,162266,21690,21591,2526,2097409)
 p("TropicalPlant_Vines_10",138612,163702,18199,11429,2269,2097409)
 p("TropicalPlant_Vines_04",139216,163348,19398,5367,2526,2097409)
 p("DecSoclePaint_01",139400,147673,18600,14401,4282264597,-2364,-2364,2365,2272,2097433)
 p("DecJungleForest_01",139324,147717,18563,9406,60,4283321934,-826,2812,2860,32,60,2098269)
-p("DecBunkerFloor_02",139707,147517,19942,14399,96,-2365,-2365,2365,96,8,2097365)
+p("DecBunkerFloor_02",139707,147517,19942,14399,96,-2365,-2365,2365,96,2097237)
 p("DecWallLeak_03",140281,147514,19599,7201,-2365,2365,2365,32,28,2097489)
-p("BunkerInterior_AirPipes_04",139800,148200,18200,5400,1627,2097409)
-p("Bunker_Cable_Hor_02",139800,148200,18200,5400,166,2097409)
+p("BunkerInterior_AirPipes_04",139800,148200,18200,5400,64,1627,2097537)
+p("Bunker_Cable_Hor_02",139800,148200,18200,5400,64,166,2097537)
 p("Floor_MetalScaff_Parapet_01",139800,148200,21700,16200,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",139906,149140,21690,18351,2526,2097409)
-p("Bunker_Cable_Hor_02",139800,149400,14000,5400,1311,2097409)
+p("Bunker_Cable_Hor_02",139800,149400,14000,5400,64,1311,2097537)
 p("DecJungleForest_01",140213,149159,14818,7201,34,-2365,-2365,2364,32,80,2098261)
-p("DecJungleForest_01",140461,147738,20000,5944,60,4280492835,-3433,1594,1565,32,8,60,2098397)
-p("DecShantyRubbish_02",141181,147961,13950,4680,165,32,8,50,2098373)
-p("BunkerInterior_AirPipes_04",141000,148200,18200,5400,1627,2097409)
-p("Bunker_Cable_Hor_02",141000,148200,18200,5400,166,2097409)
+p("DecJungleForest_01",140461,147738,20000,5944,60,4280492835,-3433,1594,1565,32,60,2098269)
+p("DecShantyRubbish_02",141181,147961,13950,4680,165,32,50,2098245)
+p("BunkerInterior_AirPipes_04",141000,148200,18200,5400,64,1627,2097537)
+p("Bunker_Cable_Hor_02",141000,148200,18200,5400,64,166,2097537)
 p("Floor_MetalScaff_Parapet_01",141000,148200,21700,16200,514,2526,2150911028,"",1075839809)
 p("DecBunkerFloor_04",141223,148195,18174,11303,101,32,75,2098245)
 p("TropicalPlant_Vines_10",140460,148696,21690,11339,2526,2097409)
-p("MetalScaff_Base_01",140300,148900,14000,10800,1186,2150911028,"",1075839745)
+p("MetalScaff_Base_01",140300,148900,14000,10800,64,1186,2150911028,"",1075839873)
 p("TropicalPlant_Vines_11",140979,149193,21690,13579,2526,2097409)
-p("Floor_MetalScaff_Parapet_01",141100,149400,18200,10800,3337,2150911028,"",1075839745)
-p("BrokenOff_Concrete_03",139383,149628,21689,12128,73,4280492835,32,32,3603,2097613)
-p("Bunker_ConcretePile_02",139311,149926,14000,16200,2097153)
+p("Floor_MetalScaff_Parapet_01",141100,149400,18200,10800,64,3337,2150911028,"",1075839873)
+p("BrokenOff_Concrete_03",139383,149628,21689,12128,73,4280492835,32,96,3603,2097613)
+p("Bunker_ConcretePile_02",139311,149926,14000,16200,64,2097281)
 p("DecForestMoss_02",139465,150333,21293,16046,144,2097157)
 p("TropicalPlant_Vines_11",140171,150368,21690,938,2526,2097409)
 p("DecJungleForest_01",140213,150440,16389,9045,34,-2796,-1070,2796,32,80,2098261)
 p("DecSoclePaint_02",139500,151300,14400,14401,4278978051,-2365,-2365,2365,3566,2097433)
 p("DecSoclePaint_03",140500,149600,14400,10800,4278978051,-2896,0,2897,3566,2097433)
-p("Floor_MetalScaff_Parapet_01",141100,150600,18200,10800,3337,2150911028,"",1075839745)
+p("Floor_MetalScaff_Parapet_01",141100,150600,18200,10800,64,3337,2150911028,"",1075839873)
 p("DecSoclePaint_01",141400,147688,18600,14401,4282264597,-2364,-2364,2365,2272,2097433)
-p("DecWallLeak_01",141467,147677,18975,7199,250,-2365,2365,2365,32,8,2097365)
-p("DecWallLeak_02",141615,147483,20823,7199,125,-2365,2365,2365,32,8,2097365)
+p("DecWallLeak_01",141467,147677,18975,7199,250,-2365,2365,2365,32,2097237)
+p("DecWallLeak_02",141615,147483,20823,7199,125,-2365,2365,2365,32,2097237)
 p("DecConcreteShuttering_01",141656,147516,22747,5401,4095,0,0,96,2097233)
-p("BrokenOff_Concrete_04",141600,147600,18200,16219,73,4280492835,32,32,2378,2097613)
-p("DecWallLeak_04",141712,147694,19598,7201,-2365,2365,2365,32,8,28,2097617)
+p("BrokenOff_Concrete_04",141600,147600,18200,16219,73,4280492835,32,96,2378,2097613)
+p("DecWallLeak_04",141712,147694,19598,7201,-2365,2365,2365,32,28,2097489)
 p("DecBunkerFloor_02",141997,147677,19547,14399,96,-2365,-2365,2365,32,2097237)
-p("DecConcreteShuttering_01",142134,147489,19976,7199,71,-2365,2365,2365,96,8,2097365)
+p("DecConcreteShuttering_01",142134,147489,19976,7199,71,-2365,2365,2365,96,2097237)
 p("DecShantyRubbish_03",142169,147909,18123,10145,127,32,50,2098245)
-p("BunkerInterior_AirPipes_04",142200,148200,18200,5400,1627,2097409)
-p("Bunker_Cable_Hor_02",142200,148200,18200,5400,1627,2097409)
+p("BunkerInterior_AirPipes_04",142200,148200,18200,5400,64,1627,2097537)
+p("Bunker_Cable_Hor_02",142200,148200,18200,5400,64,1627,2097537)
 p("Floor_MetalScaff_Parapet_01",142200,148200,21700,16200,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",141710,148790,21690,4764,2526,2097409)
 p("DecForestMoss_02",141991,148550,21293,11400,144,2097157)
 p("TropicalPlant_Vines_11",142210,148963,21690,19638,2526,2097409)
 p("DecWallLeak_04",142484,147477,18902,7199,250,-2365,2365,2365,32,2097237)
-p("BrokenOff_Concrete_03",142372,147955,18177,10936,73,4280492835,32,32,2378,2097613)
+p("BrokenOff_Concrete_03",142372,147955,18177,10936,73,4280492835,32,96,2378,2097613)
 p("TropicalPlant_Vines_11",142772,147880,21690,2247,2526,2097409)
 p("TropicalPlant_Vines_11",142365,148165,21690,15715,2526,2097409)
 p("DecBunkerFloor_02",143337,147526,19863,14399,96,-2365,-2365,2365,32,2097237)
 p("DecBunkerFloor_02",143234,148936,21694,16371,145,32,2097221)
-p("DecBunker_ConcretePile_05",142009,150207,17989,"terrainchunk",10,0,0,83,100,10,40,60,2228224)
-p("BrokenOff_Concrete_01",142234,151111,21682,18902,85,4281150505,32,32,3603,2097613)
+p("DecBunker_ConcretePile_05",142009,150207,17989,64,"terrainchunk",10,0,0,83,100,10,40,60,2228352)
+p("BrokenOff_Concrete_01",142234,151111,21682,18902,85,4281150505,32,96,3603,2097613)
 p("DecBunkerFloor_04",142682,149939,21701,5890,195,96,2097221)
 p("DecForestMoss_02",139363,152978,21293,20845,144,2097157)
 p("DecBunkerFloor_02",139652,152626,21694,11440,145,32,2097221)
 p("TropicalPlant_Vines_11",139998,152751,21695,21415,3603,2097409)
-p("Floor_MetalScaff_Parapet_01",139900,153100,18200,16200,3337,2150911028,"",1075839745)
-p("DecBunkerFloor_02",140388,152164,18195,1120,116,32,8,2097349)
-p("MetalScaff_Base_01",140300,152400,14000,10800,1186,2150911028,"",1075839745)
-p("Floor_MetalScaff_Parapet_01",141100,151800,18200,10800,3337,2150911028,"",1075839745)
+p("Floor_MetalScaff_Parapet_01",139900,153100,18200,16200,64,3337,2150911028,"",1075839873)
+p("DecBunkerFloor_02",140388,152164,18195,1120,116,32,2097221)
+p("MetalScaff_Base_01",140300,152400,14000,10800,64,1186,2150911028,"",1075839873)
+p("Floor_MetalScaff_Parapet_01",141100,151800,18200,10800,64,3337,2150911028,"",1075839873)
 p("DecWallLeak_03",140500,152782,16101,10800,-2896,0,2896,32,2095,2097489)
 p("TropicalPlant_Vines_11",139285,153690,21695,9897,3603,2097409)
 p("BunkerInterior_Pillar",141000,155400,13300,10800,3477,2097409)
-p("BunkerInterior_Pillar",141000,155400,14700,10800,3477,2097409)
-p("BunkerInterior_Pillar",141000,155400,16100,10800,3477,2097409)
+p("BunkerInterior_Pillar",141000,155400,14700,10800,64,3477,2097537)
+p("BunkerInterior_Pillar",141000,155400,16100,10800,64,3477,2097537)
 p("DecBunkerFloor_02",142985,152058,18160,11077,145,32,2097221)
-p("BrokenOff_Concrete_01",141600,154200,13920,9000,67,32,"terrainchunk",10,0,0,89,100,10,40,60,2228293)
-p("DecBunker_ConcretePile_02",142591,153665,21690,19297,4281413937,3603,2097417)
+p("BrokenOff_Concrete_01",141600,154200,13920,9000,67,32,64,"terrainchunk",10,0,0,89,100,10,40,60,2228421)
+p("DecBunker_ConcretePile_02",142591,153665,21690,19297,4281413937,64,3603,2097545)
 p("DecBunkerFloor_01",143342,153622,13916,4800,130,32,60,2098245)
-p("DecBunker_ConcretePile_04",143067,155091,17989,2097152)
+p("DecBunker_ConcretePile_04",143067,155091,17989,64,2097280)
 p("TropicalPlant_Vines_11",143489,147865,21690,6943,2526,2097409)
-p("Bunker_Cable_Hor_02",143400,148200,14000,10800,2933,2097409)
-p("BunkerInterior_AirPipes_04",143400,148200,18200,5400,1627,2097409)
-p("Bunker_Cable_Hor_02",143400,148200,18200,5400,166,2097409)
+p("Bunker_Cable_Hor_02",143400,148200,14000,10800,64,2933,2097537)
+p("BunkerInterior_AirPipes_04",143400,148200,18200,5400,64,1627,2097537)
+p("Bunker_Cable_Hor_02",143400,148200,18200,5400,64,166,2097537)
 p("Floor_MetalScaff_Parapet_01",143400,148200,21700,16200,514,2526,2150911028,"",1075839809)
 p("DecWallLeak_04",144100,147796,15699,10800,131,-2896,0,2896,32,2097237)
 p("DecSoclePaint_01",144142,147673,18600,14401,4282264597,-2364,-2364,2365,2272,2097433)
 p("TropicalPlant_Vines_11",143959,147968,18191,5490,2378,2097409)
-p("DecConcreteShuttering_01",143872,148174,15809,10799,71,2896,0,2896,96,8,2097365)
+p("DecConcreteShuttering_01",143872,148174,15809,10799,71,2896,0,2896,96,2097237)
 p("DecSoclePaint_02",144091,148021,14400,5398,4278978051,0,4096,0,3566,2097433)
 p("DecSoclePaint_02",143879,148332,14400,5398,4278978051,0,4096,0,3566,2097433)
 p("DecBunkerFloor_02",144132,148197,18200,5598,101,957,3865,957,96,2097237)
-p("Bunker_Cable_Hor_Turn_01",143400,149400,14000,10800,1193,2097409)
-p("BrokenOff_Concrete_01",143848,149022,21677,3508,73,4281150505,32,32,3603,2097613)
+p("Bunker_Cable_Hor_Turn_01",143400,149400,14000,10800,64,1193,2097537)
+p("BrokenOff_Concrete_01",143848,149022,21677,3508,73,4281150505,32,96,3603,2097613)
 p("DecBunkerFloor_02",144255,148962,21694,9277,145,32,2097221)
-p("BunkerInterior_AirPipes_01",144600,148200,18200,10800,2191,2097409)
-p("Bunker_Cable_Hor_02",144600,148200,18200,5400,166,2097409)
-p("Bunker_Cable_Hor_02",144600,148200,18200,10800,626,2097409)
+p("BunkerInterior_AirPipes_01",144600,148200,18200,10800,64,2191,2097537)
+p("Bunker_Cable_Hor_02",144600,148200,18200,5400,64,166,2097537)
+p("Bunker_Cable_Hor_02",144600,148200,18200,10800,64,626,2097537)
 p("Floor_MetalScaff_ParapetCorner_01",144600,148200,21700,16200,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",144642,147971,18191,10809,2378,2097409)
 p("TropicalPlant_Vines_11",145375,147515,18191,13090,2378,2097409)
@@ -88687,170 +89005,170 @@ p("DecBunkerFloor_02",145310,147618,18692,10030,99,-2878,-460,2878,32,2097237)
 p("DecWallLeak_03",145320,148387,19875,10800,132,-2896,0,2896,32,2043,2097493)
 p("DecSoclePaint_02",144460,148692,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
 p("DecSoclePaint_02",144460,148879,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
-p("Bunker_Cable_Hor_02",144600,149400,14000,5400,2240,2097409)
-p("Bunker_Cable_Ver_Dec_01",144600,149400,14000,5400,32,2240,2097473)
-p("BunkerInterior_AirPipes_04",144600,149400,18200,10800,2548,2097409)
-p("Bunker_Cable_Hor_02",144600,149400,18200,10800,626,2097409)
-p("Bunker_Cable_Ver_Dec_01",144600,149400,18200,10800,32,626,2097473)
+p("Bunker_Cable_Hor_02",144600,149400,14000,5400,64,2240,2097537)
+p("Bunker_Cable_Ver_Dec_01",144600,149400,14000,5400,32,64,2240,2097601)
+p("BunkerInterior_AirPipes_04",144600,149400,18200,10800,64,2548,2097537)
+p("Bunker_Cable_Hor_02",144600,149400,18200,10800,64,626,2097537)
+p("Bunker_Cable_Ver_Dec_01",144600,149400,18200,10800,32,64,626,2097601)
 p("Floor_MetalScaff_Parapet_02",144600,149400,21700,514,2526,2150911028,"",1073742657)
 p("DecWallLeak_03",144986,148737,15744,7199,131,-2365,2365,2365,32,2097237)
 p("DecSoclePaint_01",145100,148945,18600,5399,4282264597,0,4095,0,2272,2097433)
 p("DecBunkerFloor_04",145132,149138,15600,130,96,60,2098244)
-p("BrokenOff_Concrete_04",145148,149402,21690,2,73,4281150505,32,32,3603,2097613)
+p("BrokenOff_Concrete_04",145148,149402,21690,2,73,4281150505,32,96,3603,2097613)
 p("TropicalPlant_Vines_09",145291,149169,18191,18440,2378,2097409)
-p("BunkerInterior_AirPipes_04",144600,150600,18200,10800,2548,2097409)
-p("Bunker_Cable_Hor_02",144600,150600,18200,10800,626,2097409)
+p("BunkerInterior_AirPipes_04",144600,150600,18200,10800,64,2548,2097537)
+p("Bunker_Cable_Hor_02",144600,150600,18200,10800,64,626,2097537)
 p("Floor_MetalScaff_Parapet_01",144600,150600,21700,514,2526,2150911028,"",1073742657)
-p("DecWallLeak_02",145100,150668,21049,10800,132,-2896,0,2896,32,8,2043,2097621)
+p("DecWallLeak_02",145100,150668,21049,10800,132,-2896,0,2896,32,2043,2097493)
 p("DecWallLeak_02",145320,150668,20741,10800,132,-2896,0,2896,32,2043,2097493)
 p("DecBulletHoles_02",145281,150843,20216,11525,4284242779,2887,-425,2873,3571,2097433)
 p("TropicalPlant_01_Shrub",145802,147752,18200,4159,94,2,2378,2097477)
 p("DecBunkerFloor_02",145651,148331,18183,20,101,32,2097221)
 p("TropicalPlant_Vines_10",145966,147899,18191,11746,2378,2097409)
 p("DecWallLeak_01",145648,148875,16608,7199,131,-2365,2365,2365,32,2097237)
-p("Bunker_Cable_Hor_02",145800,149400,14000,5400,2240,2097409)
-p("DecBunker_ConcretePile_04",146486,147549,13948,7485,"terrainchunk",10,0,0,83,100,10,40,60,2228225)
+p("Bunker_Cable_Hor_02",145800,149400,14000,5400,64,2240,2097537)
+p("DecBunker_ConcretePile_04",146486,147549,13948,7485,64,"terrainchunk",10,0,0,83,100,10,40,60,2228353)
 p("DecForestMoss_02",146662,148166,18190,1)
 p("BunkerInterior_ThinPipesCorner_01",146708,148444,13901,5400,3945,1779393439,2502441568,136061992,"",1075845889)
 p("TropicalPlant_Vines_10",146923,148375,18191,15565,2378,2097409)
-p("Bunker_Cable_Hor_02",147000,148200,14000,10800,3936,2097409)
-p("BunkerInterior_AirPipes_04",147000,148200,14700,10800,335,2097409)
+p("Bunker_Cable_Hor_02",147000,148200,14000,10800,64,3936,2097537)
+p("BunkerInterior_AirPipes_04",147000,148200,14700,10800,64,335,2097537)
 p("Floor_MetalScaff_Parapet_01",147000,148200,18200,514,1692,2150911028,"",1073742657)
 p("DecSoclePaint_02",146803,148692,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
 p("TropicalPlant_Vines_11",146811,148987,18195,16763,2378,2097409)
 p("DecSoclePaint_02",146841,148879,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
-p("DecWallLeak_03",146976,148704,15744,7199,131,-2365,2365,2365,32,8,2097365)
-p("Bunker_Cable_Hor_02",147000,149400,14000,5400,2240,2097409)
-p("Bunker_Cable_Hor_02",147000,149400,14000,10800,3936,2097409)
-p("BunkerInterior_AirPipes_02",147000,149400,14700,10800,335,2097409)
+p("DecWallLeak_03",146976,148704,15744,7199,131,-2365,2365,2365,32,2097237)
+p("Bunker_Cable_Hor_02",147000,149400,14000,5400,64,2240,2097537)
+p("Bunker_Cable_Hor_02",147000,149400,14000,10800,64,3936,2097537)
+p("BunkerInterior_AirPipes_02",147000,149400,14700,10800,64,335,2097537)
 p("Floor_MetalScaff_Parapet_01",147000,149400,18200,514,1692,2150911028,"",1073742657)
 p("DecShantyRubbish_02",145507,150403,13948,11400,165,32,50,2098245)
 p("DecForestMoss_02",146092,149744,18190,14668,2097153)
 p("DecBunkerFloor_02",146368,149727,18201,20,101,32,2097221)
-p("BrokenOff_Concrete_02",146200,149800,13940,32,"terrainchunk",10,0,0,89,100,10,40,60,131137)
+p("BrokenOff_Concrete_02",146200,149800,13940,32,64,"terrainchunk",10,0,0,89,100,10,40,60,131265)
 p("TropicalPlant_Vines_11",146020,150156,18191,14007,2378,2097409)
-p("Bunker_Cable_Hor_02",147000,150600,14000,10800,3936,2097409)
-p("BunkerInterior_AirPipes_04",147000,150600,14700,10800,335,2097409)
+p("Bunker_Cable_Hor_02",147000,150600,14000,10800,64,3936,2097537)
+p("BunkerInterior_AirPipes_04",147000,150600,14700,10800,64,335,2097537)
 p("Floor_MetalScaff_Parapet_01",147000,150600,18200,514,1692,2150911028,"",1073742657)
 p("DecShantyRubbish_02",143703,152723,17500,9075,178,32,50,2098245)
 p("DecPaperPile_02",143530,153232,18238,7101,90,4077,2097413)
-p("BunkerInterior_AirPipes_04",144600,151800,18200,10800,2548,2097409)
-p("Bunker_Cable_Hor_01",144600,151800,18200,10800,626,2097409)
-p("JungleCamp_CigareteSet_03",144439,151917,19657,2571,32,4077,2097473)
-p("DecBunkerFloor_02",145095,151633,19702,16190,98,0,4095,2,32,8,2097365)
+p("BunkerInterior_AirPipes_04",144600,151800,18200,10800,64,2548,2097537)
+p("Bunker_Cable_Hor_01",144600,151800,18200,10800,64,626,2097537)
+p("JungleCamp_CigareteSet_03",144439,151917,19657,2571,32,64,4077,2097601)
+p("DecBunkerFloor_02",145095,151633,19702,16190,98,0,4095,2,32,2097237)
 p("DecConcreteShuttering_01",145082,151744,19785,10799,71,2896,0,2896,96,2097237)
 p("DecBunkerFloor_02",145310,151637,19576,10800,99,-2896,0,2896,96,2097237)
 p("DecConcreteShuttering_01",145286,151790,19936,10799,71,2896,0,2896,96,2097237)
 p("DecSoclePaint_01",145100,152137,18600,5399,4282264597,0,4095,0,2272,2097433)
-p("DecWallLeak_04",145100,152479,19601,10800,-2896,0,2896,32,8,2043,2097617)
-p("BunkerInterior_AirPipes_04",144600,153000,18200,10800,2548,2097409)
-p("Bunker_Cable_Hor_02",144600,153000,18200,10800,626,2097409)
+p("DecWallLeak_04",145100,152479,19601,10800,-2896,0,2896,32,2043,2097489)
+p("BunkerInterior_AirPipes_04",144600,153000,18200,10800,64,2548,2097537)
+p("Bunker_Cable_Hor_02",144600,153000,18200,10800,64,626,2097537)
 p("Floor_MetalScaff_Parapet_01",144600,153000,21700,514,2526,2150911028,"",1073742657)
-p("DecWallLeak_03",144942,153480,20266,7199,153,-2365,2365,2365,32,8,2097365)
+p("DecWallLeak_03",144942,153480,20266,7199,153,-2365,2365,2365,32,2097237)
 p("DecBunkerFloor_02",143482,153959,13949,18240,152,32,60,2098245)
-p("Prison_DecPaperPile_02",144276,153862,18200,5529,77,32,4077,2097477)
+p("Prison_DecPaperPile_02",144276,153862,18200,5529,77,32,64,4077,2097605)
 p("DecShantyRubbish_02",144217,154609,20881,19352,207,32,26,2098245)
 p("DecSoclePaint_02",144400,153700,18600,14401,4282264597,-2364,-2364,2365,2272,2097433)
-p("BunkerInterior_AirPipes_04",144600,154200,18200,10800,2548,2097409)
-p("Bunker_Cable_Hor_02",144600,154200,18200,10800,626,2097409)
+p("BunkerInterior_AirPipes_04",144600,154200,18200,10800,64,2548,2097537)
+p("Bunker_Cable_Hor_02",144600,154200,18200,10800,64,626,2097537)
 p("Floor_MetalScaff_Parapet_01",144600,154200,21700,514,2526,2150911028,"",1073742657)
-p("DecWallLeak_01",145224,153700,19596,7201,-2365,2365,2365,32,8,28,2097617)
+p("DecWallLeak_01",145224,153700,19596,7201,-2365,2365,2365,32,28,2097489)
 p("DecWallLeak_04",145100,154450,19601,10800,-2896,0,2896,32,2043,2097489)
-p("DecWallLeak_04",145313,154570,20396,10800,162,-2896,0,2896,32,8,2097365)
-p("BunkerInterior_AirPipes_04",144600,155400,18200,10800,2548,2097409)
-p("Bunker_Cable_Hor_02",144600,155400,18200,10800,626,2097409)
+p("DecWallLeak_04",145313,154570,20396,10800,162,-2896,0,2896,32,2097237)
+p("BunkerInterior_AirPipes_04",144600,155400,18200,10800,64,2548,2097537)
+p("Bunker_Cable_Hor_02",144600,155400,18200,10800,64,626,2097537)
 p("DecSoclePaint_01",145100,154700,18600,5399,4282264597,0,4095,0,2272,2097433)
-p("DecBunkerFloor_02",145095,155126,19702,16190,98,0,4095,2,32,8,2097365)
+p("DecBunkerFloor_02",145095,155126,19702,16190,98,0,4095,2,32,2097237)
 p("DecBunkerFloor_03",145724,151715,18189,11502,101,32,2097221)
 p("TropicalPlant_Vines_11",145779,152564,18191,10637,2378,2097409)
 p("DecShantyRubbish_03",146001,152029,18123,12476,127,32,50,2098245)
 p("TropicalPlant_Vines_10",145789,153326,18191,14461,2378,2097409)
 p("DecForestMoss_02",146426,152775,18190,12762,2097153)
 p("DecBunkerFloor_02",146448,151817,18184,1120,101,96,2097221)
-p("Bunker_Cable_Hor_02",147000,151800,14000,10800,3936,2097409)
-p("BunkerInterior_AirPipes_04",147000,151800,14700,10800,2,335,2097473)
+p("Bunker_Cable_Hor_02",147000,151800,14000,10800,64,3936,2097537)
+p("BunkerInterior_AirPipes_04",147000,151800,14700,10800,2,64,335,2097601)
 p("Floor_MetalScaff_Parapet_01",147000,151800,18200,514,1692,2150911028,"",1073742657)
 p("TropicalPlant_Vines_11",146501,153294,18191,10464,2378,2097409)
-p("Bunker_Cable_Hor_02",147000,153000,14000,10800,3936,2097409)
-p("BunkerInterior_AirPipes_04",147000,153000,14700,10800,335,2097409)
+p("Bunker_Cable_Hor_02",147000,153000,14000,10800,64,3936,2097537)
+p("BunkerInterior_AirPipes_04",147000,153000,14700,10800,64,335,2097537)
 p("Floor_MetalScaff_Parapet_01",147000,153000,18200,514,1692,2150911028,"",1073742657)
 p("DecShantyRubbish_02",145834,154471,13950,128,32,69)
 p("DecBunkerFloor_02",146257,154341,18185,11440,89,32,2097221)
-p("DecBunkerFloor_03",146319,154596,18190,11440,89,32,8,2097349)
+p("DecBunkerFloor_03",146319,154596,18190,11440,89,32,2097221)
 p("TropicalPlant_Vines_09",146362,154609,18191,10524,2378,2097409)
 p("Floor_MetalScaff_Parapet_02",145800,155400,21700,16200,512,1788,2150911028,"",1075839809)
-p("BrokenOff_Concrete_01",146441,154581,18177,10936,73,4280492835,32,32,2378,2097613)
-p("Bunker_Cable_Hor_02",147000,154200,14000,10800,3936,2097409)
-p("BunkerInterior_AirPipes_04",147000,154200,14700,10800,335,2097409)
+p("BrokenOff_Concrete_01",146441,154581,18177,10936,73,4280492835,32,96,2378,2097613)
+p("Bunker_Cable_Hor_02",147000,154200,14000,10800,64,3936,2097537)
+p("BunkerInterior_AirPipes_04",147000,154200,14700,10800,64,335,2097537)
 p("DecForestMoss_02",146709,154739,18190,1)
 p("BunkerInterior_Pillar",147000,155400,13300,10800,3496,2097409)
-p("Bunker_Cable_Hor_02",147000,155400,14000,10800,2097153)
-p("BunkerInterior_AirPipes_04",147000,155400,14700,10800,335,2097409)
-p("BunkerInterior_Pillar",147000,155400,14700,10800,3496,2097409)
-p("BunkerInterior_Pillar",147000,155400,16100,10800,3496,2097409)
+p("Bunker_Cable_Hor_02",147000,155400,14000,10800,64,2097281)
+p("BunkerInterior_AirPipes_04",147000,155400,14700,10800,64,335,2097537)
+p("BunkerInterior_Pillar",147000,155400,14700,10800,64,3496,2097537)
+p("BunkerInterior_Pillar",147000,155400,16100,10800,64,3496,2097537)
 p("Floor_MetalScaff_Parapet_01",147000,155400,18200,514,1692,2150911028,"",1073742657)
 p("Floor_MetalScaff_Parapet_01",147000,155400,21700,16200,512,1788,2150911028,"",1075839809)
-p("DecBunker_ConcretePile_02",139317,155737,18228,390,2941,2097409)
+p("DecBunker_ConcretePile_02",139317,155737,18228,390,64,2941,2097537)
 p("TropicalPlant_Vines_11",139311,155883,21698,6530,3603,2097409)
 p("DecBunkerFloor_02",139524,155906,18200,15360,126,32,2097221)
 p("TropicalPlant_Vines_11",139953,155651,21695,4545,3603,2097409)
 p("TropicalPlant_Vines_10",139785,156230,21690,21229,3603,2097409)
-p("DecConcreteShuttering_01",140283,156590,15545,10799,71,2896,0,2896,96,8,2097365)
+p("DecConcreteShuttering_01",140283,156590,15545,10799,71,2896,0,2896,96,2097237)
 p("DecBunkerFloor_02",139335,156702,21693,13647,145,96,2097221)
 p("TropicalPlant_Vines_10",140034,157127,21690,17858,2526,2097409)
-p("DecWallLeak_02",140500,156264,16801,10800,-2896,0,2896,32,8,2095,2097617)
+p("DecWallLeak_02",140500,156264,16801,10800,-2896,0,2896,32,2095,2097489)
 p("DecForestMoss_02",140300,156771,21293,11755,144,2097157)
 p("TropicalPlant_Vines_11",140604,157043,21690,13579,2526,2097409)
 p("TropicalPlant_Vines_11",140108,157836,21690,19484,2526,2097409)
 p("DecBunkerFloor_04",139864,159099,18200,20399,130,96,75,2098245)
 p("TropicalPlant_Vines_10",140267,159109,21690,11339,2526,2097409)
-p("DecBunkerFloor_02",140227,159409,18200,12027,130,32,8,75,2098373)
+p("DecBunkerFloor_02",140227,159409,18200,12027,130,32,75,2098245)
 p("TropicalPlant_Vines_11",140679,158419,21690,13503,2526,2097409)
 p("TropicalPlant_Vines_11",141259,159463,21690,9836,2526,2097409)
 p("DecBunkerFloor_02",142067,155889,18200,15360,126,32,2097221)
-p("DecShantyRubbish_02",142096,156074,13950,15724,193,32,8,50,2098373)
-p("JungleCamp_CigareteSet_02",142031,156383,18924,7260,32,3708,2097473)
-p("DecBunker_ConcretePile_05",142125,156429,18228,2941,257)
+p("DecShantyRubbish_02",142096,156074,13950,15724,193,32,50,2098245)
+p("JungleCamp_CigareteSet_02",142031,156383,18924,7260,32,64,3708,2097601)
+p("DecBunker_ConcretePile_05",142125,156429,18228,64,2941,385)
 p("DecBunkerFloor_04",141758,157224,21701,10047,195,32,2097221)
 p("DecBunkerFloor_02",142442,156235,18200,7643,130,32,75,2098245)
-p("DecBunkerFloor_02",142895,155808,21688,112,145,32,8,2097349)
+p("DecBunkerFloor_02",142895,155808,21688,112,145,32,2097221)
 p("DecBunkerFloor_02",141546,158226,21694,11440,145,32,2097221)
-p("DecBunkerFloor_02",142647,159679,18200,8141,130,32,8,75,2098373)
+p("DecBunkerFloor_02",142647,159679,18200,8141,130,32,75,2098245)
 p("TropicalPlant_Vines_11",143240,158924,21690,1651,2526,2097409)
 p("DecBunkerFloor_02",139477,160057,18200,19200,129,32,75,2098245)
-p("BrokenOff_Concrete_01",139600,160400,13928,5402,73,32,32,"terrainchunk",10,0,0,89,100,10,40,60,2228421)
+p("BrokenOff_Concrete_01",139600,160400,13928,5402,73,32,96,"terrainchunk",10,0,0,89,100,10,40,60,2228421)
 p("TropicalPlant_Vines_11",139703,160383,22382,12654,81,2526,2097413)
 p("TropicalPlant_Vines_11",139723,161158,22382,16158,81,2526,2097413)
-p("DecBunker_ConcretePile",139825,160991,21700,11869,81,2,3603,2097477)
-p("DecBunkerFloor_02",140026,160820,21704,11440,145,96,8,2097349)
+p("DecBunker_ConcretePile",139825,160991,21700,11869,81,2,64,3603,2097605)
+p("DecBunkerFloor_02",140026,160820,21704,11440,145,96,2097221)
 p("TropicalPlant_Vines_10",140210,161393,21690,4663,2526,2097409)
 p("DecWallLeak_03",140500,159746,16101,10800,-2896,0,2896,32,2095,2097489)
-p("DecWallLeak_02",140313,160181,17202,10800,250,-2896,0,2896,32,8,2097365)
+p("DecWallLeak_02",140313,160181,17202,10800,250,-2896,0,2896,32,2097237)
 p("DecWallLeak_02",140539,160119,16479,10800,250,-2896,0,2896,32,2097237)
 p("TropicalPlant_Vines_10",140688,159762,21690,2544,2526,2097409)
 p("TropicalPlant_Vines_11",140466,160947,21690,9836,2526,2097409)
-p("DecWallLeak_03",140500,161110,16101,10800,-2896,0,2896,32,8,2095,2097617)
-p("DecBunker_ConcretePile_03",140739,160916,13956,13155,"terrainchunk",10,0,0,83,100,10,40,60,2228225)
+p("DecWallLeak_03",140500,161110,16101,10800,-2896,0,2896,32,2095,2097489)
+p("DecBunker_ConcretePile_03",140739,160916,13956,13155,64,"terrainchunk",10,0,0,83,100,10,40,60,2228353)
 p("DecJungleForest_03",139490,162292,21844,6293,81,32,80,2098245)
 p("DecShantyRubbish_02",140090,161825,17207,15360,178,32,50,2098245)
-p("BunkerInterior_AirPipes_04",139800,162600,18200,16200,1580,2097409)
-p("Bunker_Cable_Hor_02",139800,162600,18200,16200,905,2097409)
+p("BunkerInterior_AirPipes_04",139800,162600,18200,16200,64,1580,2097537)
+p("Bunker_Cable_Hor_02",139800,162600,18200,16200,64,905,2097537)
 p("Floor_MetalScaff_Parapet_01",139800,162600,21700,5400,514,2526,2150911028,"",1075839809)
 p("DecSoclePaint_01",139400,163100,18600,7200,4282264597,-2364,2364,2365,2272,2097433)
 p("DecBunkerFloor_02",139677,163104,19863,14399,96,-2365,-2365,2365,96,2097237)
 p("TropicalPlant_Vines_08",139339,163365,19072,5400,2242,2097409)
-p("DecWallLeak_03",140119,163100,19603,14399,-2365,-2365,2365,32,8,2661,2097617)
+p("DecWallLeak_03",140119,163100,19603,14399,-2365,-2365,2365,32,2661,2097489)
 p("TropicalPlant_Vines_08",139964,163337,17659,5400,90,2242,2097413)
 p("TropicalPlant_Vines_05",139955,163348,19398,5367,2526,2097409)
 p("TropicalPlant_Vines_08",139998,163340,19725,5367,85,2526,2097413)
 p("TropicalPlant_Vines_11",140234,163768,18199,16161,2269,2097409)
-p("DecJungleForest_01",140310,161961,21844,15871,81,32,8,80,2098373)
+p("DecJungleForest_01",140310,161961,21844,15871,81,32,80,2098245)
 p("TropicalPlant_Vines_11",140788,162223,21690,879,2526,2097409)
 p("TropicalPlant_Vines_10",140292,162491,21690,4201,2526,2097409)
 p("DecConcreteShuttering_01",140298,162552,15493,10799,71,2896,0,2896,96,2097237)
 p("DecWallLeak_04",140500,162542,16101,10800,-2896,0,2896,32,2095,2097489)
-p("BunkerInterior_AirPipes_04",141000,162600,18200,16200,1580,2097409)
-p("Bunker_Cable_Hor_02",141000,162600,18200,16200,905,2097409)
+p("BunkerInterior_AirPipes_04",141000,162600,18200,16200,64,1580,2097537)
+p("Bunker_Cable_Hor_02",141000,162600,18200,16200,64,905,2097537)
 p("Floor_MetalScaff_Parapet_01",141000,162600,21700,5400,514,2526,2150911028,"",1075839809)
 p("DecWallLeak_04",140338,163294,18945,7199,250,-2365,2365,2365,32,2097237)
 p("TropicalPlant_Vines_08",140299,163354,18265,5400,107,3179,2097413)
@@ -88859,18 +89177,18 @@ p("TropicalPlant_Vines_03",140727,163365,18786,5400,2242,2097409)
 p("TropicalPlant_Vines_08",140797,163354,18964,5400,107,2242,2097413)
 p("DecConcreteShuttering_01",140938,163337,20654,14400,-2365,-2364,2365,96,2097233)
 p("DecForestMoss_02",141730,160012,21293,13227,144,2097157)
-p("BrokenOff_Concrete_03",141853,160673,21677,18902,73,4281150505,32,32,3603,2097613)
+p("BrokenOff_Concrete_03",141853,160673,21677,18902,73,4281150505,32,96,3603,2097613)
 p("TropicalPlant_Vines_09",142122,160330,21690,18516,2526,2097409)
 p("TropicalPlant_Vines_11",141493,161473,21690,18731,2526,2097409)
 p("DecBunkerFloor_02",141585,161706,13948,134,96,69)
 p("DecBunkerFloor_02",142581,160313,21712,19904,145,32,2097221)
-p("DecBunkerFloor_02",142624,160668,18200,360,129,32,8,75,2098373)
-p("BrokenOff_Concrete_01",143277,160591,21677,18902,73,4281150505,32,32,3603,2097613)
+p("DecBunkerFloor_02",142624,160668,18200,360,129,32,75,2098245)
+p("BrokenOff_Concrete_01",143277,160591,21677,18902,73,4281150505,32,96,3603,2097613)
 p("TropicalPlant_Vines_10",142522,161773,21690,4663,2526,2097409)
-p("DecShantyRubbish_02",143197,161643,17500,9480,178,32,8,50,2098373)
+p("DecShantyRubbish_02",143197,161643,17500,9480,178,32,50,2098245)
 p("TropicalPlant_Vines_10",141654,162344,21690,7306,2526,2097409)
-p("BunkerInterior_AirPipes_04",142200,162600,18200,16200,1580,2097409)
-p("Bunker_Cable_Hor_02",142200,162600,18200,16200,905,2097409)
+p("BunkerInterior_AirPipes_04",142200,162600,18200,16200,64,1580,2097537)
+p("Bunker_Cable_Hor_02",142200,162600,18200,16200,64,905,2097537)
 p("Floor_MetalScaff_ParapetEnd_01",142200,162600,21700,5400,3,6,2526,2150911028,"",1075839937)
 p("Floor_MetalScaff_Parapet_01",142200,162600,21700,5400,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",141381,162875,21690,9836,2526,2097409)
@@ -88888,14 +89206,14 @@ p("TropicalPlant_Vines_11",142114,163673,18203,20547,4043,2097409)
 p("TropicalPlant_Vines_10",142561,162820,21690,10803,2526,2097409)
 p("TropicalPlant_Vines_08",142403,163340,19725,5367,85,2526,2097413)
 p("DecShantyRubbish_02",144167,156178,17500,14295,178,32,50,2098245)
-p("BunkerInterior_AirPipes_04",144600,156600,18200,10800,2548,2097409)
-p("DecShantyRubbish_03",144675,156636,18113,16244,169,32,8,47,2098373)
+p("BunkerInterior_AirPipes_04",144600,156600,18200,10800,64,2548,2097537)
+p("DecShantyRubbish_03",144675,156636,18113,16244,169,32,47,2098245)
 p("DecBunkerFloor_02",145139,155655,19307,16190,144,0,4095,2,32,2097237)
-p("DecBunker_ConcretePile",144975,156004,18200,3937,85,2941,2097413)
-p("DecWallLeak_04",145100,155950,19601,10800,-2896,0,2896,32,8,2043,2097617)
+p("DecBunker_ConcretePile",144975,156004,18200,3937,85,64,2941,2097541)
+p("DecWallLeak_04",145100,155950,19601,10800,-2896,0,2896,32,2043,2097489)
 p("DecBunkerFloor_02",145310,155716,19576,10030,99,-2878,-460,2878,96,2097237)
-p("DecWallLeak_03",145091,156576,23425,10800,127,-2896,0,2896,32,8,2097365)
-p("DecShantyRubbish_02",144425,156997,21452,11614,207,32,8,26,2098373)
+p("DecWallLeak_03",145091,156576,23425,10800,127,-2896,0,2896,32,2097237)
+p("DecShantyRubbish_02",144425,156997,21452,11614,207,32,26,2098245)
 p("DecBunkerFloor_02",144450,157025,13948,18240,152,32,60,2098245)
 p("TropicalPlant_Vines_05",145039,157225,22357,10793,2182,2097409)
 p("DecBunkerFloor_02",145124,157610,23513,10800,91,-2896,0,2896,96,2097237)
@@ -88904,118 +89222,118 @@ p("TropicalPlant_Vines_11",145377,157685,24681,12475,2182,2097409)
 p("DecBunkerFloor_03",143478,158436,18200,20399,130,32,75,2098245)
 p("DecShantyRubbish_02",143928,158480,21452,19975,207,32,26,2098245)
 p("DecForestMoss_02",143400,159260,21293,13700,144,2097157)
-p("BunkerInterior_AirPipes_04",144600,157800,18200,10800,2548,2097409)
-p("DecWallLeak_04",145091,157942,23425,10800,127,-2896,0,2896,32,8,2097365)
+p("BunkerInterior_AirPipes_04",144600,157800,18200,10800,64,2548,2097537)
+p("DecWallLeak_04",145091,157942,23425,10800,127,-2896,0,2896,32,2097237)
 p("DecWallLeak_02",145131,158357,20510,10800,170,-2896,0,2896,32,2097237)
 p("TropicalPlant_Vines_06",145039,158702,22357,10793,2182,2097409)
-p("BunkerInterior_AirPipes_04",144600,159000,18200,10800,2548,2097409)
+p("BunkerInterior_AirPipes_04",144600,159000,18200,10800,64,2548,2097537)
 p("DecConcreteShuttering_01",145288,158809,18915,7199,2365,2364,2366,96,2097233)
 p("DecWallLeak_01",145310,159021,21345,10800,226,-2896,0,2896,32,2097237)
 p("DecWallLeak_04",145091,159443,23425,10800,127,-2896,0,2896,32,2097237)
-p("BrokenOff_Concrete_04",145000,159533,21690,2,73,4281150505,32,32,3603,2097613)
-p("DecWallLeak_02",145100,159500,20301,10800,-2896,0,2896,32,8,2043,2097617)
+p("BrokenOff_Concrete_04",145000,159533,21690,2,73,4281150505,32,96,3603,2097613)
+p("DecWallLeak_02",145100,159500,20301,10800,-2896,0,2896,32,2043,2097489)
 p("TropicalPlant_Vines_11",145317,159310,24681,2950,2182,2097409)
 p("DecBunkerFloor_02",145800,156100,18900,8348,1525,-2688,2688,96,2097233)
 p("DecBunkerFloor_02",145800,156100,21000,11995,-719,-2851,2851,96,2097233)
 p("DecBunkerFloor_02",145800,156100,21700,6800,2694,-2182,2182,32,2097233)
 p("TropicalPlant_Vines_10",145675,156535,24681,17546,2182,2097409)
-p("Bunker_Cable_Hor_02",145800,156600,18200,5400,3551,2097409)
-p("Bunker_Cable_Hor_02",145800,156600,21700,2052,257)
-p("Bunker_Cable_Hor_02",145800,156600,21700,5400,23,2097409)
+p("Bunker_Cable_Hor_02",145800,156600,18200,5400,64,3551,2097537)
+p("Bunker_Cable_Hor_02",145800,156600,21700,64,2052,385)
+p("Bunker_Cable_Hor_02",145800,156600,21700,5400,64,23,2097537)
 p("DecSoclePaint_01",145968,156092,22154,7199,4281537036,-2364,2364,2365,2996,2097433)
-p("MetalScaff_WallDec_01",146400,156000,21000,16200,1788,2150911028,"",1075839745)
+p("MetalScaff_WallDec_01",146400,156000,21000,16200,64,1788,2150911028,"",1075839873)
 p("TropicalPlant_Vines_11",146224,156314,24694,18971,2182,2097409)
 p("TropicalPlant_Vines_11",145695,157261,24694,15153,2182,2097409)
 p("DecForestMoss_02",146326,157147,24275,17455,144,2097157)
 p("DecSoclePaint_01",146500,156100,18600,14401,4282264597,-2364,-2364,2365,2272,2097433)
-p("DecWallLeak_04",146683,155908,21709,7199,250,-2365,2365,2365,32,8,2097365)
+p("DecWallLeak_04",146683,155908,21709,7199,250,-2365,2365,2365,32,2097237)
 p("DecWallLeak_04",146781,156049,21006,7199,250,-2365,2365,2365,32,2097237)
 p("DecBunkerFloor_02",147000,156100,23800,6485,2971,-1993,1993,96,2097233)
-p("DecConcreteShuttering_01",147275,156114,18458,5401,4095,-1,1,96,8,2097361)
-p("BunkerInterior_AirPipes_04",147000,156600,14700,10800,3366,2097409)
-p("Bunker_Cable_Hor_01",147000,156600,18200,5400,3551,2097409)
-p("Bunker_Cable_Hor_01",147000,156600,21700,5400,23,2097409)
+p("DecConcreteShuttering_01",147275,156114,18458,5401,4095,-1,1,96,2097233)
+p("BunkerInterior_AirPipes_04",147000,156600,14700,10800,64,3366,2097537)
+p("Bunker_Cable_Hor_01",147000,156600,18200,5400,64,3551,2097537)
+p("Bunker_Cable_Hor_01",147000,156600,21700,5400,64,23,2097537)
 p("DecBunkerFloor_02",147117,156952,18177,20541,131,32,2097221)
-p("Bunker_Cable_Hor_02",145800,157800,21700,2052,257)
-p("DecBunkerFloor_02",145712,158429,18200,16440,130,32,8,75,2098373)
+p("Bunker_Cable_Hor_02",145800,157800,21700,64,2052,385)
+p("DecBunkerFloor_02",145712,158429,18200,16440,130,32,75,2098245)
 p("DecShantyRubbish_03",146307,157867,13948,7412,193,32,50,2098245)
 p("DecBunkerFloor_02",146307,158300,21674,20541,97,32,2097221)
 p("TropicalPlant_Vines_10",145531,158865,24681,15003,2182,2097409)
-p("Bunker_Cable_Hor_02",145800,159000,21700,2052,257)
+p("Bunker_Cable_Hor_02",145800,159000,21700,64,2052,385)
 p("TropicalPlant_Vines_11",146069,158997,24681,11392,2182,2097409)
-p("BrokenOff_Concrete_01",146513,157711,24664,18902,73,4281150505,32,32,2182,2097613)
-p("DecBunker_ConcretePile_02",146555,158533,21690,19297,4281413937,3603,2097417)
-p("BunkerInterior_AirPipes_04",147000,157800,14700,10800,3366,2097409)
-p("BunkerInterior_AirPipes_02",147000,159000,14700,10800,2,3366,2097473)
+p("BrokenOff_Concrete_01",146513,157711,24664,18902,73,4281150505,32,96,2182,2097613)
+p("DecBunker_ConcretePile_02",146555,158533,21690,19297,4281413937,64,3603,2097545)
+p("BunkerInterior_AirPipes_04",147000,157800,14700,10800,64,3366,2097537)
+p("BunkerInterior_AirPipes_02",147000,159000,14700,10800,2,64,3366,2097601)
 p("TropicalPlant_Vines_10",143532,159792,21690,8410,2526,2097409)
 p("TropicalPlant_Vines_10",143603,160526,21690,8410,2526,2097409)
 p("DecForestMoss_02",143792,161454,21293,8600,144,2097157)
 p("TropicalPlant_Vines_11",144139,161111,21690,10343,2526,2097409)
-p("BunkerInterior_AirPipes_04",144600,160200,18200,10800,2548,2097409)
+p("BunkerInterior_AirPipes_04",144600,160200,18200,10800,64,2548,2097537)
 p("TropicalPlant_Vines_10",144539,160525,21690,14871,2526,2097409)
 p("DecBunkerFloor_02",145124,160346,23461,10800,98,-2896,0,2896,32,2097237)
 p("DecSoclePaint_01",145296,160623,22154,5399,4281537036,0,4095,0,2996,2097433)
-p("BunkerInterior_AirPipes_04",144600,161400,18200,10800,2548,2097409)
+p("BunkerInterior_AirPipes_04",144600,161400,18200,10800,64,2548,2097537)
 p("TropicalPlant_Vines_05",145023,160817,22389,10904,2182,2097409)
 p("TropicalPlant_Vines_01",145028,160959,21732,10800,2460,2097409)
 p("DecWallLeak_03",145091,161398,23425,10800,127,-2896,0,2896,32,2097237)
-p("DecBunkerFloor_02",143703,162118,21674,9774,145,32,8,2097349)
-p("BunkerInterior_AirPipes_04",143400,162600,18200,16200,1580,2097409)
-p("Bunker_Cable_Hor_02",143400,162600,18200,16200,905,2097409)
+p("DecBunkerFloor_02",143703,162118,21674,9774,145,32,2097221)
+p("BunkerInterior_AirPipes_04",143400,162600,18200,16200,64,1580,2097537)
+p("Bunker_Cable_Hor_02",143400,162600,18200,16200,64,905,2097537)
 p("TropicalPlant_Vines_09",144125,162281,21690,883,2526,2097409)
-p("DecJungleForest_01",144223,162324,21700,15231,81,32,8,80,2098373)
+p("DecJungleForest_01",144223,162324,21700,15231,81,32,80,2098245)
 p("DecWallLeak_01",143699,163100,19601,14399,-2365,-2365,2365,32,2661,2097489)
 p("DecSoclePaint_01",143700,163100,18600,7200,4282264597,-2364,2364,2365,2272,2097433)
 p("DecWallLeak_04",143690,163294,18945,7199,250,-2365,2365,2365,32,2097237)
-p("DecBunkerFloor_02",143783,163104,19863,14399,96,-2365,-2365,2365,96,8,2097365)
+p("DecBunkerFloor_02",143783,163104,19863,14399,96,-2365,-2365,2365,96,2097237)
 p("TropicalPlant_Vines_06",143797,163348,19398,5367,2526,2097409)
 p("DecJungleForest_01",143969,163371,21476,6370,38,-3075,1924,1901,32,2097237)
 p("TropicalPlant_Vines_08",144119,163340,19265,5367,103,2526,2097413)
-p("BunkerInterior_AirPipes_01",144600,162600,18200,16200,1156,2097409)
-p("Bunker_Cable_Hor_02",144600,162600,18200,10800,1454,2097409)
-p("Bunker_Cable_Hor_02",144600,162600,18200,16200,905,2097409)
+p("BunkerInterior_AirPipes_01",144600,162600,18200,16200,64,1156,2097537)
+p("Bunker_Cable_Hor_02",144600,162600,18200,10800,64,1454,2097537)
+p("Bunker_Cable_Hor_02",144600,162600,18200,16200,64,905,2097537)
 p("Floor_MetalScaff_ParapetEnd_01",144600,162600,21700,5400,2,6,2526,2150911028,"",1075839937)
 p("Floor_MetalScaff_Parapet_01",144600,162600,21700,5400,514,2526,2150911028,"",1075839809)
 p("TropicalPlant_Vines_12",145094,162028,21634,16835,75,2460,2097413)
 p("TropicalPlant_Vines_07",145042,162215,22385,10753,2182,2097409)
 p("DecSoclePaint_02",145100,162500,18600,5399,4282264597,0,4095,0,2272,2097433)
 p("TropicalPlant_Vines_10",145405,162643,21690,21128,2526,2097409)
-p("DecJungleForest_01",145293,162801,20540,16009,25,895,-3890,915,32,8,2097365)
+p("DecJungleForest_01",145293,162801,20540,16009,25,895,-3890,915,32,2097237)
 p("TropicalPlant_Vines_11",144576,163548,18199,15912,2269,2097409)
-p("DecJungleForest_01",145340,162875,19879,16009,25,895,-3890,915,32,8,2097365)
-p("DecJungleForest_01",145362,162934,19153,16151,25,247,-4077,304,32,8,2097365)
+p("DecJungleForest_01",145340,162875,19879,16009,25,895,-3890,915,32,2097237)
+p("DecJungleForest_01",145362,162934,19153,16151,25,247,-4077,304,32,2097237)
 p("TropicalPlant_Vines_12",145162,163222,18169,7460,75,2269,2097413)
 p("TropicalPlant_Vines_11",145027,163698,18199,7683,2269,2097409)
 p("DecWallLeak_01",145100,163700,19601,10800,-2896,0,2896,32,2043,2097489)
 p("TropicalPlant_Vines_07",145366,163361,19069,5367,113,2526,2097413)
 p("TropicalPlant_Vines_10",145787,159757,24681,768,2182,2097409)
-p("Bunker_Cable_Hor_01",145800,160200,21700,2052,257)
-p("Bunker_Cable_Hor_02",145800,160200,21700,2,2052,321)
-p("Bunker_Cable_Ver_Dec_01",145800,160200,21700,32,2052,321)
-p("DecBunkerFloor_02",146047,160156,18177,17106,131,32,8,2097349)
+p("Bunker_Cable_Hor_01",145800,160200,21700,64,2052,385)
+p("Bunker_Cable_Hor_02",145800,160200,21700,2,64,2052,449)
+p("Bunker_Cable_Ver_Dec_01",145800,160200,21700,32,64,2052,449)
+p("DecBunkerFloor_02",146047,160156,18177,17106,131,32,2097221)
 p("TropicalPlant_Vines_11",146203,160172,24681,12852,2182,2097409)
-p("DecBunkerFloor_02",146419,160580,21674,21026,97,32,8,2097349)
-p("Bunker_Cable_Hor_02",145800,161400,18200,16200,1546,2097409)
-p("Bunker_Cable_Hor_02",145800,161400,21700,2052,257)
-p("Bunker_Cable_Hor_02",145800,161400,21700,16200,619,2097409)
-p("DecShantyRubbish_02",146198,160885,17207,15360,178,32,8,50,2098373)
+p("DecBunkerFloor_02",146419,160580,21674,21026,97,32,2097221)
+p("Bunker_Cable_Hor_02",145800,161400,18200,16200,64,1546,2097537)
+p("Bunker_Cable_Hor_02",145800,161400,21700,64,2052,385)
+p("Bunker_Cable_Hor_02",145800,161400,21700,16200,64,619,2097537)
+p("DecShantyRubbish_02",146198,160885,17207,15360,178,32,50,2098245)
 p("DecShantyRubbish_02",146312,160828,21255,16244,132,32,47,2098245)
 p("TropicalPlant_Vines_09",146180,161083,24681,21591,2182,2097409)
-p("BunkerInterior_AirPipes_04",147000,160200,14700,10800,3366,2097409)
-p("DecBunker_ConcretePile_05",146537,160936,21715,7837,2097153)
-p("Bunker_Cable_Hor_Turn_01",147000,161400,14000,16200,1802,2097409)
-p("BunkerInterior_AirPipes_04",147000,161400,14700,10800,3366,2097409)
-p("Bunker_Cable_Hor_02",147000,161400,18200,16200,1546,2097409)
-p("Bunker_Cable_Hor_02",147000,161400,21700,16200,619,2097409)
-p("DecBunkerFloor_02",145800,161900,18900,11833,620,2863,2863,32,8,2097361)
-p("DecBunkerFloor_02",145800,161900,21000,16198,4093,91,91,32,8,2097361)
+p("BunkerInterior_AirPipes_04",147000,160200,14700,10800,64,3366,2097537)
+p("DecBunker_ConcretePile_05",146537,160936,21715,7837,64,2097281)
+p("Bunker_Cable_Hor_Turn_01",147000,161400,14000,16200,64,1802,2097537)
+p("BunkerInterior_AirPipes_04",147000,161400,14700,10800,64,3366,2097537)
+p("Bunker_Cable_Hor_02",147000,161400,18200,16200,64,1546,2097537)
+p("Bunker_Cable_Hor_02",147000,161400,21700,16200,64,619,2097537)
+p("DecBunkerFloor_02",145800,161900,18900,11833,620,2863,2863,32,2097233)
+p("DecBunkerFloor_02",145800,161900,21000,16198,4093,91,91,32,2097233)
 p("DecBunkerFloor_02",145800,161900,23100,12556,1069,2796,2796,32,2097233)
 p("TropicalPlant_Vines_11",145489,162690,18199,12007,2269,2097409)
 p("Floor_MetalScaff_Parapet_01",145800,162600,21700,5400,512,1788,2150911028,"",1075839809)
 p("DecSoclePaint_01",145968,161856,22154,7199,4281537036,-2364,2364,2365,2996,2097433)
 p("DecSoclePaint_01",145968,161893,22154,7199,4281537036,-2364,2364,2365,2996,2097433)
 p("DecSoclePaint_02",146015,161900,18600,7200,4282264597,-2364,2364,2365,2272,2097433)
-p("MetalScaff_WallDec_01",146400,162000,21000,5400,1788,2150911028,"",1075839745)
+p("MetalScaff_WallDec_01",146400,162000,21000,5400,64,1788,2150911028,"",1075839873)
 p("DecWallLeak_04",146273,162060,22677,7199,182,-2365,2365,2365,32,2097237)
 p("TropicalPlant_Vines_04",146414,162165,22389,5367,2182,2097409)
 p("TropicalPlant_Vines_11",146102,162672,21690,10343,2526,2097409)
@@ -89024,19 +89342,19 @@ p("TropicalPlant_Vines_11",146012,163030,18199,8074,2269,2097409)
 p("DecWallLeak_04",146775,161942,21006,7199,250,-2365,2365,2365,32,2097237)
 p("DecSoclePaint_03",146967,161900,18600,7200,4282264597,-2364,2364,2365,2272,2097433)
 p("TropicalPlant_Vines_03",147063,162110,22192,5400,3332,2097409)
-p("DecConcreteShuttering_01",147253,161894,18554,5401,4095,-1,1,96,8,2097361)
-p("Bunker_Cable_Hor_02",147000,162600,14000,10800,2846,2097409)
-p("BunkerInterior_AirPipes_04",147000,162600,14700,10800,3794,2097409)
+p("DecConcreteShuttering_01",147253,161894,18554,5401,4095,-1,1,96,2097233)
+p("Bunker_Cable_Hor_02",147000,162600,14000,10800,64,2846,2097537)
+p("BunkerInterior_AirPipes_04",147000,162600,14700,10800,64,3794,2097537)
 p("Floor_MetalScaff_Parapet_01",147000,162600,18200,514,1747,2150911028,"",1073742657)
 p("Floor_MetalScaff_Parapet_01",147000,162600,21700,5400,512,1788,2150911028,"",1075839809)
-p("Bunker_Cable_Hor_02",147000,163800,14000,10800,2846,2097409)
-p("BunkerInterior_AirPipes_04",147000,163800,14700,10800,2,3794,2097473)
+p("Bunker_Cable_Hor_02",147000,163800,14000,10800,64,2846,2097537)
+p("BunkerInterior_AirPipes_04",147000,163800,14700,10800,2,64,3794,2097601)
 p("Floor_MetalScaff_Parapet_01",147000,163800,18200,514,1747,2150911028,"",1073742657)
 p("DecJungleForest_01",147786,131686,14700,15720,51,32,2097221)
 p("TropicalPlant_Grass_03",148089,131868,14699,9680,99,1052,2097413)
 p("TropicalPlant_04_Sapling_03",148198,131896,14683,8957,70,2097157)
 p("TropicalPlant_04_Shrub_02",148205,132695,14688,10410,64,1052,2097413)
-p("DecJungleForest_01",148583,131837,14700,5742,49,32,8,2097349)
+p("DecJungleForest_01",148583,131837,14700,5742,49,32,2097221)
 p("TropicalPlant_01_Shrub",148672,131777,14645,18285,52,2097157)
 p("TropicalPlant_04_Shrub_01",149032,131227,14000,9360,86,2097157)
 p("WW2_ConcreteCliffWallx4_01",149400,131400,11859,16200,1021,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
@@ -89047,7 +89365,7 @@ p("WW2_Cannon",148200,133800,14700,18900,4286150519,216,2148671508,"",1076888073
 p("TropicalPlant_04_Shrub_01",149213,134683,14619,7980,71,1052,2097413)
 p("TropicalPlant_Grass_03",149720,132855,14699,15538,99,1052,2097413)
 p("TropicalPlant_04_Shrub_01",150194,132597,14407,9360,86,1052,2097413)
-p("DecBunker_ConcretePile_02",151190,131408,14063,2157,2097153)
+p("DecBunker_ConcretePile_02",151190,131408,14063,2157,64,2097281)
 p("TropicalPlant_04_Shrub_01",150906,132479,13992,9360,86,1052,2097413)
 p("TropicalPlant_04_Sapling_03",149767,133571,14683,10991,70,2097157)
 p("DecJungleForest_01",149761,133757,14700,20460,60,32,2097221)
@@ -89080,10 +89398,10 @@ p("Floor_MetalScaff_ParapetEnd_01",153000,137400,14000,6,2106,2150911028,"",1073
 p("Floor_MetalScaff_Parapet_01",153000,137400,14000,2106,2150911028,"",1073742593)
 p("DecWallLeak_02",153631,135435,11599,5400,250,4294967295,0,4096,0,3232,2097245)
 p("TropicalPlant_04_Shrub_02",154324,136247,6738,17820,121,3200,2097221)
-p("BrokenOff_Concrete_04",148000,139600,13942,16198,32,"terrainchunk",10,0,0,40,60,10,40,60,2228289)
+p("BrokenOff_Concrete_04",148000,139600,13942,16198,32,64,"terrainchunk",10,0,0,40,60,10,40,60,2228417)
 p("DecPuddle_09",149195,139490,0)
 p("DecWallDirt_06",149283,140019,13803,3953,250,4282131976,32,70,2098253)
-p("BrokenOff_Concrete_04",148800,142200,13945,16198,32,"terrainchunk",10,0,0,40,60,10,40,60,2228289)
+p("BrokenOff_Concrete_04",148800,142200,13945,16198,32,64,"terrainchunk",10,0,0,40,60,10,40,60,2228417)
 p("Bunker_Cable_Hor_Turn_01",148200,143400,14000,4074,257)
 p("BunkerInterior_ThinPipesCorner_02",147600,144600,16800,10800,2186,1779393439,2502441568,136061992,"",1075845889)
 p("DecWallLeak_03",147726,145145,15843,10800,172,-2896,0,2896,32,2097237)
@@ -89099,7 +89417,7 @@ p("BunkerInterior_ThinPipes_01",147624,146648,14576,10800,0,-4095,0,3945,1779393
 p("BunkerInterior_ThinPipesCorner_01",147820,146650,14064,16200,0,4096,0,3945,2097425)
 p("DecConcreteShuttering_01",147487,146951,15809,10799,71,2896,0,2896,96,2097237)
 p("BunkerInterior_ThinPipes_02",147600,147000,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
-p("DecConcreteShuttering_01",147651,146993,17131,7199,2365,2365,2365,96,8,2097361)
+p("DecConcreteShuttering_01",147651,146993,17131,7199,2365,2365,2365,96,2097233)
 p("DecWallLeak_04",147500,147250,16101,10800,-2896,0,2896,32,671,2097489)
 p("Bunker_Cable_Hor_02",148200,147000,14000,2671,257)
 p("TropicalPlant_04_Shrub_02",148259,147410,13941,660,68,24,26,4096,2097173)
@@ -89146,7 +89464,7 @@ p("TropicalPlant_Dead_02",160715,144441,1745,18720,167,1846,891,3546,3200,6,1040
 p("TropicalPlant_Dead_02",160776,144406,1732,10860,167,-1422,-623,3790,3200,6,1040,2097621)
 p("TropicalPlant_04_Shrub_01",160034,146362,17640,121,42,-869,4002,3200,2097236)
 p("BunkerInterior_ThinPipes_01",147624,147848,14576,10800,0,-4095,0,3945,1779393439,2502441568,136061992,"",1075845905)
-p("DecBunkerFloor_02",147481,147995,15882,5400,0,4096,0,32,8,2097361)
+p("DecBunkerFloor_02",147481,147995,15882,5400,0,4096,0,32,2097233)
 p("DecSoclePaint_01",147500,148100,14400,5399,4278978051,0,4095,0,3566,2097433)
 p("BunkerInterior_ThinPipes_01",147600,148200,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
 p("DecBulletHoles_01",147693,148287,16350,14272,4284242779,2415,-2239,2434,3571,2097433)
@@ -89160,7 +89478,7 @@ p("TropicalPlant_Grass_03",148661,148371,16740,117,2097156)
 p("TropicalPlant_04_Shrub_02",148641,148743,13948,9413,54,14,-35,4096,2097173)
 p("DecSoclePaint_02",147500,150000,14400,5399,4278978051,0,4095,0,3566,2097433)
 p("DecWallLeak_04",147724,149546,16437,10800,178,-2896,0,2896,32,2097237)
-p("DecBunkerFloor_02",147481,150308,15790,14774,2195,-2671,2195,32,8,2097361)
+p("DecBunkerFloor_02",147481,150308,15790,14774,2195,-2671,2195,32,2097233)
 p("TropicalPlant_04_Shrub_02",148253,150036,2700,68,14,-35,4096,2097172)
 p("BunkerInterior_ThinPipes_01",147600,150600,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
 p("DecWallLeak_02",147500,150800,16801,10800,-2896,0,2896,32,671,2097489)
@@ -89170,8 +89488,8 @@ p("TropicalPlant_Grass_01",148270,151461,13948,16200,117,2097157)
 p("TropicalPlant_Grass_03",148659,150145,13948,17400,117,2097157)
 p("Bunker_ConcretePile_02",149058,150040,15733,2097152)
 p("TropicalPlant_04_Shrub_01",149176,150660,13948,18479,68,24,26,4096,2097173)
-p("DecBunker_ConcretePile_02",150149,149201,13958,20238,2097153)
-p("DecBunkerFloor_01",147698,151637,16113,10800,99,-2896,0,2896,32,8,2097365)
+p("DecBunker_ConcretePile_02",150149,149201,13958,20238,64,2097281)
+p("DecBunkerFloor_01",147698,151637,16113,10800,99,-2896,0,2896,32,2097237)
 p("BunkerInterior_ThinPipes_01",147600,151800,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
 p("DecWallLeak_02",147488,152199,16813,10800,200,-2896,0,2896,32,2097237)
 p("DecSoclePaint_01",147500,152500,14400,5399,4278978051,0,4095,0,3566,2097433)
@@ -89206,63 +89524,63 @@ p("WW2_ConcreteCliffWallx4_01",153056,154204,10500,2357,"terrainchunk",10,0,0,84
 p("WW2_ConcreteCliffWallx4_02",153462,154204,4900,2357,"terrainchunk",10,0,0,84,100,10,40,60,131329)
 p("DecWallLeak_04",153614,152805,9851,5400,250,4294967295,0,4096,0,3232,2097245)
 p("TropicalPlant_04_Shrub_02",154091,155564,5552,3921,176,3200,2097221)
-p("DecConcreteShuttering_01",147481,155916,18090,5401,4095,0,0,96,8,2097361)
-p("MetalScaff_WallDec_01",147600,156000,21000,16200,1788,2150911028,"",1075839745)
+p("DecConcreteShuttering_01",147481,155916,18090,5401,4095,0,0,96,2097233)
+p("MetalScaff_WallDec_01",147600,156000,21000,16200,64,1788,2150911028,"",1075839873)
 p("DecBunkerFloor_02",147687,156121,19863,14399,134,-2365,-2365,2365,32,2097237)
 p("DecBunkerFloor_02",147925,155875,19849,10799,137,0,2896,2896,96,2097237)
 p("DecWallLeak_01",147500,156500,16101,10800,-2896,0,2896,32,671,2097489)
 p("DecConcreteShuttering_01",147524,156612,15551,10799,71,2896,0,2896,96,2097237)
-p("BunkerInterior_ThinPipes_02",147600,156600,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
-p("DecBunkerFloor_02",148200,156100,15400,10859,-35,-2896,2896,32,8,2097361)
-p("DecBunkerFloor_02",148200,156100,17500,6100,3336,-1680,1680,32,8,2097361)
-p("DecBunkerFloor_02",148200,156100,18900,13967,-2032,-2514,2514,32,8,2097361)
+p("BunkerInterior_ThinPipes_02",147600,156600,16800,10800,64,335,1779393439,2502441568,136061992,"",1075846017)
+p("DecBunkerFloor_02",148200,156100,15400,10859,-35,-2896,2896,32,2097233)
+p("DecBunkerFloor_02",148200,156100,17500,6100,3336,-1680,1680,32,2097233)
+p("DecBunkerFloor_02",148200,156100,18900,13967,-2032,-2514,2514,32,2097233)
 p("DecBulletHoles_02",148428,155885,22894,16087,4284242779,3962,733,733,396,2097433)
-p("DecWallLeak_04",148286,156049,21006,7199,250,-2365,2365,2365,32,8,2097365)
-p("Bunker_Cable_Hor_02",148200,156600,14000,5400,515,2097409)
-p("Bunker_Cable_Hor_02",148200,156600,18200,5400,3551,2097409)
-p("Bunker_Cable_Hor_02",148200,156600,21700,5400,23,2097409)
+p("DecWallLeak_04",148286,156049,21006,7199,250,-2365,2365,2365,32,2097237)
+p("Bunker_Cable_Hor_02",148200,156600,14000,5400,64,515,2097537)
+p("Bunker_Cable_Hor_02",148200,156600,18200,5400,64,3551,2097537)
+p("Bunker_Cable_Hor_02",148200,156600,21700,5400,64,23,2097537)
 p("WW2_BombSmall",148200,156600,2486584374,2147760740,2822128694,11042984,"",1073756672)
 p("DecWallLeak_04",148512,155881,21707,7199,250,-2365,2365,2365,32,2097237)
 p("DecSoclePaint_01",148507,156092,22154,7199,4281537036,-2364,2364,2365,2996,2097433)
 p("DecSoclePaint_01",148600,156100,14400,14401,4278978051,-2364,-2364,2365,3566,2097433)
 p("DecSoclePaint_01",148600,156100,18600,14401,4282264597,-2364,-2364,2365,2272,2097433)
-p("MetalScaff_WallDec_01",148800,156000,21000,16200,1788,2150911028,"",1075839745)
-p("DecBunkerFloor_02",149233,155901,16766,10799,90,0,2896,2896,32,8,2097365)
+p("MetalScaff_WallDec_01",148800,156000,21000,16200,64,1788,2150911028,"",1075839873)
+p("DecBunkerFloor_02",149233,155901,16766,10799,90,0,2896,2896,32,2097237)
 p("DecBulletHoles_02",149425,155907,18285,11804,4284242779,602,2865,2865,3571,2097433)
-p("SlabWallBroken_01",149400,156000,15400,16200,1,2615,2097473)
-p("DecBunkerFloor_02",149400,156100,21000,15481,-3318,-1698,1698,32,8,2097361)
-p("DecBunkerFloor_02",149400,156100,22400,6442,3011,-1963,1963,96,8,2097361)
+p("SlabWallBroken_01",149400,156000,15400,16200,1,64,2615,2097601)
+p("DecBunkerFloor_02",149400,156100,21000,15481,-3318,-1698,1698,32,2097233)
+p("DecBunkerFloor_02",149400,156100,22400,6442,3011,-1963,1963,96,2097233)
 p("TropicalPlant_Vines_11",149000,156359,24691,7327,2182,2097409)
-p("Bunker_Cable_Hor_01",149400,156600,14000,5400,515,2097409)
-p("Bunker_Cable_Hor_01",149400,156600,14000,10800,3996,2097409)
-p("Bunker_Cable_Hor_01",149400,156600,18200,10800,2412,2097409)
-p("Bunker_Cable_Hor_02",149400,156600,18200,5400,3551,2097409)
-p("Bunker_Cable_Hor_01",149400,156600,21700,10800,834,2097409)
-p("Bunker_Cable_Hor_02",149400,156600,21700,5400,23,2097409)
-p("BrokenOff_Concrete_02",148909,156974,24674,18902,73,4281150505,32,32,2182,2097613)
+p("Bunker_Cable_Hor_01",149400,156600,14000,5400,64,515,2097537)
+p("Bunker_Cable_Hor_01",149400,156600,14000,10800,64,3996,2097537)
+p("Bunker_Cable_Hor_01",149400,156600,18200,10800,64,2412,2097537)
+p("Bunker_Cable_Hor_02",149400,156600,18200,5400,64,3551,2097537)
+p("Bunker_Cable_Hor_01",149400,156600,21700,10800,64,834,2097537)
+p("Bunker_Cable_Hor_02",149400,156600,21700,5400,64,23,2097537)
+p("BrokenOff_Concrete_02",148909,156974,24674,18902,73,4281150505,32,96,2182,2097613)
 p("TropicalPlant_Vines_11",149035,156967,24691,14567,2182,2097409)
 p("DecForestMoss_02",149254,157390,24275,17455,144,2097157)
-p("BunkerInterior_ThinPipes_02",147600,157800,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
-p("DecBunker_ConcretePile_02",148366,158279,18228,390,2941,2097409)
+p("BunkerInterior_ThinPipes_02",147600,157800,16800,10800,64,335,1779393439,2502441568,136061992,"",1075846017)
+p("DecBunker_ConcretePile_02",148366,158279,18228,390,64,2941,2097537)
 p("DecBunkerFloor_01",147535,159117,24657,10534,154,32,2097221)
-p("BunkerInterior_ThinPipes_01",147600,159000,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
-p("BrokenOff_Concrete_03",147592,159102,24664,18902,73,4281150505,32,32,2182,2097613)
-p("DecBunkerFloor_02",147840,159434,24657,7577,154,32,8,2097349)
+p("BunkerInterior_ThinPipes_01",147600,159000,16800,10800,64,335,1779393439,2502441568,136061992,"",1075846017)
+p("BrokenOff_Concrete_03",147592,159102,24664,18902,73,4281150505,32,96,2182,2097613)
+p("DecBunkerFloor_02",147840,159434,24657,7577,154,32,2097221)
 p("TropicalPlant_Vines_11",148923,158246,24681,21,2182,2097409)
-p("MilitaryCamp_GrenadePile_01",149160,158089,22518,20321,90,32,2097221)
-p("Bunker_Cable_Hor_02",149400,157800,14000,10800,3996,2097409)
-p("Bunker_Cable_Hor_02",149400,157800,18200,10800,2412,2097409)
-p("Bunker_Cable_Hor_02",149400,157800,21700,10800,834,2097409)
+p("MilitaryCamp_GrenadePile_01",149160,158089,22518,20321,90,32,64,2097349)
+p("Bunker_Cable_Hor_02",149400,157800,14000,10800,64,3996,2097537)
+p("Bunker_Cable_Hor_02",149400,157800,18200,10800,64,2412,2097537)
+p("Bunker_Cable_Hor_02",149400,157800,21700,10800,64,834,2097537)
 p("WW2_BombSmall",149400,157800,10800,2486584374,2147760740,2822128694,11042984,"",1075853824)
 p("TropicalPlant_Vines_10",149441,158335,24681,10378,2182,2097409)
-p("MilitaryCamp_GrenadePile_02",149287,158622,22532,15221,90,32,2097221)
+p("MilitaryCamp_GrenadePile_02",149287,158622,22532,15221,90,32,64,2097349)
 p("TropicalPlant_Vines_11",148506,159176,24681,21126,2182,2097409)
-p("Bunker_Cable_Hor_02",149400,159000,14000,10800,3996,2097409)
-p("Bunker_Cable_Hor_01",149400,159000,18200,10800,2412,2097409)
-p("Bunker_Cable_Hor_01",149400,159000,21700,10800,834,2097409)
+p("Bunker_Cable_Hor_02",149400,159000,14000,10800,64,3996,2097537)
+p("Bunker_Cable_Hor_01",149400,159000,18200,10800,64,2412,2097537)
+p("Bunker_Cable_Hor_01",149400,159000,21700,10800,64,834,2097537)
 p("TropicalPlant_Vines_10",149429,159159,24681,7144,2182,2097409)
 p("DecBulletHoles_01",149521,155907,16347,5400,4284242779,-4096,0,0,3571,2097433)
-p("MetalScaff_WallDec_01",150000,156000,21000,1788,2150911028,"",1073742593)
+p("MetalScaff_WallDec_01",150000,156000,21000,64,1788,2150911028,"",1073742721)
 p("MetalScaff_WallDec_01",150000,156000,21000,16200,1788,2150911028,"",1075839745)
 p("DecSoclePaint_03",149900,156271,14263,5399,4278978051,0,4095,0,3566,2097433)
 p("DecBunkerFloor_02",149900,156600,16800,13111,2714,-1431,2714,96,2097233)
@@ -89270,20 +89588,20 @@ p("DecBulletHoles_01",150089,156377,15532,6158,4284242779,1755,3279,1715,3571,20
 p("DecBulletHoles_02",150075,156482,17996,14401,4284242779,2365,-2365,2365,3571,2097433)
 p("DecBulletHoles_03",150075,156651,19482,14401,4284242779,2365,-2365,2365,3571,2097433)
 p("TropicalPlant_Vines_10",149626,156947,24687,13349,2182,2097409)
-p("SlabWallBroken_02",150000,156700,15400,2510,257)
+p("SlabWallBroken_02",150000,156700,15400,64,2510,385)
 p("DecBunkerFloor_02",149901,157026,21674,18310,97,96,2097221)
 p("DecSoclePaint_02",149900,157107,14400,5399,4278978051,0,4095,0,3566,2097433)
 p("TropicalPlant_Vines_10",149576,157603,24681,13349,2182,2097409)
-p("MetalScaff_WallDec_01",150000,157200,21000,1788,2150911028,"",1073742593)
-p("DecBunkerFloor_02",149918,157350,19869,16190,98,0,4095,2,32,8,2097365)
+p("MetalScaff_WallDec_01",150000,157200,21000,64,1788,2150911028,"",1073742721)
+p("DecBunkerFloor_02",149918,157350,19869,16190,98,0,4095,2,32,2097237)
 p("DecWallLeak_04",149911,157417,21345,10800,226,-2896,0,2896,32,2097237)
 p("DecSoclePaint_01",149877,157510,22154,5399,4281537036,0,4095,0,2996,2097433)
 p("DecSoclePaint_01",149892,157510,18600,5399,4282264597,0,4095,0,2272,2097433)
 p("DecWallLeak_04",150171,157394,21807,10800,250,-2896,0,2896,32,2097237)
 p("Floor_MetalScaff_Parapet_01",150600,156600,21700,512,1788,2150911028,"",1073742657)
 p("DecBunkerFloor_02",149900,157800,14700,7331,2415,2262,2415,32,2097233)
-p("DecBunkerFloor_02",149900,157800,18200,16173,357,-4064,357,96,8,2097361)
-p("MetalScaff_WallDec_01",150000,158400,21000,1788,2150911028,"",1073742593)
+p("DecBunkerFloor_02",149900,157800,18200,16173,357,-4064,357,96,2097233)
+p("MetalScaff_WallDec_01",150000,158400,21000,64,1788,2150911028,"",1073742721)
 p("DecSoclePaint_02",149900,158500,14400,5399,4278978051,0,4095,0,3566,2097433)
 p("MetalScaff_WallDec_01",150100,157800,20400,10800,4096,0,0,3578,2150911028,"",1075839761)
 p("DecBulletHoles_02",150095,158022,19415,12160,4284242779,2843,-808,2836,3571,2097433)
@@ -89294,51 +89612,51 @@ p("DecBunkerFloor_02",149900,159000,17500,5923,1486,3515,1486,32,2097233)
 p("DecBunkerFloor_02",149900,159000,21000,13006,2731,-1361,2731,96,2097233)
 p("DecBunkerFloor_02",149900,159000,21700,16196,129,-4091,129,32,2097233)
 p("DecBunkerFloor_02",149900,159000,23800,16077,761,-3952,761,96,2097233)
-p("DecBunker_ConcretePile_05",149920,159130,13956,3235,2097153)
+p("DecBunker_ConcretePile_05",149920,159130,13956,3235,64,2097281)
 p("DecConcreteShuttering_01",149909,159198,18458,14398,-2365,2365,2363,96,2097233)
-p("MetalScaff_WallDec_01",150000,159600,21000,1788,2150911028,"",1073742593)
+p("MetalScaff_WallDec_01",150000,159600,21000,64,1788,2150911028,"",1073742721)
 p("DecBunkerFloor_02",150119,159032,16429,10800,156,-2896,0,2896,96,2097237)
 p("DecBunkerFloor_02",150142,159032,20608,10800,156,-2896,0,2896,32,2097237)
 p("DecLegion_01",150276,159000,22537,5400,207,0,4096,0,2097173)
 p("DecConcreteShuttering_01",150134,159281,18144,14398,-2365,2365,2363,96,2097233)
 p("Floor_MetalScaff_Parapet_01",150600,157800,21700,512,1788,2150911028,"",1073742657)
 p("Floor_MetalScaff_Parapet_01",150600,159000,21700,512,1788,2150911028,"",1073742657)
-p("BunkerInterior_ThinPipes_01",147600,160200,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
+p("BunkerInterior_ThinPipes_01",147600,160200,16800,10800,64,335,1779393439,2502441568,136061992,"",1075846017)
 p("DecBunkerFloor_02",147937,160218,13948,134,32,69)
-p("DecWallLeak_02",147500,160700,16801,10800,-2896,0,2896,32,8,671,2097617)
+p("DecWallLeak_02",147500,160700,16801,10800,-2896,0,2896,32,671,2097489)
 p("DecForestMoss_02",148110,159763,24275,7094,144,2097157)
 p("DecWallLeak_02",147515,161212,16813,10800,200,-2896,0,2896,32,2097237)
 p("TropicalPlant_Vines_09",147726,161115,24681,19350,2182,2097409)
-p("BunkerInterior_ThinPipes_01",147600,161400,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
-p("WeaponProp_AK47_02",147780,161730,22013,6342,495,-3597,1895,2097169)
-p("Bunker_Cable_Hor_02",148200,161400,14000,16200,1802,2097409)
-p("Bunker_Cable_Hor_02",148200,161400,18200,16200,1546,2097409)
-p("Bunker_Cable_Hor_01",148200,161400,21700,16200,619,2097409)
-p("Bunker_Cable_Hor_Dec_01",148200,161400,21700,16200,32,619,2097473)
+p("BunkerInterior_ThinPipes_01",147600,161400,16800,10800,64,335,1779393439,2502441568,136061992,"",1075846017)
+p("WeaponProp_AK47_02",147780,161730,22013,6342,495,-3597,1895,64,2097297)
+p("Bunker_Cable_Hor_02",148200,161400,14000,16200,64,1802,2097537)
+p("Bunker_Cable_Hor_02",148200,161400,18200,16200,64,1546,2097537)
+p("Bunker_Cable_Hor_01",148200,161400,21700,16200,64,619,2097537)
+p("Bunker_Cable_Hor_Dec_01",148200,161400,21700,16200,32,64,619,2097601)
 p("TropicalPlant_Vines_10",148592,159972,24681,1134,2182,2097409)
 p("TropicalPlant_Vines_10",149337,159976,24681,1134,2182,2097409)
-p("Bunker_Cable_Hor_02",149400,160200,14000,10800,3996,2097409)
-p("Bunker_Cable_Hor_02",149400,160200,21700,10800,834,2097409)
+p("Bunker_Cable_Hor_02",149400,160200,14000,10800,64,3996,2097537)
+p("Bunker_Cable_Hor_02",149400,160200,21700,10800,64,834,2097537)
 p("DecBunkerFloor_02",148917,161084,21674,20708,97,32,2097221)
 p("TropicalPlant_Vines_10",148970,161577,24681,12667,2182,2097409)
 p("TropicalPlant_Vines_10",149298,160790,24681,1134,2182,2097409)
-p("Bunker_Cable_Hor_02",149400,161400,14000,10800,3996,2097409)
-p("Bunker_Cable_Hor_02",149400,161400,14000,16200,1802,2097409)
-p("Bunker_Cable_Hor_01",149400,161400,18200,10800,2412,2097409)
-p("Bunker_Cable_Hor_02",149400,161400,18200,16200,1546,2097409)
-p("Bunker_Cable_Hor_02",149400,161400,21700,10800,834,2097409)
-p("Bunker_Cable_Hor_02",149400,161400,21700,16200,619,2097409)
-p("DecBunkerFloor_02",147687,161892,18952,14399,134,-2365,-2365,2365,32,8,2097365)
-p("MetalScaff_WallDec_01",147600,162000,21000,5400,1788,2150911028,"",1075839745)
-p("DecConcreteShuttering_01",147481,162139,18090,5401,4095,0,0,96,8,2097361)
+p("Bunker_Cable_Hor_02",149400,161400,14000,10800,64,3996,2097537)
+p("Bunker_Cable_Hor_02",149400,161400,14000,16200,64,1802,2097537)
+p("Bunker_Cable_Hor_01",149400,161400,18200,10800,64,2412,2097537)
+p("Bunker_Cable_Hor_02",149400,161400,18200,16200,64,1546,2097537)
+p("Bunker_Cable_Hor_02",149400,161400,21700,10800,64,834,2097537)
+p("Bunker_Cable_Hor_02",149400,161400,21700,16200,64,619,2097537)
+p("DecBunkerFloor_02",147687,161892,18952,14399,134,-2365,-2365,2365,32,2097237)
+p("MetalScaff_WallDec_01",147600,162000,21000,5400,64,1788,2150911028,"",1075839873)
+p("DecConcreteShuttering_01",147481,162139,18090,5401,4095,0,0,96,2097233)
 p("DecWallLeak_04",147568,162060,21745,7199,250,-2365,2365,2365,32,2097237)
-p("DecBunkerFloor_02",147647,162091,20667,13986,123,2040,2491,2531,32,8,2097365)
+p("DecBunkerFloor_02",147647,162091,20667,13986,123,2040,2491,2531,32,2097237)
 p("DecConcreteShuttering_01",147477,162574,15908,10799,71,2896,0,2896,96,2097237)
 p("BunkerInterior_ThinPipes_01",147600,162600,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
-p("DecBunkerFloor_02",148200,161900,15400,16176,4067,339,339,32,8,2097361)
+p("DecBunkerFloor_02",148200,161900,15400,16176,4067,339,339,32,2097233)
 p("DecBunkerFloor_02",148200,161900,17500,5420,-4073,305,305,32,2097233)
 p("DecBunkerFloor_02",148200,161900,18200,5953,-3485,1521,1521,32,2097233)
-p("DecBunkerFloor_02",148200,161900,21000,13211,1498,2695,2695,32,8,2097361)
+p("DecBunkerFloor_02",148200,161900,21000,13211,1498,2695,2695,32,2097233)
 p("DecBunkerFloor_02",148200,161900,22400,15923,3779,1117,1117,32,2097233)
 p("DecWallLeak_04",148392,161942,21006,7199,250,-2365,2365,2365,32,2097237)
 p("DecBulletHoles_02",148397,162101,19155,9579,4284242779,769,-2822,2867,3571,2097433)
@@ -89352,7 +89670,7 @@ p("DecSoclePaint_01",148507,161856,22154,7199,4281537036,-2364,2364,2365,2996,20
 p("DecSoclePaint_01",148500,161900,18600,7200,4282264597,-2364,2364,2365,2272,2097433)
 p("DecSoclePaint_01",148507,161893,22154,7199,4281537036,-2364,2364,2365,2996,2097433)
 p("DecSoclePaint_01",148700,161900,14400,7200,4278978051,-2364,2364,2365,3566,2097433)
-p("MetalScaff_WallDec_01",148800,162000,21000,5400,1788,2150911028,"",1075839745)
+p("MetalScaff_WallDec_01",148800,162000,21000,5400,64,1788,2150911028,"",1075839873)
 p("TropicalPlant_Vines_05",148769,162173,22363,5367,2182,2097409)
 p("DecWallLeak_04",148983,162060,22677,7199,182,-2365,2365,2365,32,2097237)
 p("DecBunkerFloor_02",149294,162091,17424,12980,90,1344,2720,2752,32,2097237)
@@ -89362,15 +89680,15 @@ p("TropicalPlant_04_Shrub_02",148843,163178,13948,5520,101,2097157)
 p("TropicalPlant_Grass_01",149243,163752,14000,16200,96,32,2097221)
 p("WW2_BombSmall",149400,163800,10800,1226,2486584374,2147760740,2822128694,11042984,"",1075854080)
 p("DecSoclePaint_01",149877,160075,22154,5399,4281537036,0,4095,0,2996,2097433)
-p("DecBunkerFloor_02",149900,160200,14000,6325,1877,3119,1877,32,8,2097361)
+p("DecBunkerFloor_02",149900,160200,14000,6325,1877,3119,1877,32,2097233)
 p("DecBunkerFloor_02",149900,160200,18900,11663,2873,-517,2873,96,2097233)
 p("DecSoclePaint_01",149892,160258,18600,5399,4282264597,0,4095,0,2272,2097433)
-p("DecWallLeak_04",149889,160499,21345,10800,226,-2896,0,2896,32,8,2097365)
+p("DecWallLeak_04",149889,160499,21345,10800,226,-2896,0,2896,32,2097237)
 p("DecBulletHoles_02",150089,159936,18763,11074,4284242779,2872,-191,2913,3571,2097433)
 p("DecBulletHoles_01",150091,160315,17182,12151,4284242779,2846,-784,2839,3571,2097433)
-p("DecWallLeak_04",150043,160598,21807,10800,250,-2896,0,2896,32,8,2097365)
+p("DecWallLeak_04",150043,160598,21807,10800,250,-2896,0,2896,32,2097237)
 p("DecSoclePaint_01",149877,160810,22154,5399,4281537036,0,4095,0,2996,2097433)
-p("MetalScaff_WallDec_01",150000,160800,21000,1788,2150911028,"",1073742593)
+p("MetalScaff_WallDec_01",150000,160800,21000,64,1788,2150911028,"",1073742721)
 p("DecSoclePaint_03",149900,161161,14400,10747,4278978051,-2896,31,2897,3566,2097433)
 p("DecBunkerFloor_02",149900,161400,16800,5457,526,4027,526,32,2097233)
 p("DecBunkerFloor_02",149900,161400,21700,12498,2802,-1033,2802,96,2097233)
@@ -89390,7 +89708,7 @@ p("TropicalPlant_Grass_01",150402,163699,13954,16198,77,32,2097221)
 p("TropicalPlant_Grass_01",150540,162540,13954,16200,86,32,2097221)
 p("Floor_MetalScaff_ParapetCorner_01",150600,162600,21700,512,1788,2150911028,"",1073742657)
 p("TropicalPlant_04_Shrub_01",153068,157652,13949,1200,77,2097157)
-p("DecWallLeak_04",153547,157342,9851,5400,250,4294967295,0,4096,0,32,8,2097373)
+p("DecWallLeak_04",153547,157342,9851,5400,250,4294967295,0,4096,0,32,2097245)
 p("TropicalRockSharp_01",152486,158708,2244,11040,161,381,-219,4072,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("WW2_ConcreteCliffTop",153000,159000,13300,2357,"terrainchunk",10,0,0,84,100,10,40,60,131329)
 p("WW2_ConcreteCliffWallx4_02",153076,159004,10500,2357,"terrainchunk",10,0,0,84,100,10,40,60,131329)
@@ -89422,20 +89740,20 @@ p("TropicalPlant_Grass_01",132653,163937,13972,5401,106,2097157)
 p("TropicalPlant_04_Shrub_02",133111,164481,13946,2700,70,2097157)
 p("TropicalPlant_Vines_09",132713,165415,14000,3849,2170,2097409)
 p("TropicalPlant_Vines_11",132069,167357,14037,19200,139,-386,4075,2170,2097425)
-p("DecBunker_ConcretePile_02",132951,167928,0)
+p("DecBunker_ConcretePile_02",132951,167928,64,128)
 p("TropicalPlant_Vines_11",133965,164827,15679,1962,91,2170,2097413)
 p("TropicalPlant_Vines_07",133207,165587,13335,10586,2170,2097409)
 p("TropicalPlant_Vines_11",133754,165024,15679,9022,91,2170,2097413)
-p("TropicalPlant_Vines_06",134591,164268,15821,10808,4043,2097409)
+p("TropicalPlant_Vines_06",134591,164268,15821,10808,64,4043,2097537)
 p("TropicalPlant_Vines_05",134214,164562,15209,10919,4043,2097409)
 p("DecSoclePaint_01",134500,164500,14400,10800,4278978051,-2896,0,2896,3566,2097433)
-p("DecWallLeak_03",134331,164945,15805,10800,170,-2896,0,2896,32,8,2097365)
+p("DecWallLeak_03",134331,164945,15805,10800,170,-2896,0,2896,32,2097237)
 p("BunkerInterior_ThinPipesCorner_02",134400,165000,16800,3870,1779393439,2502441568,136061992,"",1073748737)
 p("TropicalPlant_Vines_12",134301,165525,13944,17528,93,2170,2097413)
 p("TropicalPlant_Vines_07",134227,165785,15205,10768,4043,2097409)
-p("Bunker_Cable_Hor_02",135000,165000,14000,3812,257)
-p("Bunker_Cable_Hor_02",135000,165000,14000,16200,1016,2097409)
-p("BunkerInterior_AirPipes_01",135000,165000,14700,3870,257)
+p("Bunker_Cable_Hor_02",135000,165000,14000,64,3812,385)
+p("Bunker_Cable_Hor_02",135000,165000,14000,16200,64,1016,2097537)
+p("BunkerInterior_AirPipes_01",135000,165000,14700,64,3870,385)
 p("Floor_MetalScaff_ParapetCorner_01",135000,165000,17500,5400,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Vines_09",133194,166936,13944,17528,2170,2097409)
 p("TropicalPlant_Vines_10",134526,166757,13948,11744,2170,2097409)
@@ -89449,28 +89767,28 @@ p("WW2_ConcreteCliffWallx4_02",132619,171004,8400,5400,2357,"terrainchunk",10,0,
 p("WW2_ConcreteCliffWallx3_01",132619,171004,11200,5400,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("TropicalPlant_Vines_10",133247,168167,13948,1803,2170,2097409)
 p("TropicalPlant_Vines_11",133841,168479,13948,12760,2170,2097409)
-p("DecBunker_ConcretePile",134919,167978,13948,2820,110,2097157)
+p("DecBunker_ConcretePile",134919,167978,13948,2820,110,64,2097285)
 p("TropicalPlant_Grass_01",134994,171000,14000,11159,98,2097157)
 p("DecWallLeak_04",134229,171555,10166,14340,224,4294967295,-2365,-2365,2365,32,2097245)
-p("DecWallLeak_02",134843,171555,12090,14340,174,4294967295,-2365,-2365,2365,32,8,2097373)
-p("TropicalPlant_Vines_06",135411,163901,15821,21596,4043,2097409)
+p("DecWallLeak_02",134843,171555,12090,14340,174,4294967295,-2365,-2365,2365,32,2097245)
+p("TropicalPlant_Vines_06",135411,163901,15821,21596,64,4043,2097537)
 p("TropicalPlant_Vines_09",135369,164658,17501,6,4043,2097409)
 p("TropicalPlant_Grass_02",135400,164714,13948,10800,148,2097157)
 p("DecJungleForest_02",135747,164442,17239,21300,81,32,80,2098245)
-p("TropicalPlant_04_Sapling_03",135349,165507,14697,5398,60,4083,-269,171,2,2097237)
-p("TropicalPlant_04_Sapling_03",135349,165507,14697,6394,60,3000,-1975,1967,2,2097237)
+p("TropicalPlant_04_Sapling_03",135349,165507,14697,5398,60,4083,-269,171,2,64,2097365)
+p("TropicalPlant_04_Sapling_03",135349,165507,14697,6394,60,3000,-1975,1967,2,64,2097365)
 p("DecSoclePaint_02",135500,165500,14400,7200,4278978051,-2364,2364,2365,3566,2097433)
 p("TropicalPlant_Vines_04",135598,165741,15209,5382,4043,2097409)
 p("DecJungleForest_03",136019,164877,13950,18450,82,32,2097221)
 p("TropicalPlant_04_Shrub_02",136005,165469,13948,18765,105,2097157)
-p("DecJungleForest_01",136316,164265,17237,10846,81,32,8,80,2098373)
+p("DecJungleForest_01",136316,164265,17237,10846,81,32,80,2098245)
 p("TropicalPlant_Vines_09",136915,164696,17501,19365,4043,2097409)
-p("Bunker_Cable_Hor_02",136200,165000,14000,16200,1016,2097409)
-p("BunkerInterior_AirPipes_04",136200,165000,14700,16200,3787,2097409)
+p("Bunker_Cable_Hor_02",136200,165000,14000,16200,64,1016,2097537)
+p("BunkerInterior_AirPipes_04",136200,165000,14700,16200,64,3787,2097537)
 p("Floor_MetalScaff_Parapet_01",136200,165000,17500,5400,514,1185,2150911028,"",1075839809)
 p("DecConcreteShuttering_01",136216,165525,15609,14399,71,2365,2365,2365,96,2097237)
 p("BunkerInterior_ThinPipes_01",136200,165600,16800,16200,3934,1779393439,2502441568,136061992,"",1075845889)
-p("DecWallLeak_01",136257,165702,16167,7199,146,-2365,2365,2365,32,8,2097365)
+p("DecWallLeak_01",136257,165702,16167,7199,146,-2365,2365,2365,32,2097237)
 p("DecBunkerFloor_02",136468,165691,15807,14399,132,2365,2365,2365,32,2097237)
 p("TropicalPlant_Vines_05",136534,165761,15236,5382,4043,2097409)
 p("TropicalPlant_Vines_10",137025,164924,17501,1563,4043,2097409)
@@ -89482,30 +89800,30 @@ p("TropicalPlant_Vines_09",136175,167856,13944,9351,2170,2097409)
 p("TropicalPlant_Vines_10",137269,163874,17501,13581,4043,2097409)
 p("DecJungleForest_01",137442,164390,13948,17,72,32,2097221)
 p("TropicalPlant_Grass_03",137916,164360,13948,10800,133,2097157)
-p("BunkerInterior_Ditch_02",137400,165000,14000,10800,2097153)
-p("Bunker_Cable_Hor_02",137400,165000,14000,16200,1016,2097409)
-p("BunkerInterior_AirPipes_04",137400,165000,14700,16200,2,3787,2097473)
+p("BunkerInterior_Ditch_02",137400,165000,14000,10800,64,2097281)
+p("Bunker_Cable_Hor_02",137400,165000,14000,16200,64,1016,2097537)
+p("BunkerInterior_AirPipes_04",137400,165000,14700,16200,2,64,3787,2097601)
 p("Floor_MetalScaff_Parapet_01",137400,165000,17500,5400,514,1185,2150911028,"",1075839809)
 p("DecWallLeak_02",137355,165509,16750,7199,107,-2365,2365,2365,32,2097237)
 p("BunkerInterior_ThinPipes_02",137400,165600,16800,16200,3934,1779393439,2502441568,136061992,"",1075845889)
-p("DecWallLeak_02",137252,165691,17455,7199,107,-2365,2365,2365,32,8,2097365)
-p("DecConcreteShuttering_01",137296,165728,18090,5401,4095,0,0,96,8,2097361)
+p("DecWallLeak_02",137252,165691,17455,7199,107,-2365,2365,2365,32,2097237)
+p("DecConcreteShuttering_01",137296,165728,18090,5401,4095,0,0,96,2097233)
 p("TropicalPlant_01_Shrub",137801,164884,13948,13476,94,2097157)
 p("TropicalPlant_04_Shrub_02",137872,165225,13950,2700,81,2097157)
-p("TropicalPlant_04_Sapling_03",137968,165507,14767,15659,39,-3476,-1476,1584,2,2097237)
+p("TropicalPlant_04_Sapling_03",137968,165507,14767,15659,39,-3476,-1476,1584,2,64,2097365)
 p("TropicalPlant_Vines_08",137798,165719,15236,5382,243,2097409)
 p("TropicalPlant_Vines_06",137813,165791,15859,10758,2269,2097409)
-p("TropicalPlant_04_Sapling_03",138171,165507,15346,7722,60,1924,-2567,2547,2,2097237)
+p("TropicalPlant_04_Sapling_03",138171,165507,15346,7722,60,1924,-2567,2547,2,64,2097365)
 p("TropicalPlant_Vines_11",138291,164456,18199,11835,2269,2097409)
 p("DecJungleForest_01",138321,164399,13950,13072,82,32,2097221)
 p("DecJungleForest_03",138871,164426,17237,18973,81,32,80,2098245)
 p("TropicalPlant_Grass_01",138782,164792,13947,10800,133,2097157)
-p("Bunker_Cable_Hor_Turn_01",138600,165000,14000,11,257)
-p("BunkerInterior_AirPipes_03",138600,165000,14700,1209,257)
+p("Bunker_Cable_Hor_Turn_01",138600,165000,14000,64,11,385)
+p("BunkerInterior_AirPipes_03",138600,165000,14700,64,1209,385)
 p("TropicalPlant_Vines_11",138398,165577,18199,10892,2269,2097409)
-p("DecBunkerFloor_02",138399,165691,15807,14399,132,2365,2365,2365,32,8,2097365)
+p("DecBunkerFloor_02",138399,165691,15807,14399,132,2365,2365,2365,32,2097237)
 p("DecWallLeak_04",138585,165509,15982,7199,107,-2365,2365,2365,32,2097237)
-p("TropicalPlant_04_Sapling_03",138606,165507,14711,7070,60,2442,-2333,2318,2,2097237)
+p("TropicalPlant_04_Sapling_03",138606,165507,14711,7070,60,2442,-2333,2318,2,64,2097365)
 p("DecSoclePaint_01",139200,165500,14400,7200,4278978051,-2364,2364,2365,3566,2097433)
 p("TropicalPlant_Vines_09",139048,165690,18199,18467,2269,2097409)
 p("TropicalPlant_Grass_01",137325,166332,13948,116,32,69)
@@ -89516,9 +89834,9 @@ p("TropicalPlant_Grass_02",137604,167235,13948,94,32,69)
 p("TropicalPlant_Vines_07",137827,166980,15859,10894,2269,2097409)
 p("Bunker_ConcretePile_02",137865,167177,9563,83,2097156)
 p("TropicalPlant_01_Shrub",137967,167169,15900,94,2097156)
-p("Bunker_Cable_Hor_02",138600,166200,14000,11,257)
-p("Bunker_Cable_Hor_02",138600,166200,14000,16200,3806,2097409)
-p("BunkerInterior_AirPipes_01",138600,166200,14700,1209,257)
+p("Bunker_Cable_Hor_02",138600,166200,14000,64,11,385)
+p("Bunker_Cable_Hor_02",138600,166200,14000,16200,64,3806,2097537)
+p("BunkerInterior_AirPipes_01",138600,166200,14700,64,1209,385)
 p("Floor_MetalScaff_ParapetCorner_01",138600,166200,18200,5400,514,1747,2150911028,"",1075839809)
 p("Floor_MetalScaff_ParapetEnd_01",138600,166200,18200,10800,514,6,1747,2150911028,"",1075839937)
 p("TropicalPlant_Vines_08",139236,166929,15859,5416,2269,2097409)
@@ -89530,7 +89848,7 @@ p("WW2_ConcreteCliffTop",137400,171000,13300,5400,2357,"terrainchunk",10,0,0,84,
 p("WW2_ConcreteCliffWallx4_02",137419,171004,4900,5400,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx4_02",137419,171004,8400,5400,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx3_02",137419,171004,11200,5400,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
-p("DecJungleForest_01",137485,171536,14000,6360,72,32,8,2097349)
+p("DecJungleForest_01",137485,171536,14000,6360,72,32,2097221)
 p("TropicalRockSharp_01",139109,170762,4300,16500,205,-992,-526,3939,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("DecWallLeak_04",138697,171555,10869,14340,174,4294967295,-2365,-2365,2365,32,2097245)
 p("TropicalPlant_04_Shrub_02",134452,172212,9183,9247,132,14,-116,4094,2097173)
@@ -89547,16 +89865,16 @@ p("TropicalPlant_04_Shrub_02",137578,179929,6802,19669,94,3200,2097221)
 p("TropicalPlant_Vines_11",139342,164115,18199,6435,2269,2097409)
 p("TropicalPlant_Vines_10",139830,164638,18199,20825,2269,2097409)
 p("TropicalPlant_Vines_10",140433,163902,18203,123,4043,2097409)
-p("DecWallLeak_04",140500,164042,16101,10800,-2896,0,2896,32,8,2095,2097617)
-p("DecBunker_ConcretePile",140352,164338,18200,12372,81,4284111450,2,2269,2097485)
-p("DecJungleForest_01",141186,164142,18200,135,55,32,8,2097349)
-p("MilitaryCamp_GrenadePile_01",140777,165506,14700,10965,74,32,2097221)
+p("DecWallLeak_04",140500,164042,16101,10800,-2896,0,2896,32,2095,2097489)
+p("DecBunker_ConcretePile",140352,164338,18200,12372,81,4284111450,2,64,2269,2097613)
+p("DecJungleForest_01",141186,164142,18200,135,55,32,2097221)
+p("MilitaryCamp_GrenadePile_01",140777,165506,14700,10965,74,32,64,2097349)
 p("TropicalPlant_Grass_02",139716,166276,13948,94,32,69)
 p("TropicalPlant_04_Shrub_02",139272,166577,13948,2700,96,2097157)
 p("DecSoclePaint_01",139398,166700,14400,7200,4278978051,-2364,2364,2365,3566,2097433)
 p("DecBunkerFloor_02",139561,166896,16187,14399,132,2365,2365,2365,96,2097237)
-p("Bunker_Cable_Hor_02",139800,166200,14000,16200,3806,2097409)
-p("BunkerInterior_AirPipes_04",139800,166200,14700,16200,3196,2097409)
+p("Bunker_Cable_Hor_02",139800,166200,14000,16200,64,3806,2097537)
+p("BunkerInterior_AirPipes_04",139800,166200,14700,16200,64,3196,2097537)
 p("Floor_MetalScaff_Parapet_01",139800,166200,18200,5400,514,1185,2150911028,"",1075839809)
 p("TropicalPlant_Vines_10",140048,166395,18199,665,2269,2097409)
 p("BunkerInterior_ThinPipes_01",139800,166800,16800,16200,3196,1779393439,2502441568,136061992,"",1075845889)
@@ -89568,81 +89886,81 @@ p("DecSoclePaint_02",140500,166000,14400,10801,4278978051,-2896,0,2897,3566,2097
 p("DecWallLeak_01",140500,166192,16101,10800,-2896,0,2896,32,2095,2097489)
 p("DecWallLeak_02",140401,166700,16803,14399,-2365,-2365,2365,32,3713,2097489)
 p("DecWallLeak_01",140422,166904,16484,7199,175,-2365,2365,2365,32,2097237)
-p("MilitaryCamp_GrenadePile_01",140877,165915,14701,17022,74,32,2097221)
-p("Bunker_Cable_Hor_02",141000,166200,14000,16200,3806,2097409)
-p("BunkerInterior_AirPipes_04",141000,166200,14700,16200,3196,2097409)
+p("MilitaryCamp_GrenadePile_01",140877,165915,14701,17022,74,32,64,2097349)
+p("Bunker_Cable_Hor_02",141000,166200,14000,16200,64,3806,2097537)
+p("BunkerInterior_AirPipes_04",141000,166200,14700,16200,64,3196,2097537)
 p("Floor_MetalScaff_ParapetEnd_01",141000,166200,18200,5400,515,6,1747,2150911028,"",1075839937)
 p("Floor_MetalScaff_Parapet_01",141000,166200,18200,5400,514,1185,2150911028,"",1075839809)
 p("BunkerInterior_ThinPipes_01",141000,166800,16800,16200,3196,1779393439,2502441568,136061992,"",1075845889)
 p("TropicalPlant_Grass_03",140348,167620,13948,21447,125,32,2097221)
 p("TropicalPlant_04_Shrub_02",140443,167429,13948,6782,77,2097157)
-p("DecJungleForest_01",141178,167023,16324,6370,47,-3075,1924,1901,32,8,2097365)
+p("DecJungleForest_01",141178,167023,16324,6370,47,-3075,1924,1901,32,2097237)
 p("DecJungleForest_01",141202,167023,15857,6370,47,-3075,1924,1901,32,2097237)
 p("TropicalPlant_Vines_11",141368,164237,18203,4497,4043,2097409)
 p("DecShantyRubbish_02",141738,164907,13947,12240,193,32,50,2098245)
 p("DecJungleForest_01",142200,165600,18200,135,81,32,50,2098245)
-p("DecJungleForest_01",142377,164163,18474,1572,52,32,8,2097349)
-p("DecJungleForest_03",142489,164924,18474,7145,52,32,8,2097349)
-p("Bunker_Cable_Hor_02",142200,166200,14000,16200,3806,2097409)
-p("BunkerInterior_AirPipes_04",142200,166200,14700,16200,3196,2097409)
+p("DecJungleForest_01",142377,164163,18474,1572,52,32,2097221)
+p("DecJungleForest_03",142489,164924,18474,7145,52,32,2097221)
+p("Bunker_Cable_Hor_02",142200,166200,14000,16200,64,3806,2097537)
+p("BunkerInterior_AirPipes_04",142200,166200,14700,16200,64,3196,2097537)
 p("DecSoclePaint_01",141971,166700,14400,7200,4278978051,-2364,2364,2365,3566,2097433)
-p("DecBunkerFloor_02",141978,166896,16187,14399,132,2365,2365,2365,32,8,2097365)
+p("DecBunkerFloor_02",141978,166896,16187,14399,132,2365,2365,2365,32,2097237)
 p("BunkerInterior_ThinPipes_01",142200,166800,16800,16200,417,1779393439,2502441568,136061992,"",1075845889)
 p("DecJungleForest_01",141417,167022,14957,6370,47,-3075,1924,1901,32,2097237)
-p("DecConcreteShuttering_01",142357,166855,15326,14400,-2365,-2364,2365,96,8,2097361)
+p("DecConcreteShuttering_01",142357,166855,15326,14400,-2365,-2364,2365,96,2097233)
 p("TropicalPlant_Vines_11",142904,166411,18199,505,2269,2097409)
 p("DecJungleForest_01",140040,168284,13975,7780,72,32,2097221)
-p("DecWallLeak_02",139785,171555,12090,14340,174,4294967295,-2365,-2365,2365,32,8,2097373)
+p("DecWallLeak_02",139785,171555,12090,14340,174,4294967295,-2365,-2365,2365,32,2097245)
 p("WW2_ConcreteCliffTop",142200,171000,13300,5400,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx3_01",142219,170826,11200,5400,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx4_01",142219,171004,4900,5400,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
 p("WW2_ConcreteCliffWallx4_01",142219,171604,8400,5400,2357,"terrainchunk",10,0,0,84,100,10,40,60,2228481)
-p("DecBunker_ConcretePile_04",144412,164096,18190,14836,4281413937,2269,2097417)
+p("DecBunker_ConcretePile_04",144412,164096,18190,14836,4281413937,64,2269,2097545)
 p("DecBunkerFloor_04",145299,164399,18195,670,122,32,2097221)
 p("TropicalPlant_Vines_10",145376,164410,18199,967,2269,2097409)
 p("DecBunkerFloor_02",145140,165026,18192,14738,85,32,2097221)
 p("TropicalPlant_Vines_11",143487,166022,18199,6639,2269,2097409)
-p("Bunker_Cable_Hor_02",143400,166200,14000,16200,2,3806,2097473)
-p("BunkerInterior_AirPipes_04",143400,166200,14700,16200,3196,2097409)
+p("Bunker_Cable_Hor_02",143400,166200,14000,16200,2,64,3806,2097601)
+p("BunkerInterior_AirPipes_04",143400,166200,14700,16200,64,3196,2097537)
 p("Floor_MetalScaff_ParapetEnd_01",143400,166200,18200,5400,514,6,1747,2150911028,"",1075839937)
 p("Floor_MetalScaff_Parapet_01",143400,166200,18200,5400,514,1747,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",143595,166450,18199,19612,2269,2097409)
-p("DecConcreteShuttering_01",143447,166680,15775,14399,71,2365,2365,2365,96,8,2097365)
+p("DecConcreteShuttering_01",143447,166680,15775,14399,71,2365,2365,2365,96,2097237)
 p("BunkerInterior_ThinPipes_01",143400,166800,16800,16200,417,1779393439,2502441568,136061992,"",1075845889)
 p("DecSoclePaint_03",143505,166700,14400,7200,4278978051,-2364,2364,2365,3566,2097433)
 p("DecWallLeak_01",143734,166904,16484,7199,175,-2365,2365,2365,32,2097237)
-p("DecWallLeak_04",143950,166700,16102,14399,-2365,-2365,2365,32,8,3713,2097617)
+p("DecWallLeak_04",143950,166700,16102,14399,-2365,-2365,2365,32,3713,2097489)
 p("DecWallLeak_02",143999,166677,17328,7199,125,-2365,2365,2365,32,2097237)
 p("DecWallLeak_02",143927,166880,17971,7199,132,-2365,2365,2365,32,2097237)
-p("DecWallLeak_02",143970,166844,17992,7199,131,-2365,2365,2365,32,8,2097365)
+p("DecWallLeak_02",143970,166844,17992,7199,131,-2365,2365,2365,32,2097237)
 p("DecSoclePaint_02",144381,166700,14400,7200,4278978051,-2364,2364,2365,3566,2097433)
 p("TropicalPlant_Grass_01",143590,167376,85,32,68)
 p("TropicalPlant_Vines_05",144249,167005,15893,5444,2269,2097409)
 p("TropicalPlant_Grass_03",143950,167701,13950,21580,81,32,2097221)
-p("Bunker_Cable_Hor_02",144600,166200,14000,16200,3806,2097409)
-p("BunkerInterior_AirPipes_02",144600,166200,14700,16200,3196,2097409)
+p("Bunker_Cable_Hor_02",144600,166200,14000,16200,64,3806,2097537)
+p("BunkerInterior_AirPipes_02",144600,166200,14700,16200,64,3196,2097537)
 p("Floor_MetalScaff_Parapet_01",144600,166200,18200,5400,514,1747,2150911028,"",1075839809)
 p("TropicalPlant_Vines_11",144513,166365,18199,7603,2269,2097409)
 p("BunkerInterior_ThinPipes_01",144600,166800,16800,16200,417,1779393439,2502441568,136061992,"",1075845889)
-p("DecWallLeak_04",145066,166904,16178,7199,196,-2365,2365,2365,32,8,2097365)
+p("DecWallLeak_04",145066,166904,16178,7199,196,-2365,2365,2365,32,2097237)
 p("TropicalPlant_Vines_11",145206,166633,18199,7603,2269,2097409)
 p("DecJungleMud_03",144517,167717,13949,1212,75,4278190080,2097165)
 p("DecJungleForest_01",144987,167016,15602,6370,47,-3075,1924,1901,32,2097237)
 p("TropicalPlant_Vines_08",145262,166956,15893,5444,2269,2097409)
 p("TropicalPlant_Vines_11",145756,164299,18199,494,2269,2097409)
-p("DecJungleForest_03",145690,164713,18186,6595,81,4283914071,32,8,60,2098381)
+p("DecJungleForest_03",145690,164713,18186,6595,81,4283914071,32,60,2098253)
 p("DecBunkerFloor_02",146247,164202,18177,3174,85,96,2097221)
 p("TropicalPlant_Vines_11",145440,165881,18199,19612,2269,2097409)
-p("DecShantyRubbish_03",146585,165092,13950,17573,193,32,8,50,2098373)
+p("DecShantyRubbish_03",146585,165092,13950,17573,193,32,50,2098245)
 p("TropicalPlant_Vines_11",146564,165122,18199,8074,2269,2097409)
-p("Bunker_Cable_Hor_02",147000,165000,14000,10800,2,2846,2097473)
-p("BunkerInterior_AirPipes_04",147000,165000,14700,10800,3794,2097409)
+p("Bunker_Cable_Hor_02",147000,165000,14000,10800,2,64,2846,2097601)
+p("BunkerInterior_AirPipes_04",147000,165000,14700,10800,64,3794,2097537)
 p("Floor_MetalScaff_Parapet_01",147000,165000,18200,514,1747,2150911028,"",1073742657)
 p("DecJungleForest_01",147307,165113,18186,1572,81,32,70,2098245)
 p("TropicalPlant_Vines_11",147403,164988,18199,1603,2269,2097409)
 p("TropicalPlant_Vines_10",147041,165555,18199,13079,2269,2097409)
-p("Bunker_Cable_Hor_02",145800,166200,14000,16200,3806,2097409)
-p("BunkerInterior_AirPipes_04",145800,166200,14700,16200,3196,2097409)
+p("Bunker_Cable_Hor_02",145800,166200,14000,16200,64,3806,2097537)
+p("BunkerInterior_AirPipes_04",145800,166200,14700,16200,64,3196,2097537)
 p("Floor_MetalScaff_Parapet_01",145800,166200,18200,5400,514,1747,2150911028,"",1075839809)
 p("TropicalPlant_Vines_10",145464,166432,18199,7460,2269,2097409)
 p("DecBunkerFloor_02",145617,166896,16372,14399,132,2365,2365,2365,32,2097237)
@@ -89651,15 +89969,15 @@ p("TropicalPlant_Vines_11",146260,166325,18199,6639,2269,2097409)
 p("DecWallLeak_01",146099,166700,16101,14399,-2365,-2365,2365,32,3713,2097489)
 p("DecSoclePaint_01",146211,166700,14400,7200,4278978051,-2364,2364,2365,3566,2097433)
 p("DecJungleForest_01",145438,167016,16586,6370,47,-3075,1924,1901,32,2097237)
-p("DecJungleForest_01",145852,166996,17113,5450,41,-4045,471,438,32,8,2097365)
+p("DecJungleForest_01",145852,166996,17113,5450,41,-4045,471,438,32,2097237)
 p("DecJungleForest_01",146315,167021,15859,6631,47,-2832,2081,2103,32,2097237)
 p("DecJungleForest_01",146381,166999,16984,5450,41,-4045,471,438,32,2097237)
 p("TropicalPlant_Grass_02",145992,167790,13949,20397,77,32,2097221)
 p("TropicalPlant_Grass_03",145992,167790,13949,20399,77,32,2097221)
 p("DecJungleForest_01",146578,166358,18186,3759,81,32,2097221)
-p("Bunker_Cable_Hor_02",147000,166200,14000,10800,2846,2097409)
-p("Bunker_Cable_Hor_02",147000,166200,14000,16200,3806,2097409)
-p("BunkerInterior_AirPipes_01",147000,166200,14700,16200,301,2097409)
+p("Bunker_Cable_Hor_02",147000,166200,14000,10800,64,2846,2097537)
+p("Bunker_Cable_Hor_02",147000,166200,14000,16200,64,3806,2097537)
+p("BunkerInterior_AirPipes_01",147000,166200,14700,16200,64,301,2097537)
 p("Floor_MetalScaff_ParapetCorner_01",147000,166200,18200,514,1747,2150911028,"",1073742657)
 p("TropicalPlant_Vines_10",147201,166322,18199,665,2269,2097409)
 p("BunkerInterior_ThinPipesCorner_01",147000,166800,16800,16200,301,1779393439,2502441568,136061992,"",1075845889)
@@ -89682,7 +90000,7 @@ p("TropicalRockAssembly_01",131880,184254,2478,21155,174,-796,314,4005,"terrainc
 p("TropicalRockSharp_01",134139,181186,197,13020,205,-982,-390,3957,3200,2097237)
 p("TropicalRockSharp_01",134437,182615,1018,7860,205,472,445,4044,3201,2097237)
 p("TropicalRockSharp_01",135369,180625,1018,7860,205,472,445,4044,3201,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
-p("DecShantyRubbish_02",136396,183006,1067,2160,221,-1778,865,3587,3232,8,2097365)
+p("DecShantyRubbish_02",136396,183006,1067,2160,221,-1778,865,3587,3232,2097237)
 p("AutoMechanic_Screwdriver",131168,192449,8095,15695,82,-884,-3991,253,2550,2154832412,"",1075839765)
 p("AutoMechanic_Wrench",131178,192494,8092,13728,50,-2397,-2482,2206,2550,2154059336,"",1075839765)
 p("AutoMechanic_Wrench",131289,192377,8064,7721,50,-2352,1643,2922,2550,2154059336,"",1075839765)
@@ -89696,17 +90014,17 @@ p("Farmland_Saw",131350,192651,7983,7193,91,1953,-3237,1574,2550,2097429)
 p("AutoMechanic_Hammer",131258,193062,8174,13125,91,-2274,-2905,1778,2550,2150641738,"",1075839765)
 p("TropicalPlant_04_Shrub_02",145279,183131,3050,18994,153,3200,2097221)
 p("TropicalPlant_04_Shrub_01",144477,183346,3142,14760,103,763,965,3907,3264,2097237)
-p("DecWallLeak_03",147500,164182,16101,10800,-2896,0,2896,32,8,671,2097617)
+p("DecWallLeak_03",147500,164182,16101,10800,-2896,0,2896,32,671,2097489)
 p("DecConcreteShuttering_01",147675,164307,18132,14398,-2365,2365,2363,96,2097233)
 p("DecBunkerFloor_02",147674,164315,16352,10800,156,-2896,0,2896,32,2097237)
 p("DecSoclePaint_02",147500,165000,14400,5399,4278978051,0,4095,0,3566,2097433)
 p("BunkerInterior_ThinPipes_01",147600,165000,16800,10800,335,1779393439,2502441568,136061992,"",1075845889)
 p("DecBulletHoles_02",147697,165215,16350,15955,4284242779,1183,-3750,1144,3571,2097433)
 p("DecWallLeak_04",147726,164954,16475,10800,172,-2896,0,2896,32,2097237)
-p("DecWallLeak_03",147500,165546,16101,10800,-2896,0,2896,32,8,671,2097617)
+p("DecWallLeak_03",147500,165546,16101,10800,-2896,0,2896,32,671,2097489)
 p("WW2_BombBig",148200,165000,10800,4286282105,2151040054,2148800614,"",1075841544)
 p("TropicalPlant_04_Shrub_01",148495,165238,13948,4195,101,64,2097221)
-p("DecWallLeak_03",147726,166075,16475,10800,172,-2896,0,2896,32,8,2097365)
+p("DecWallLeak_03",147726,166075,16475,10800,172,-2896,0,2896,32,2097237)
 p("DecSoclePaint_03",147500,166474,14400,5399,4278978051,0,4095,0,3566,2097433)
 p("DecSoclePaint_02",147500,166495,14400,5399,4278978051,0,4095,0,3566,2097433)
 p("TropicalPlant_04_Shrub_01",147843,166694,18614,62,2097156)
@@ -89715,9 +90033,9 @@ p("TropicalPlant_Vines_07",147812,166980,15893,5286,2269,2097409)
 p("TropicalPlant_Grass_03",147947,167116,13950,18660,81,2097157)
 p("DecJungleForest_01",147867,167462,13949,10268,72,32,2097221)
 p("TropicalPlant_Grass_03",148333,167397,13949,14562,77,2097157)
-p("DecBunker_ConcretePile_02",149558,166014,13950,13506,2097153)
+p("DecBunker_ConcretePile_02",149558,166014,13950,13506,64,2097281)
 p("DecWallLeak_02",147500,169028,16801,10800,-2896,0,2896,32,671,2097489)
-p("DecWallLeak_02",148781,171555,12090,14340,174,4294967295,-2365,-2365,2365,32,8,2097373)
+p("DecWallLeak_02",148781,171555,12090,14340,174,4294967295,-2365,-2365,2365,32,2097245)
 p("DecWallLeak_02",153547,164621,11599,5400,250,4294967295,0,4096,0,32,2097245)
 p("DecWallLeak_04",153547,166526,9851,5400,250,4294967295,0,4096,0,32,2097245)
 p("TropicalRockSharp_01",155249,167921,1265,10775,168,-1330,-1212,3679,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
@@ -89758,10 +90076,10 @@ p("DecKelp_01",132903,196679,7248,21486,134,4283848021,2097165)
 p("TropicalRockSharp_01",134258,199370,5353,8498,106,-1291,3616,1426,2097173)
 p("TropicalRockSharp_01",132493,202651,1089,12929,192,-210,-356,4075,"terrainchunk",10,0,0,88,99,10,40,60,2228245)
 p("TropicalRockAssembly_04",132820,203698,2612,6118,73,"terrainchunk",10,0,0,90,99,10,40,60,2228229)
-p("DecShantyRubbish_03",136990,202164,2602,4371,181,4282992198,32,8,80,2098381)
+p("DecShantyRubbish_03",136990,202164,2602,4371,181,4282992198,32,80,2098253)
 p("TropicalRockSharp_01",137782,201627,-592,10697,177,-2252,3361,637,2097173)
 p("DecKelp_02",139208,202085,-4394,20547,4283848021,423,-3873,1261,2097177)
-p("DecShantyRubbish_01",138966,202800,1626,6684,181,4282992198,32,8,80,2098381)
+p("DecShantyRubbish_01",138966,202800,1626,6684,181,4282992198,32,80,2098253)
 p("TropicalPlant_04_Sapling_04",131590,205387,2985,5284,128,101,413,4073,2097173)
 p("TropicalRockSharp_04",131249,207207,-252,8235,200,2979,-2800,239,2097173)
 p("TropicalPlant_04_Sapling_04",132590,208490,2746,11355,128,2097157)
