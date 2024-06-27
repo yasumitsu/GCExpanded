@@ -70,7 +70,9 @@
 		type = "UnitMarker",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"BastienWife",
+		},
 		handle = 1531480260,
 		items = {
 			{
@@ -84,7 +86,7 @@
 			},
 		},
 		map = "tPvsVmr",
-		name = "UnitMarker#260",
+		name = "UnitMarker#260 (BastienWife)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},

@@ -1847,7 +1847,7 @@ return {
 					}),
 					PlaceObj('UnitJoinAsMerc', {
 						Merc = "BastMerc",
-						TargetUnit = "LegionRaider_Jose",
+						TargetUnit = "LegionRaider_Ernie_Elite",
 						param_bindings = false,
 					}),
 				},
@@ -2128,7 +2128,7 @@ return {
 				Effects = {
 					PlaceObj('UnitJoinAsMerc', {
 						Merc = "DeedeeBoom",
-						TargetUnit = "Deedee",
+						TargetUnit = "RebelSniper_female",
 						param_bindings = false,
 					}),
 				},

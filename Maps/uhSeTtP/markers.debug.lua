@@ -1160,7 +1160,9 @@
 		type = "DefenderPriority",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"DeeDeeMissing",
+		},
 		handle = 1709117378,
 		items = {
 			{
@@ -1182,7 +1184,7 @@
 			},
 		},
 		map = "uhSeTtP",
-		name = "UnitMarker#378",
+		name = "UnitMarker#378 (DeeDeeMissing)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},

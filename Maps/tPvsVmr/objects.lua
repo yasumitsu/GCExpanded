@@ -389,6 +389,9 @@ PlaceObj('ContainerIntelMarker', {
 }, nil, 539828224)
 PlaceObj('UnitMarker', {
 	'Pos', point(138600, 150600),
+	'Groups', {
+		"BastienWife",
+	},
 	'Spawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
 			QuestId = "JoseFamily",
@@ -402,11 +405,13 @@ PlaceObj('UnitMarker', {
 			TargetUnit = "any merc",
 		}),
 	},
-	'Appearance', "Bastien",
+	'Appearance', "Legion_Soldier",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_Jose",
+			'UnitDataDefId', "LegionRaider_Ernie_Elite",
+			'ForcedAppearance', "Legion_Jose",
+			'Name', T(533895964774, "Bastien Boy"),
 		}),
 	},
 }, nil, 1531480260)
@@ -1016,6 +1021,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(136836, 133671),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1883782874)
 PlaceObj('Shanty_WoodenFence_03', {
 	'ColorizationPalette', "",
@@ -3734,6 +3740,7 @@ PlaceObj('Shanty_CassetteRecorder_01', {
 	'Axis', point(-674, -365, 4023),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1006230536)
 PlaceObj('City_BoulKuliKuli', {
 	'Pos', point(153891, 142419, 7025),
@@ -3745,11 +3752,13 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(154319, 142818, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1252477532)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(154571, 143076, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1718455144)
 PlaceObj('WallSlab', {
 	'Pos', point(155400, 141600, 7000),
@@ -3865,6 +3874,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(154866, 142617, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1312927490)
 PlaceObj('City_TV_Small', {
 	'Pos', point(155041, 142570, 10193),
@@ -3943,6 +3953,7 @@ PlaceObj('Village_Drum', {
 	'Pos', point(155367, 143249, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1826419912)
 PlaceObj('FloorSlab', {
 	'Pos', point(151800, 143400, 7000),
@@ -4241,11 +4252,13 @@ PlaceObj('Cinematic_Magazine', {
 	'Axis', point(-53, 59, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1898148225)
 PlaceObj('Shanty_WineBottle_01', {
 	'Pos', point(153587, 146856, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1687829750)
 PlaceObj('FloorSlab', {
 	'Pos', point(154200, 143400, 7000),
@@ -4390,6 +4403,7 @@ PlaceObj('Shanty_BottleCrate_02', {
 	'Angle', 20700,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SunShadow', false,
 }, nil, 1649391342)
 PlaceObj('Marketplace_Table_01', {
 	'Pos', point(154004, 146941, 6930),
@@ -24804,7 +24818,7 @@ p("Shanty_Tray_01",152980,143425,7320,144,64,2118,389)
 p("DecAdobeWall_09",152882,144104,6930,2128,4284433448,2097161)
 p("DecAdobeWall_01",151600,147200,8300,7212,135,4284433448,-2369,2363,2362,2352,2097437)
 p("TropicalPlant_Dead_15",152301,146771,9574,7199,2365,2365,2365,280,2151168093,2151376513,2151376513,"",1075845905)
-p("Bar_CardPile_01",152445,147008,7509,18213,2097153)
+p("Bar_CardPile_01",152445,147008,7509,18213,64,2097281)
 p("DecAdobeWall_09",152834,145654,9859,19728,89,4284433448,2097165)
 p("DecBloodTrail_04",153407,145978,9841,12288,2097153)
 p("DecAdobeWall_09",153557,146428,6930,4931,4283578917,2097161)
@@ -25129,7 +25143,7 @@ p("DecBunker_ConcretePile_02",139116,172613,2058,130,64,"terrainchunk",10,0,0,44
 p("TropicalRockAssembly_01",138807,173073,8189,2315,135,6,"terrainchunk",0,0,0,84,95,10,40,60,2228357)
 p("SavannaPlant_Grass_04",138207,174222,11763,131,2097156)
 p("SavannaPlant_Grass_01",136009,177060,12282,127,2097156)
-p("Shanty_Carpet_03",137935,176382,2341,2097152)
+p("Shanty_Carpet_03",137935,176382,2341,64,2097280)
 p("TropicalRockAssembly_01",138223,177884,8223,891,81,699,76,4035,6,"terrainchunk",0,0,0,84,95,10,40,60,2228373)
 p("World_RockAssembly_02",137306,178600,8303,18468,135,2149595222,2149725772,2149200460,"","terrainchunk",10,0,0,40,60,10,40,60,1075976709)
 p("DecBunker_ConcretePile_05",138000,179874,18617,130,64,"terrainchunk",10,0,0,50,100,10,40,60,2228356)

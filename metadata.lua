@@ -5,13 +5,13 @@ return PlaceObj('ModDef', {
 	'external_links', {
 		"https://github.com/yasumitsu/GCExpanded",
 	},
-	'last_changes', "- fixed A1 passability",
+	'last_changes', "- fixed Deedee interaction at Rust",
 	'dependencies', {},
 	'id', "GCExpanded",
 	'author', "Sir Ni",
 	'version_major', 1,
 	'version_minor', 1,
-	'version', 404,
+	'version', 411,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -27,7 +27,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1719266358,
+	'saved', 1719420111,
 	'code_hash', -6126931146211939255,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
