@@ -882,7 +882,7 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(127800, 153000),
 	'Groups', {
-		"DeeDeeMissing",
+		"DeeDeeRescue",
 	},
 	'Routine', "Ambient",
 	'Spawn_Conditions', {

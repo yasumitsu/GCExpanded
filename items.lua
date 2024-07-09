@@ -2090,7 +2090,7 @@ return {
 			}),
 		}),
 		PlaceObj('ModItemConversation', {
-			AssignToGroup = "DeeDeeMissing",
+			AssignToGroup = "DeeDeeRescue",
 			DefaultActor = "Deedee",
 			group = "Default",
 			id = "HireDeedee",
