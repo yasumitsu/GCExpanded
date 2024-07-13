@@ -2424,4 +2424,214 @@ return {
 			id = "lightMurder",
 		}),
 		}),
+	PlaceObj('ModItemFolder', {
+		'name', "Character Effect",
+	}, {
+		PlaceObj('ModItemCharacterEffectCompositeDef', {
+			'Group', "Perk-Personal",
+			'Id', "Gasket_1",
+			'Parameters', {
+				PlaceObj('PresetParamNumber', {
+					'Name', "baseDamageBonus",
+					'Value', 7,
+					'Tag', "<baseDamageBonus>",
+				}),
+				PlaceObj('PresetParamPercent', {
+					'Name', "critChanceBonus",
+					'Value', 15,
+					'Tag', "<critChanceBonus>%",
+				}),
+				PlaceObj('PresetParamNumber', {
+					'Name', "conditionPerHour",
+					'Value', 1,
+					'Tag', "<conditionPerHour>",
+				}),
+			},
+			'object_class', "Perk",
+			'unit_reactions', {
+				PlaceObj('UnitReaction', {
+					Event = "OnCalcBaseDamage",
+					Handler = function (self, target, weapon, attack_target, data)
+						if IsKindOf(weapon, "Firearm") and not weapon:IsFullyModified() then
+							local value = self:ResolveValue("baseDamageBonus")
+							data.base_damage = data.base_damage + value
+							data.breakdown[#data.breakdown + 1] = { name = self.DisplayName, value = value }
+						end
+					end,
+					param_bindings = false,
+				}),
+				PlaceObj('UnitReaction', {
+					Event = "OnCalcCritChance",
+					Handler = function (self, target, attacker, attack_target, action, weapon, data)
+						if IsKindOf(weapon, "Firearm") and not weapon:IsFullyModified() then
+							data.crit_chance = data.crit_chance + self:ResolveValue("critChanceBonus")
+						end
+					end,
+					param_bindings = false,
+				}),
+			},
+			'DisplayName', T(545999505157, --[[ModItemCharacterEffectCompositeDef Gasket_1 DisplayName]] "Not Caring"),
+			'Description', T(418853853512, --[[ModItemCharacterEffectCompositeDef Gasket_1 Description]] "Due to his innate ability to not give a fuck, Haywire is immune to Panicked or Suppressed."),
+			'OnAdded', function (self, obj)  end,
+			'OnRemoved', function (self, obj)  end,
+			'Icon', "Mod/GCExPrologue/Images/PerkGASKETBlu 2.png",
+			'Tier', "Personal",
+		}),
+		PlaceObj('ModItemCharacterEffectCompositeDef', {
+			'Group', "Perk-Personal",
+			'Id', "NumbTalk_1",
+			'Parameters', {},
+			'object_class', "Perk",
+			'msg_reactions', {},
+			'unit_reactions', {
+				PlaceObj('UnitReaction', {
+					Event = "OnDamageDone",
+					Handler = function (self, target, attack_target, dmg, hit_descr)
+						if not IsMerc(target) and not HasPerk(attack_target, "NumbTalk") then
+							target:AddStatusEffect("Berserk")
+						end
+					end,
+					param_bindings = false,
+				}),
+			},
+			'DisplayName', T(116504916722, --[[ModItemCharacterEffectCompositeDef NumbTalk_1 DisplayName]] "Taunt the pussies"),
+			'Description', T(165506217256, --[[ModItemCharacterEffectCompositeDef NumbTalk_1 Description]] "Numb can taunt hand hit the nerves of anyone he can see."),
+			'OnAdded', function (self, obj)  end,
+			'OnRemoved', function (self, obj)  end,
+			'Icon', "Mod/GCExPrologue/Images/PerkNUMBBlu 2.png",
+			'Tier', "Personal",
+		}),
+		PlaceObj('ModItemCharacterEffectCompositeDef', {
+			'Group', "Perk-Personal",
+			'Id', "Gaston_1",
+			'Parameters', {},
+			'object_class', "Perk",
+			'unit_reactions', {
+				PlaceObj('UnitReaction', {
+					Event = "OnCalcSightModifier",
+					Handler = function (self, target, value, observer, other, step_pos, darkness)
+						if HasPerk(target, self) and other then
+							target:AddStatusEffect("Hidden")
+						end
+					end,
+					param_bindings = false,
+				}),
+			},
+			'DisplayName', T(190535012128, --[[ModItemCharacterEffectCompositeDef Gaston_1 DisplayName]] "Taunt the pussies"),
+			'Description', T(130018239041, --[[ModItemCharacterEffectCompositeDef Gaston_1 Description]] "Razor likes playing with it's targets, melee attacks also applies slow to the target."),
+			'OnAdded', function (self, obj)  end,
+			'OnRemoved', function (self, obj)  end,
+			'Icon', "Mod/GCExPrologue/Images/PerkRAZORBlu 2.png",
+			'Tier', "Personal",
+		}),
+		PlaceObj('ModItemCharacterEffectCompositeDef', {
+			'Group', "Perk-Personal",
+			'Id', "GumpySpecialPineapple_1",
+			'Parameters', {},
+			'object_class', "Perk",
+			'unit_reactions', {
+				PlaceObj('UnitReaction', {
+					Event = "OnCalcDamageAndEffects",
+					Handler = function (self, target, attacker, attack_target, action, weapon, attack_args, hit, data)
+						if target == attacker and target.team ~= attack_target.team then
+							if IsKindOf(weapon, "ExplosiveProperties") then
+								target:AddStatusEffect("Bleeding")
+							elseif IsKindOf(weapon, "GrenadeGas") then
+								target:AddStatusEffect("Slow")
+							end
+						end
+						
+						-- GrenadeGas
+					end,
+					param_bindings = false,
+				}),
+			},
+			'DisplayName', T(346716123347, --[[ModItemCharacterEffectCompositeDef GumpySpecialPineapple_1 DisplayName]] "Taunt the pussies"),
+			'Description', T(286699937083, --[[ModItemCharacterEffectCompositeDef GumpySpecialPineapple_1 Description]] "Gumpy can apply additional effects whenever he uses explosives."),
+			'OnAdded', function (self, obj)  end,
+			'OnRemoved', function (self, obj)  end,
+			'Icon', "Mod/GCExPrologue/Images/PerkGUMPYBlu 2.png",
+			'Tier', "Personal",
+		}),
+		PlaceObj('ModItemCharacterEffectCompositeDef', {
+			'Group', "Perk-Personal",
+			'Id', "GruntForce_1",
+			'Parameters', {
+				PlaceObj('PresetParamPercent', {
+					'Name', "minHp",
+					'Value', 50,
+					'Tag', "<minHp>%",
+				}),
+			},
+			'object_class', "Perk",
+			'msg_reactions', {},
+			'unit_reactions', {
+				PlaceObj('UnitReaction', {
+					Event = "OnDamageTaken",
+					Handler = function (self, target, attacker, dmg, hit_descr)
+						if target ~= attacker then 
+							--local maxHp = target:GetInitialMaxHitPoints()
+							local minHp = MulDivRound(target:GetInitialMaxHitPoints(), self:ResolveValue("minHp"), 100)
+							if target.HitPoints <= minHp then
+								target:AddStatusEffect("Heroic")
+							end
+						end
+					end,
+					param_bindings = false,
+				}),
+			},
+			'DisplayName', T(687862591005, --[[ModItemCharacterEffectCompositeDef GruntForce_1 DisplayName]] "Grunt Force"),
+			'Description', T(666714315592, --[[ModItemCharacterEffectCompositeDef GruntForce_1 Description]] "Gumpy can apply additional effects whenever he uses explosives."),
+			'OnAdded', function (self, obj)  end,
+			'OnRemoved', function (self, obj)  end,
+			'Icon', "Mod/GCExPrologue/Images/PerkSTOGIEBlu 2.png",
+			'Tier', "Personal",
+		}),
+		PlaceObj('ModItemCharacterEffectCompositeDef', {
+			'Group', "Perk-Personal",
+			'Id', "ByTheBook_1",
+			'Parameters', {},
+			'object_class', "Perk",
+			'msg_reactions', {},
+			'unit_reactions', {
+				PlaceObj('UnitReaction', {
+					Event = "OnBeginTurn",
+					Handler = function (self, target)
+						-- from MMOcenaries Standalone_ Custom Perks
+						
+						local target_side = target and target.team and target.team.side or ''
+						local target_pos = target:GetPos() or false
+						local allycount = 0
+						local squad = gv_Squads[target.Squad]
+						local level = target:GetLevel()
+						
+						for _, id in ipairs(squad.units) do
+							local unit = g_Units[id]
+							if unit ~= target then
+								local side = unit and unit.team and unit.team.side or ''
+								if target_side ~= '' and side == target_side then
+									local unit_pos = unit:GetPos() or false
+									if target_pos and unit_pos then
+										local dist = target_pos:Dist(unit_pos)
+										if dist <= level * const.SlabSizeX then
+											--allycount = allycount +1
+											--print(unit)
+											unit:ApplyTempHitPoints(level)
+										end
+									end
+								end
+							end
+						end
+					end,
+					param_bindings = false,
+				}),
+			},
+			'DisplayName', T(398699918410, --[[ModItemCharacterEffectCompositeDef ByTheBook_1 DisplayName]] "Grunt Force"),
+			'Description', T(414015747114, --[[ModItemCharacterEffectCompositeDef ByTheBook_1 Description]] "Gumpy can apply additional effects whenever he uses explosives."),
+			'OnAdded', function (self, obj)  end,
+			'OnRemoved', function (self, obj)  end,
+			'Icon', "Mod/GCExPrologue/Images/PerkCOUGARBlu 2.png",
+			'Tier', "Personal",
+		}),
+		}),
 }
